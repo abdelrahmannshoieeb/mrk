@@ -12,5 +12,27 @@ return [
                              and powerful technologies to help you grow, compete, and lead in your industry.',
                     
     'meet_the_team' => 'Meet the Team',
+    
+    //slider
+    'slider_title2' => 'we aim to achieve your goals with our services and solutions that are tailored to your needs.',
+
+
+    //services
+    'Our_Services' => 'Our Services',
+    'Our_Services_Desc' => 'We offer a wide range of services to help you achieve your goals.',
+    'see_all_services' => 'See all services.',
+    'view' => 'view',
+
+     //service 1
+     'programming_services' => 'Programming Services',
+     'e-commerce' => 'E-commerce',
+     'marketing_services' => ' Marketing Services',
+    'design_services' => '  Design Services',
+    'branding_services' => 'Branding Services',
+    
+
+
+  
+    
 
 ];

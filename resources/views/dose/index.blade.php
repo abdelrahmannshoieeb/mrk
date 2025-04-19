@@ -139,7 +139,7 @@ About Description Section Area
                 <div class="flex items-center gap-6 mr-5">
                     <span
                         class="text-5xl sm:text-[55px] md:text-[67px] lg:text-[84px] xl:text-8xl font-semibold leading-tight xl:leading-[1.1] tracking-[-2px] xl:tracking-[-2.88px] text-nowrap">
-                        Creative Development
+                        Branding
                     </span>
                     <span class="mt-5">
                         <svg
@@ -157,7 +157,7 @@ About Description Section Area
                 <div class="flex items-center gap-6 mr-5">
                     <span
                         class="text-5xl sm:text-[55px] md:text-[67px] lg:text-[84px] xl:text-8xl font-semibold leading-tight xl:leading-[1.1] tracking-[-2px] xl:tracking-[-2.88px] text-nowrap">
-                        Visual Design
+                        SEO
                     </span>
                     <span class="mt-5">
                         <svg
@@ -175,7 +175,7 @@ About Description Section Area
                 <div class="flex items-center gap-6 mr-5">
                     <span
                         class="text-5xl sm:text-[55px] md:text-[67px] lg:text-[84px] xl:text-8xl font-semibold leading-tight xl:leading-[1.1] tracking-[-2px] xl:tracking-[-2.88px] text-nowrap">
-                        Creative Development
+                        Marketing
                     </span>
                     <span class="mt-5">
                         <svg
@@ -193,7 +193,25 @@ About Description Section Area
                 <div class="flex items-center gap-6 mr-5">
                     <span
                         class="text-5xl sm:text-[55px] md:text-[67px] lg:text-[84px] xl:text-8xl font-semibold leading-tight xl:leading-[1.1] tracking-[-2px] xl:tracking-[-2.88px] text-nowrap">
-                        Visual Design
+                        Graphics
+                    </span>
+                    <span class="mt-5">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="40"
+                            height="40"
+                            viewBox="0 0 40 40"
+                            fill="none">
+                            <path
+                                d="M20.002 0C20.002 0 19.789 11.2169 24.2871 15.7149C28.785 20.2129 40.002 20 40.002 20C40.002 20 28.785 19.7871 24.2871 24.2851C19.789 28.7831 20.002 40 20.002 40C20.002 40 20.2149 28.7831 15.7168 24.2851C11.2189 19.7871 0.00195312 20 0.00195312 20C0.00195312 20 11.2189 20.2129 15.7168 15.7149C20.2149 11.2169 20.002 0 20.002 0Z"
+                                class="fill-black dark:fill-backgroundBody" />
+                        </svg>
+                    </span>
+                </div>
+                <div class="flex items-center gap-6 mr-5">
+                    <span
+                        class="text-5xl sm:text-[55px] md:text-[67px] lg:text-[84px] xl:text-8xl font-semibold leading-tight xl:leading-[1.1] tracking-[-2px] xl:tracking-[-2.88px] text-nowrap">
+                        E-Commerces
                     </span>
                     <span class="mt-5">
                         <svg
@@ -217,79 +235,7 @@ About Description Section Area
                 <div class="flex items-center gap-6 mr-5">
                     <span
                         class="text-5xl sm:text-[55px] md:text-[67px] lg:text-[84px] xl:text-8xl font-semibold leading-tight xl:leading-[1.1] tracking-[-2px] xl:tracking-[-2.88px] text-nowrap">
-                        Since 1993
-                    </span>
-                    <span class="mt-5">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="40"
-                            height="40"
-                            viewBox="0 0 40 40"
-                            fill="none">
-                            <path
-                                d="M20.002 0C20.002 0 19.789 11.2169 24.2871 15.7149C28.785 20.2129 40.002 20 40.002 20C40.002 20 28.785 19.7871 24.2871 24.2851C19.789 28.7831 20.002 40 20.002 40C20.002 40 20.2149 28.7831 15.7168 24.2851C11.2189 19.7871 0.00195312 20 0.00195312 20C0.00195312 20 11.2189 20.2129 15.7168 15.7149C20.2149 11.2169 20.002 0 20.002 0Z"
-                                class="fill-black dark:fill-backgroundBody" />
-                        </svg>
-                    </span>
-                </div>
-                <div class="flex items-center gap-6 mr-5">
-                    <span
-                        class="text-5xl sm:text-[55px] md:text-[67px] lg:text-[84px] xl:text-8xl font-semibold leading-tight xl:leading-[1.1] tracking-[-2px] xl:tracking-[-2.88px] text-nowrap">
-                        Based in New York
-                    </span>
-                    <span class="mt-5">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="40"
-                            height="40"
-                            viewBox="0 0 40 40"
-                            fill="none">
-                            <path
-                                d="M20.002 0C20.002 0 19.789 11.2169 24.2871 15.7149C28.785 20.2129 40.002 20 40.002 20C40.002 20 28.785 19.7871 24.2871 24.2851C19.789 28.7831 20.002 40 20.002 40C20.002 40 20.2149 28.7831 15.7168 24.2851C11.2189 19.7871 0.00195312 20 0.00195312 20C0.00195312 20 11.2189 20.2129 15.7168 15.7149C20.2149 11.2169 20.002 0 20.002 0Z"
-                                class="fill-black dark:fill-backgroundBody" />
-                        </svg>
-                    </span>
-                </div>
-                <div class="flex items-center gap-6 mr-5">
-                    <span
-                        class="text-5xl sm:text-[55px] md:text-[67px] lg:text-[84px] xl:text-8xl font-semibold leading-tight xl:leading-[1.1] tracking-[-2px] xl:tracking-[-2.88px] text-nowrap">
-                        Award-Winning Agency
-                    </span>
-                    <span class="mt-5">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="40"
-                            height="40"
-                            viewBox="0 0 40 40"
-                            fill="none">
-                            <path
-                                d="M20.002 0C20.002 0 19.789 11.2169 24.2871 15.7149C28.785 20.2129 40.002 20 40.002 20C40.002 20 28.785 19.7871 24.2871 24.2851C19.789 28.7831 20.002 40 20.002 40C20.002 40 20.2149 28.7831 15.7168 24.2851C11.2189 19.7871 0.00195312 20 0.00195312 20C0.00195312 20 11.2189 20.2129 15.7168 15.7149C20.2149 11.2169 20.002 0 20.002 0Z"
-                                class="fill-black dark:fill-backgroundBody" />
-                        </svg>
-                    </span>
-                </div>
-                <div class="flex items-center gap-6 mr-5">
-                    <span
-                        class="text-5xl sm:text-[55px] md:text-[67px] lg:text-[84px] xl:text-8xl font-semibold leading-tight xl:leading-[1.1] tracking-[-2px] xl:tracking-[-2.88px] text-nowrap">
-                        Since 1993
-                    </span>
-                    <span class="mt-5">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="40"
-                            height="40"
-                            viewBox="0 0 40 40"
-                            fill="none">
-                            <path
-                                d="M20.002 0C20.002 0 19.789 11.2169 24.2871 15.7149C28.785 20.2129 40.002 20 40.002 20C40.002 20 28.785 19.7871 24.2871 24.2851C19.789 28.7831 20.002 40 20.002 40C20.002 40 20.2149 28.7831 15.7168 24.2851C11.2189 19.7871 0.00195312 20 0.00195312 20C0.00195312 20 11.2189 20.2129 15.7168 15.7149C20.2149 11.2169 20.002 0 20.002 0Z"
-                                class="fill-black dark:fill-backgroundBody" />
-                        </svg>
-                    </span>
-                </div>
-                <div class="flex items-center gap-6 mr-5">
-                    <span
-                        class="text-5xl sm:text-[55px] md:text-[67px] lg:text-[84px] xl:text-8xl font-semibold leading-tight xl:leading-[1.1] tracking-[-2px] xl:tracking-[-2.88px] text-nowrap">
-                        Based in New York
+                        {{ __('index.slider_title2') }}
                     </span>
                     <span class="mt-5">
                         <svg
@@ -316,12 +262,12 @@ About Description Section Area
                 class="flex flex-col md:flex-row gap-y-5 gap-x-10 justify-center lg:justify-start items-start md:items-center mb-10 md:mb-20">
                 <div class="flex-1">
                     <h2 class="text-appear">
-                        Featured <span class="font-instrument italic">work</span>
+                         <span class="font-instrument italic">{{ __('index.Our_Services') }}</span>
                     </h2>
                 </div>
                 <div class="flex-1 max-w-md">
                     <p class="text-appear max-md:text-justify md:text-right">
-                        Our user-centered design encourages productivity and boosts revenue.
+                        {{ __('index.Our_Services_Desc') }}
                     </p>
                     <ul class="justify-self-end max-md:w-full mt-5 md:mt-10 reveal-me">
                         <li
@@ -330,10 +276,10 @@ About Description Section Area
                                 href="/blog-02.html"
                                 class="rv-button rv-button-white block md:inline-block">
                                 <div class="rv-button-top">
-                                    <span>See More Case Studies</span>
+                                    <span>{{ __('index.see_all_services') }}</span>
                                 </div>
                                 <div class="rv-button-bottom">
-                                    <span>See More Case Studies</span>
+                                    <span>{{ __('index.see_all_services') }}</span>
                                 </div>
                             </a>
                         </li>
@@ -354,19 +300,19 @@ About Description Section Area
                     </a>
                     <div class="mt-[24px] mb-2 md:mb-3.5 flex items-center justify-between">
                         <p
-                            class="text-[13px] leading-6 tracking-[8px] uppercase font-normal text-secondary dark:text-backgroundBody">
-                            Case study
+                            class="text-[13px] leading-6  uppercase font-normal  text-secondary dark:text-backgroundBody">
+                            {{ __('index.programming_services') }}
                         </p>
                         <p
                             class="text-base md:text-xl leading-8 tracking-[0.48px] text-secondary dark:text-backgroundBody">
-                            2020
+                            
                         </p>
                     </div>
                     <a href="blog-details.html">
                         <div class="blog-title">
                             <h3
                                 class="text[25px] md:text-3xl lg:text-4xl lg:leading-[1.2] lg:tracking-[-0.72px]">
-                                Epicurean Elegance
+                                {{ __('index.e-commerce') }}
                             </h3>
                         </div>
                     </a>
@@ -376,7 +322,7 @@ About Description Section Area
                     <a href="blog-details.html">
                         <div
                             class="uppercase absolute top-1/2 left-1/2 -translate-x-[90%] translate-y-[35%] group-hover:translate-x-[-50%] group-hover:translate-y-[-50%] transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 flex justify-center items-center gap-1 bg-primary px-8 py-6 w-[136px] h-[74px] scale-95 group-hover:scale-100">
-                            <span class="text-secondary">view</span>
+                            <span class="text-secondary">{{ __('index.view') }}</span>
                             <img
                                 src="/images/home-5/ArrowUpRight-dark.svg"
                                 alt="ArrowUpRight-dark" />
@@ -395,19 +341,19 @@ About Description Section Area
                     </a>
                     <div class="mt-[24px] mb-2 md:mb-3.5 flex items-center justify-between">
                         <p
-                            class="text-[13px] leading-6 tracking-[8px] uppercase font-normal text-secondary dark:text-backgroundBody">
-                            Projects
+                            class="text-[13px] leading-6 uppercase font-normal text-secondary dark:text-backgroundBody">
+                            {{ __('index.marketing_services') }}
                         </p>
                         <p
                             class="text-base md:text-xl leading-8 tracking-[0.48px] text-secondary dark:text-backgroundBody">
-                            2021
+                        
                         </p>
                     </div>
                     <a href="blog-details.html">
                         <div class="blog-title">
                             <h3
                                 class="text[25px] md:text-3xl lg:text-4xl lg:leading-[1.2] lg:tracking-[-0.72px]">
-                                Artistry in Motion
+                                {{ __('index.marketing_services') }}
                             </h3>
                         </div>
                     </a>
@@ -434,19 +380,19 @@ About Description Section Area
                     </a>
                     <div class="mt-[24px] mb-2 md:mb-3.5 flex items-center justify-between">
                         <p
-                            class="text-[13px] leading-6 tracking-[8px] uppercase font-normal text-secondary dark:text-backgroundBody">
-                            Case study
+                            class="text-[13px] leading-6  uppercase font-normal text-secondary dark:text-backgroundBody">
+                            {{ __('index.design_services') }}
                         </p>
                         <p
-                            class="text-base md:text-xl leading-8 tracking-[0.48px] text-secondary dark:text-backgroundBody">
-                            2020
+                            class="text-base md:text-xl leading-8  text-secondary dark:text-backgroundBody">
+                            
                         </p>
                     </div>
                     <a href="blog-details.html">
                         <div class="blog-title">
                             <h3
                                 class="text[25px] md:text-3xl lg:text-4xl lg:leading-[1.2] lg:tracking-[-0.72px]">
-                                Digital Canvas
+                                {{ __('index.design_services') }}
                             </h3>
                         </div>
                     </a>
@@ -473,19 +419,19 @@ About Description Section Area
                     </a>
                     <div class="mt-[24px] mb-2 md:mb-3.5 flex items-center justify-between">
                         <p
-                            class="text-[13px] leading-6 tracking-[8px] uppercase font-normal text-secondary dark:text-backgroundBody">
-                            Case study
+                            class="text-[13px] leading-6  uppercase font-normal text-secondary dark:text-backgroundBody">
+                            {{ __('index.branding_services') }}
                         </p>
                         <p
                             class="text-base md:text-xl leading-8 tracking-[0.48px] text-secondary dark:text-backgroundBody">
-                            2020
+                            
                         </p>
                     </div>
                     <a href="blog-details.html">
                         <div class="blog-title">
                             <h3
                                 class="text[25px] md:text-3xl lg:text-4xl lg:leading-[1.2] lg:tracking-[-0.72px]">
-                                Fashion Forward
+                                {{ __('index.branding_services') }}
                             </h3>
                         </div>
                     </a>
