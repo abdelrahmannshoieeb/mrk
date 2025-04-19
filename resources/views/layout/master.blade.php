@@ -21,6 +21,7 @@
     <link rel="shortcut icon" href="images/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
     <link rel="manifest" href="images/site.webmanifest" />
+    @livewireStyles
 </head>
 
 <body>
@@ -500,18 +501,7 @@
  
   
 
-    <div class="toggle-button fixed right-0 bottom-10 z-[1000]" style="margin-left: 10px;">
-        <button
-          id="theme-toggle"
-            type="button"
-            class="text-secondary bg-white/90 dark:bg-dark/90 rounded-[1px] backdrop-blur-xl dark:text-white focus:outline-none focus:ring-0 focus:ring-gray-200 w-[44px] h-[44px] flex justify-center items-center"
-            >
-
-            <span id="lang-ar" class="hidden">AR</span>
-            <span id="lang-en" class="">EN</span>
-
-        </button>
-    </div>
+   <livewire:actions.lang>
 
 
 
@@ -584,6 +574,8 @@
     <script src="js/lib/headroom.min.js"></script>
     <script src="js/lib/vanila-marquee.min.js"></script>
     <script src="js/script.js"></script>
+    @livewireScripts
+
 </body>
 
 </html>

@@ -20,7 +20,7 @@
             <div class="container">
                 <div class="reveal-me text-center">
                     <h1 class="font-semibold">
-                        <span class="font-instrument italic block font-normal">Rivor</span>
+                        <span class="font-instrument italic block font-normal">{{ __('messages.welcome') }}</span>
                         Creative Design Agency
                     </h1>
 
