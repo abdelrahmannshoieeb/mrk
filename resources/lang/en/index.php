@@ -33,6 +33,55 @@ return [
 
 
   
-    
+    // section
+    'section_title' => 'Designing Experiences That Drive Growth',
+    'section_desc' => 'We offer a full suite of creative solutions tailored to your brand’s success.',
+
+
+
+    //case study1 
+    'build_your_brand' => 'Build Your Brand',
+    'build_your_brand_desc' => 'We offer a full suite of creative solutions tailored to your brand’s success.',
+
+    //case study2
+    'location_shots' => 'Location Shots',
+    'location_shots_desc' => 'We offer a full suite of creative solutions tailored to your brand’s success.',
+
+    //case study3
+    'product_shots' => 'Product Shots',
+    'product_shots_desc' => 'We offer a full suite of creative solutions tailored to your brand’s success.',
+
+    //case study4
+    'seo_optimization' => 'SEO Optimization',
+    'seo_optimization_desc' => 'We offer a full suite of creative solutions tailored to your brand’s success.',
+
+    //case study5
+    'social_media' => 'Social Media',
+    'social_media_desc' => 'We offer a full suite of creative solutions tailored to your brand’s success.',
+
+    //case study6
+    'company_profile' => 'Company Profile',
+    'company_profile_desc' => 'We offer a full suite of creative solutions tailored to your brand’s success.',
+
+    //case study7
+    'website_design' => 'Website Design',
+    'website_design_desc' => 'We offer a full suite of creative solutions tailored to your brand’s success.',
+
+    //case study8
+    'managment_system' => 'Managment System',
+    'managment_system_desc' => 'We offer a full suite of creative solutions tailored to your brand’s success.',
+
+
+
+
+    'open_for_work' => 'OPEN FOR NEW WORK',
+    'bringing_life' => 'Bringing <em>Seamlessly</em> life to ideas',
+    'ranking' => 'Ranking',
+    'link_building' => 'Link Building',
+    'keyword_research' => 'Keyword Research',
+    'service_desc' => 'Dive deep into your market, understand your',
+'lets_start_project' => 'LET’S START A PROJECT',
+
+
 
 ];

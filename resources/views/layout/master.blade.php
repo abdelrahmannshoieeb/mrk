@@ -23,6 +23,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
     <link rel="manifest" href="images/site.webmanifest" />
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     @livewireStyles
 </head>
@@ -505,6 +506,12 @@
   
 
    <livewire:actions.lang>
+
+
+   <div class="toggle-button fixed z-[1000]">
+    <a class="btn" href="https://wa.me/201012620529" style=" color: #fff; background-color: #25d366; border-radius: 50px; position: fixed; bottom: 40px; left: 30px; z-index: 99999; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center;">
+        <i class="fa-brands fa-whatsapp " style="transform: rotate(0deg); font-size: 20px; " ></i></a>
+</div>
 
 
 

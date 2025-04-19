@@ -362,7 +362,7 @@ About Description Section Area
                     <a href="blog-details.html">
                         <div
                             class="uppercase absolute top-1/2 left-1/2 -translate-x-[90%] translate-y-[35%] group-hover:translate-x-[-50%] group-hover:translate-y-[-50%] transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 flex justify-center items-center gap-1 bg-primary px-8 py-6 w-[136px] h-[74px] scale-95 group-hover:scale-100">
-                            <span class="text-secondary">view</span>
+                            <span class="text-secondary">{{ __('index.view') }}</span>
                             <img
                                 src="/images/home-5/ArrowUpRight-dark.svg"
                                 alt="ArrowUpRight-dark" />
@@ -380,7 +380,7 @@ About Description Section Area
                     </a>
                     <div class="mt-[24px] mb-2 md:mb-3.5 flex items-center justify-between">
                         <p
-                            class="text-[13px] leading-6  uppercase font-normal text-secondary dark:text-backgroundBody">
+                            class="text-[13px] leading-6 uppercase font-normal text-secondary dark:text-backgroundBody">
                             {{ __('index.design_services') }}
                         </p>
                         <p
@@ -401,7 +401,7 @@ About Description Section Area
                     <a href="blog-details.html">
                         <div
                             class="uppercase absolute top-1/2 left-1/2 -translate-x-[90%] translate-y-[35%] group-hover:translate-x-[-50%] group-hover:translate-y-[-50%] transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 flex justify-center items-center gap-1 bg-primary px-8 py-6 w-[136px] h-[74px] scale-95 group-hover:scale-100">
-                            <span class="text-secondary">view</span>
+                            <span class="text-secondary">{{ __('index.view') }}</span>
                             <img
                                 src="/images/home-5/ArrowUpRight-dark.svg"
                                 alt="ArrowUpRight-dark" />
@@ -440,7 +440,7 @@ About Description Section Area
                     <a href="blog-details.html">
                         <div
                             class="uppercase absolute top-1/2 left-1/2 -translate-x-[90%] translate-y-[35%] group-hover:translate-x-[-50%] group-hover:translate-y-[-50%] transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 flex justify-center items-center gap-1 bg-primary px-8 py-6 w-[136px] h-[74px] scale-95 group-hover:scale-100">
-                            <span class="text-secondary">view</span>
+                            <span class="text-secondary">{{ __('index.view') }}</span>
                             <img
                                 src="/images/home-5/ArrowUpRight-dark.svg"
                                 alt="ArrowUpRight-dark" />
@@ -461,16 +461,15 @@ About Description Section Area
                 <!-- Title Area -->
                 <div class="flex-1 md:self-start">
                     <h2 class="text-appear">
-                        Designing Experiences That
-                        <span class="font-instrument italic font-medium"> Drive Growth</span>
+                        {{ __('index.section_title') }}
+                        <span class="font-instrument italic font-medium"></span>
                     </h2>
                 </div>
 
                 <!-- Description -->
                 <div class="max-md:w-full flex-1 lg:w-[470px] md:self-end">
                     <p class="text-appear max-w-lg md:text-right md:place-self-end">
-                        We offer a full suite of creative solutions tailored to your brand’s
-                        success.
+                       {{ __('index.section_desc') }}
                     </p>
                     <ul class="justify-self-end max-md:w-full mt-5 md:mt-10 reveal-me">
                         <li
@@ -479,10 +478,10 @@ About Description Section Area
                                 href="/services.html"
                                 class="rv-button rv-button-white block md:inline-block">
                                 <div class="rv-button-top">
-                                    <span>See More Case Studies</span>
+                                    <span>{{ __('index.see_all_services') }}</span>
                                 </div>
                                 <div class="rv-button-bottom">
-                                    <span>See More Case Studies</span>
+                                    <span>{{ __('index.see_all_services') }}</span>
                                 </div>
                             </a>
                         </li>
@@ -502,10 +501,10 @@ About Description Section Area
                         class="relative group z-10 cursor-pointer py-10 md:py-[60px] px-5 md:px-10 flex justify-between items-center">
                         <h3
                             class="relative z-10 flex flex-col md:flex-row md:items-center gap-x-32 gap-y-3 text-[25px] md:text-4xl lg:text-[42px] xl:text-5xl font-normal leading-[25.2px] md:leading-[1.2]">
-                            <span class="font-medium">Portrait Shoots</span>
+                            <span class="font-medium">{{ __('index.build_your_brand') }}</span>
                             <p
                                 class="text-base md:text-xl md:leading-[1.4] md:tracking-[0.4px] mt-2 pr-[2px] max-w-lg">
-                                Delivering a stellar experience for every user.
+                                {{ __('index.build_your_brand_desc') }}
                             </p>
                         </h3>
 
@@ -544,7 +543,6 @@ About Description Section Area
                     </div>
                 </div>
             </a>
-            <!--  -->
             <a href="services-details.html" class="block">
                 <div
                     class="bg-backgroundBody dark:bg-dark border-t border-x dark:border-dark group relative overflow-hidden">
@@ -552,10 +550,10 @@ About Description Section Area
                         class="relative group z-10 cursor-pointer py-10 md:py-[60px] px-5 md:px-10 flex justify-between items-center">
                         <h3
                             class="relative z-10 flex flex-col md:flex-row md:items-center gap-x-32 gap-y-3 text-[25px] md:text-4xl lg:text-[42px] xl:text-5xl font-normal leading-[25.2px] md:leading-[1.2]">
-                            <span class="font-medium">Location shoots</span>
+                            <span class="font-medium">{{ __('index.location_shots') }}</span>
                             <p
                                 class="text-base md:text-xl md:leading-[1.4] md:tracking-[0.4px] mt-2 pr-[2px] max-w-lg">
-                                Delivering a stellar experience for every user.
+                                {{ __('index.location_shots_desc') }}
                             </p>
                         </h3>
 
@@ -587,14 +585,13 @@ About Description Section Area
                         <figure
                             class="transform transition-all duration-700 ease-in-out opacity-0 h-0 -translate-y-4 group-hover:opacity-100 group-hover:h-[110px] md:group-hover:h-[160px] lg:group-hover:h-[230px] group-hover:translate-y-0">
                             <img
-                                src="images/services/photography-services-02.png"
+                                src="images/services/photography-services.png"
                                 alt="Hover on Photography Services"
                                 class="px-5 md:px-10 pb-5 md:pb-10 pt-4 transition-all duration-700 ease-in-out object-cover" />
                         </figure>
                     </div>
                 </div>
             </a>
-            <!--  -->
             <a href="services-details.html" class="block">
                 <div
                     class="bg-backgroundBody dark:bg-dark border-t border-x dark:border-dark group relative overflow-hidden">
@@ -602,10 +599,10 @@ About Description Section Area
                         class="relative group z-10 cursor-pointer py-10 md:py-[60px] px-5 md:px-10 flex justify-between items-center">
                         <h3
                             class="relative z-10 flex flex-col md:flex-row md:items-center gap-x-32 gap-y-3 text-[25px] md:text-4xl lg:text-[42px] xl:text-5xl font-normal leading-[25.2px] md:leading-[1.2]">
-                            <span class="font-medium">Product Shoots</span>
+                            <span class="font-medium">{{ __('index.product_shots') }}</span>
                             <p
                                 class="text-base md:text-xl md:leading-[1.4] md:tracking-[0.4px] mt-2 pr-[2px] max-w-lg">
-                                Delivering a stellar experience for every user.
+                                {{ __('index.product_shots_desc') }}
                             </p>
                         </h3>
 
@@ -637,25 +634,24 @@ About Description Section Area
                         <figure
                             class="transform transition-all duration-700 ease-in-out opacity-0 h-0 -translate-y-4 group-hover:opacity-100 group-hover:h-[110px] md:group-hover:h-[160px] lg:group-hover:h-[230px] group-hover:translate-y-0">
                             <img
-                                src="images/services/photography-services-03.png"
+                                src="images/services/photography-services.png"
                                 alt="Hover on Photography Services"
                                 class="px-5 md:px-10 pb-5 md:pb-10 pt-4 transition-all duration-700 ease-in-out object-cover" />
                         </figure>
                     </div>
                 </div>
             </a>
-            <!--  -->
             <a href="services-details.html" class="block">
                 <div
-                    class="bg-backgroundBody dark:bg-dark border-y border-x dark:border-dark group relative overflow-hidden">
+                    class="bg-backgroundBody dark:bg-dark border-t border-x dark:border-dark group relative overflow-hidden">
                     <div
                         class="relative group z-10 cursor-pointer py-10 md:py-[60px] px-5 md:px-10 flex justify-between items-center">
                         <h3
                             class="relative z-10 flex flex-col md:flex-row md:items-center gap-x-32 gap-y-3 text-[25px] md:text-4xl lg:text-[42px] xl:text-5xl font-normal leading-[25.2px] md:leading-[1.2]">
-                            <span class="font-medium">VideoGraphy</span>
+                            <span class="font-medium">{{ __('index.seo_optimization') }}</span>
                             <p
                                 class="text-base md:text-xl md:leading-[1.4] md:tracking-[0.4px] mt-2 pr-[2px] max-w-lg">
-                                Delivering a stellar experience for every user.
+                                {{ __('index.seo_optimization_desc') }}
                             </p>
                         </h3>
 
@@ -687,512 +683,272 @@ About Description Section Area
                         <figure
                             class="transform transition-all duration-700 ease-in-out opacity-0 h-0 -translate-y-4 group-hover:opacity-100 group-hover:h-[110px] md:group-hover:h-[160px] lg:group-hover:h-[230px] group-hover:translate-y-0">
                             <img
-                                src="images/services/photography-services-04.png"
+                                src="images/services/photography-services.png"
                                 alt="Hover on Photography Services"
                                 class="px-5 md:px-10 pb-5 md:pb-10 pt-4 transition-all duration-700 ease-in-out object-cover" />
                         </figure>
                     </div>
                 </div>
             </a>
-        </div>
-    </section>
-
-
-    <section
-        class="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px]">
-        <div class="container">
-            <div
-                class="max-w-4xl mx-auto grid max-md:grid-cols-2 md:grid-cols-4 reveal-me border-t border-x [&>*]:border-r max-md:[&>*:nth-child(2)]:border-r-0 max-md:[&>*:nth-child(6)]:border-r-0 [&>*:nth-child(4)]:border-r-0 [&>*:nth-child(8)]:border-r-0 [&>*]:border-b dark:[&>*]:border-dark dark:border-dark">
-                <figure class="px-12 py-8">
-                    <img
-                        src="images/marquee-img/invert.svg"
-                        alt="Invert Logo"
-                        class="inline dark:hidden" />
-                    <img
-                        src="images/marquee-img/invert-dark.svg"
-                        alt="Invert Logo"
-                        class="hidden dark:inline" />
-                </figure>
-                <figure class="px-12 py-8">
-                    <img
-                        src="images/marquee-img/greenish.svg"
-                        alt="Invert Logo"
-                        class="inline dark:hidden" />
-                    <img
-                        src="images/marquee-img/greenish-dark.svg"
-                        alt="Invert Logo"
-                        class="hidden dark:inline" />
-                </figure>
-                <figure class="px-12 py-8">
-                    <img
-                        src="images/marquee-img/invert.svg"
-                        alt="Invert Logo"
-                        class="inline dark:hidden" />
-                    <img
-                        src="images/marquee-img/invert-dark.svg"
-                        alt="Invert Logo"
-                        class="hidden dark:inline" />
-                </figure>
-                <figure class="px-12 py-8">
-                    <img
-                        src="images/marquee-img/greenish.svg"
-                        alt="Invert Logo"
-                        class="inline dark:hidden" />
-                    <img
-                        src="images/marquee-img/greenish-dark.svg"
-                        alt="Invert Logo"
-                        class="hidden dark:inline" />
-                </figure>
-
-                <!-- Reverse Marquee -->
-                <figure class="px-12 py-8">
-                    <img
-                        src="images/marquee-img/invert.svg"
-                        alt="Invert Logo"
-                        class="inline dark:hidden" />
-                    <img
-                        src="images/marquee-img/invert-dark.svg"
-                        alt="Invert Logo"
-                        class="hidden dark:inline" />
-                </figure>
-                <figure class="px-12 py-8">
-                    <img
-                        src="images/marquee-img/greenish.svg"
-                        alt="Invert Logo"
-                        class="inline dark:hidden" />
-                    <img
-                        src="images/marquee-img/greenish-dark.svg"
-                        alt="Invert Logo"
-                        class="hidden dark:inline" />
-                </figure>
-                <figure class="px-12 py-8">
-                    <img
-                        src="images/marquee-img/invert.svg"
-                        alt="Invert Logo"
-                        class="inline dark:hidden" />
-                    <img
-                        src="images/marquee-img/invert-dark.svg"
-                        alt="Invert Logo"
-                        class="hidden dark:inline" />
-                </figure>
-                <figure class="px-12 py-8">
-                    <img
-                        src="images/marquee-img/greenish.svg"
-                        alt="Invert Logo"
-                        class="inline dark:hidden" />
-                    <img
-                        src="images/marquee-img/greenish-dark.svg"
-                        alt="Invert Logo"
-                        class="hidden dark:inline" />
-                </figure>
-            </div>
-        </div>
-    </section>
-
-
-    <section
-        class="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]">
-        <div class="container">
-            <!-- Section Header -->
-            <div class="text-center">
-                <!-- Status Badge -->
-                <div class="rv-badge mb-3">
-                    <span class="rv-badge-text">Open for new work</span>
-                </div>
-                <h2 class="mb-7 lg:mb-14 text-center text-appear">
-                    Bringing ideas to life, <i class="font-instrument">Seamlessly</i>
-                </h2>
-            </div>
-
-            <!-- Process Steps Container -->
-            <div
-                class="flex max-md:flex-wrap gap-[30px] justify-center service-item-wrapper">
-                <!-- Step 1 - Keyword Research -->
+            <a href="services-details.html" class="block">
                 <div
-                    class="flex flex-col justify-center items-center relative reveal-me pt-[100px]">
-                    <h2 class="service-item-number"></h2>
-                    <h5 class="mb-5">Keyword Research</h5>
-                    <p class="text-center">Dive deep into your market, understand your</p>
-                </div>
+                    class="bg-backgroundBody dark:bg-dark border-t border-x dark:border-dark group relative overflow-hidden">
+                    <div
+                        class="relative group z-10 cursor-pointer py-10 md:py-[60px] px-5 md:px-10 flex justify-between items-center">
+                        <h3
+                            class="relative z-10 flex flex-col md:flex-row md:items-center gap-x-32 gap-y-3 text-[25px] md:text-4xl lg:text-[42px] xl:text-5xl font-normal leading-[25.2px] md:leading-[1.2]">
+                            <span class="font-medium">{{ __('index.social_media') }}</span>
+                            <p
+                                class="text-base md:text-xl md:leading-[1.4] md:tracking-[0.4px] mt-2 pr-[2px] max-w-lg">
+                                {{ __('index.social_media_desc') }}
+                            </p>
+                        </h3>
 
-                <!-- Step 2 - Link Building -->
-                <div
-                    class="flex flex-col justify-center items-center relative reveal-me pt-[100px]">
-                    <h2 class="service-item-number"></h2>
-                    <h5 class="mb-5">Link Building</h5>
-                    <p class="text-center">Dive deep into your market, understand your</p>
-                </div>
-
-                <!-- Step 3 - Ranking -->
-                <div
-                    class="flex flex-col justify-center items-center relative reveal-me pt-[100px]">
-                    <h2 class="service-item-number"></h2>
-                    <h5 class="mb-5">Ranking</h5>
-                    <p class="text-center">Dive deep into your market, understand your</p>
-                </div>
-            </div>
-            <!--  Buttons -->
-            <ul class="flex justify-center list-none mt-14">
-                <!-- Primary CTA Button -->
-                <li class="block md:inline-block w-full text-center md:w-auto">
-                    <a
-                        href="/project-03.html"
-                        class="rv-button rv-button-primary block md:inline-block">
-                        <div class="rv-button-top">
-                            <span>Let’s Start Your Project</span>
+                        <div
+                            class="transform transition-transform duration-500 ease-in-out group-hover:rotate-90">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="32"
+                                height="32"
+                                viewBox="0 0 32 32"
+                                fill="none">
+                                <path
+                                    d="M5 16H27"
+                                    class="stroke-black dark:stroke-white"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M18 7L27 16L18 25"
+                                    class="stroke-black dark:stroke-white"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
                         </div>
-                        <div class="rv-button-bottom">
-                            <span class="text-nowrap">Let’s Start Your Project</span>
+                    </div>
+
+                    <div class="overflow-hidden">
+                        <figure
+                            class="transform transition-all duration-700 ease-in-out opacity-0 h-0 -translate-y-4 group-hover:opacity-100 group-hover:h-[110px] md:group-hover:h-[160px] lg:group-hover:h-[230px] group-hover:translate-y-0">
+                            <img
+                                src="images/services/photography-services.png"
+                                alt="Hover on Photography Services"
+                                class="px-5 md:px-10 pb-5 md:pb-10 pt-4 transition-all duration-700 ease-in-out object-cover" />
+                        </figure>
+                    </div>
+                </div>
+            </a>
+            <a href="services-details.html" class="block">
+                <div
+                    class="bg-backgroundBody dark:bg-dark border-t border-x dark:border-dark group relative overflow-hidden">
+                    <div
+                        class="relative group z-10 cursor-pointer py-10 md:py-[60px] px-5 md:px-10 flex justify-between items-center">
+                        <h3
+                            class="relative z-10 flex flex-col md:flex-row md:items-center gap-x-32 gap-y-3 text-[25px] md:text-4xl lg:text-[42px] xl:text-5xl font-normal leading-[25.2px] md:leading-[1.2]">
+                            <span class="font-medium">{{ __('index.company_profile') }}</span>
+                            <p
+                                class="text-base md:text-xl md:leading-[1.4] md:tracking-[0.4px] mt-2 pr-[2px] max-w-lg">
+                                {{ __('index.company_profile_desc') }}
+                            </p>
+                        </h3>
+
+                        <div
+                            class="transform transition-transform duration-500 ease-in-out group-hover:rotate-90">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="32"
+                                height="32"
+                                viewBox="0 0 32 32"
+                                fill="none">
+                                <path
+                                    d="M5 16H27"
+                                    class="stroke-black dark:stroke-white"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M18 7L27 16L18 25"
+                                    class="stroke-black dark:stroke-white"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
                         </div>
-                    </a>
-                </li>
-            </ul>
+                    </div>
+
+                    <div class="overflow-hidden">
+                        <figure
+                            class="transform transition-all duration-700 ease-in-out opacity-0 h-0 -translate-y-4 group-hover:opacity-100 group-hover:h-[110px] md:group-hover:h-[160px] lg:group-hover:h-[230px] group-hover:translate-y-0">
+                            <img
+                                src="images/services/photography-services.png"
+                                alt="Hover on Photography Services"
+                                class="px-5 md:px-10 pb-5 md:pb-10 pt-4 transition-all duration-700 ease-in-out object-cover" />
+                        </figure>
+                    </div>
+                </div>
+            </a>
+            <a href="services-details.html" class="block">
+                <div
+                    class="bg-backgroundBody dark:bg-dark border-t border-x dark:border-dark group relative overflow-hidden">
+                    <div
+                        class="relative group z-10 cursor-pointer py-10 md:py-[60px] px-5 md:px-10 flex justify-between items-center">
+                        <h3
+                            class="relative z-10 flex flex-col md:flex-row md:items-center gap-x-32 gap-y-3 text-[25px] md:text-4xl lg:text-[42px] xl:text-5xl font-normal leading-[25.2px] md:leading-[1.2]">
+                            <span class="font-medium">{{ __('index.website_design') }}</span>
+                            <p
+                                class="text-base md:text-xl md:leading-[1.4] md:tracking-[0.4px] mt-2 pr-[2px] max-w-lg">
+                                {{ __('index.website_design_desc') }}
+                            </p>
+                        </h3>
+
+                        <div
+                            class="transform transition-transform duration-500 ease-in-out group-hover:rotate-90">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="32"
+                                height="32"
+                                viewBox="0 0 32 32"
+                                fill="none">
+                                <path
+                                    d="M5 16H27"
+                                    class="stroke-black dark:stroke-white"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M18 7L27 16L18 25"
+                                    class="stroke-black dark:stroke-white"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="overflow-hidden">
+                        <figure
+                            class="transform transition-all duration-700 ease-in-out opacity-0 h-0 -translate-y-4 group-hover:opacity-100 group-hover:h-[110px] md:group-hover:h-[160px] lg:group-hover:h-[230px] group-hover:translate-y-0">
+                            <img
+                                src="images/services/photography-services.png"
+                                alt="Hover on Photography Services"
+                                class="px-5 md:px-10 pb-5 md:pb-10 pt-4 transition-all duration-700 ease-in-out object-cover" />
+                        </figure>
+                    </div>
+                </div>
+            </a>
+            <a href="services-details.html" class="block">
+                <div
+                    class="bg-backgroundBody dark:bg-dark border-t border-x dark:border-dark group relative overflow-hidden">
+                    <div
+                        class="relative group z-10 cursor-pointer py-10 md:py-[60px] px-5 md:px-10 flex justify-between items-center">
+                        <h3
+                            class="relative z-10 flex flex-col md:flex-row md:items-center gap-x-32 gap-y-3 text-[25px] md:text-4xl lg:text-[42px] xl:text-5xl font-normal leading-[25.2px] md:leading-[1.2]">
+                            <span class="font-medium">{{ __('index.managment_system') }}</span>
+                            <p
+                                class="text-base md:text-xl md:leading-[1.4] md:tracking-[0.4px] mt-2 pr-[2px] max-w-lg">
+                                {{ __('index.managment_system_desc') }}
+                            </p>
+                        </h3>
+
+                        <div
+                            class="transform transition-transform duration-500 ease-in-out group-hover:rotate-90">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="32"
+                                height="32"
+                                viewBox="0 0 32 32"
+                                fill="none">
+                                <path
+                                    d="M5 16H27"
+                                    class="stroke-black dark:stroke-white"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M18 7L27 16L18 25"
+                                    class="stroke-black dark:stroke-white"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="overflow-hidden">
+                        <figure
+                            class="transform transition-all duration-700 ease-in-out opacity-0 h-0 -translate-y-4 group-hover:opacity-100 group-hover:h-[110px] md:group-hover:h-[160px] lg:group-hover:h-[230px] group-hover:translate-y-0">
+                            <img
+                                src="images/services/photography-services.png"
+                                alt="Hover on Photography Services"
+                                class="px-5 md:px-10 pb-5 md:pb-10 pt-4 transition-all duration-700 ease-in-out object-cover" />
+                        </figure>
+                    </div>
+                </div>
+            </a>
+            
+            
         </div>
     </section>
+
 
 
     <section
-        class="service-section relative overflow-hidden pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]">
-        <div class="container">
-            <!-- Section Header -->
-            <div
-                class="flex flex-col md:flex-row gap-x-10 gap-y-4 justify-center lg:justify-between items-start mb-16 lg:mb-24">
-                <!-- Title Area -->
-                <div class="flex-1 md:self-start">
-                    <h2 class="text-appear leading-[1.1]">
-                        What our clients in
-                        <span class="font-instrument italic font-medium"> say</span>
-                    </h2>
-                </div>
+    class="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="text-center">
+            <!-- Status Badge -->
+            <div class="rv-badge mb-3">
+                <span class="rv-badge-text">{{ __('index.open_for_work') }}</span>
+            </div>
+            <h2 class="mb-7 lg:mb-14 text-center text-appear">
+                {!! __('index.bringing_life') !!}
+            </h2>
+        </div>
 
-                <!-- Description -->
-                <div class="max-md:w-full flex-1 md:self-end">
-                    <p class="text-appear max-w-lg md:place-self-end md:text-right">
-                        We offer a full suite of creative solutions tailored to your brand’s
-                        success.
-                    </p>
-                    <ul class="justify-self-end max-md:w-full mt-5 md:mt-10 reveal-me">
-                        <li
-                            class="block md:inline-block w-full mx-auto md:w-auto text-center">
-                            <a
-                                href="/services.html"
-                                class="rv-button rv-button-white block md:inline-block">
-                                <div class="rv-button-top">
-                                    <span>Read More Testimonials</span>
-                                </div>
-                                <div class="rv-button-bottom">
-                                    <span>Read More Testimonials</span>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+        <!-- Process Steps Container -->
+        <div class="flex max-md:flex-wrap gap-[30px] justify-center service-item-wrapper">
+            <!-- Step 1 - Keyword Research -->
+            <div class="flex flex-col justify-center items-center relative reveal-me pt-[100px]">
+                <h5 class="mb-5">{{ __('index.keyword_research') }}</h5>
+                <p class="text-center">{{ __('index.service_desc') }}</p>
+            </div>
+
+            <!-- Step 2 - Link Building -->
+            <div class="flex flex-col justify-center items-center relative reveal-me pt-[100px]">
+                <h5 class="mb-5">{{ __('index.link_building') }}</h5>
+                <p class="text-center">{{ __('index.service_desc') }}</p>
+            </div>
+
+            <!-- Step 3 - Ranking -->
+            <div class="flex flex-col justify-center items-center relative reveal-me pt-[100px]">
+                <h5 class="mb-5">{{ __('index.ranking') }}</h5>
+                <p class="text-center">{{ __('index.service_desc') }}</p>
             </div>
         </div>
 
-        <article
-            class="flex flex-row flex-nowrap w-fit gap-9 pl-[7%] md:pl-[20%] md:pr-10 service-wrapper overflow-x-hidden reveal-me">
-            <!-- Testimonial Card 1 -->
-            <div class="w-[395px] md:w-[570px]">
-                <span>
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="107"
-                        height="70"
-                        viewBox="0 0 107 70"
-                        fill="none">
-                        <path
-                            d="M93.8875 26.3658C97.8489 27.6974 101.018 30.0943 103.395 33.5564C105.772 36.7523 106.96 40.3476 106.96 44.3424C107.224 48.3372 106.168 52.332 103.791 56.3268C101.678 60.0553 98.2451 63.2512 93.4913 65.9144C85.8324 69.9092 79.0979 70.9745 73.2877 69.1103C67.4775 66.9797 63.3839 63.7838 61.007 59.5227C59.6865 57.3921 58.6301 54.4626 57.8378 50.7341C57.3096 47.0056 57.0455 43.144 57.0455 39.1492C57.3096 34.888 57.8378 30.7601 58.6301 26.7652C59.4224 22.7704 60.6109 19.4414 62.1955 16.7782C63.516 14.914 65.1006 12.9166 66.9493 10.786C68.5339 8.92175 70.3826 7.0575 72.4954 5.19326C74.8723 3.32901 77.5133 1.59792 80.4184 0L94.2836 0.798962C92.4349 2.92953 90.7183 4.92694 89.1337 6.79118C87.8132 8.38911 86.6247 9.85387 85.5683 11.1855C84.5119 12.5171 83.4555 13.7155 82.3991 14.7808C80.5504 16.6451 79.0979 18.5093 78.0415 20.3735C76.9851 21.9715 76.0607 23.7026 75.2684 25.5668C74.7402 27.431 74.7402 29.2953 75.2684 31.1595C78.7017 27.431 82.6632 25.5668 87.1529 25.5668C89.2657 25.5668 91.5106 25.8331 93.8875 26.3658ZM39.2188 28.3632C42.9162 30.4937 45.5572 33.4233 47.1418 37.1518C48.9905 40.6139 49.6507 44.3424 49.1225 48.3372C48.5943 52.332 46.8777 56.0605 43.9726 59.5227C41.3316 62.9849 37.3701 65.6481 32.0881 67.5123C23.901 70.1755 17.1665 70.0424 11.8845 67.1128C6.60249 63.917 3.03715 60.0553 1.18845 55.5279C0.39615 53.131 0 50.0683 0 46.3398C0 42.6113 0.39615 38.7497 1.18845 34.7549C1.98075 30.7601 3.03715 26.8984 4.35765 23.1699C5.67814 19.4414 7.39479 16.3787 9.50759 13.9818C11.0922 12.1176 12.9409 10.3865 15.0537 8.78859C16.9024 7.45698 19.0152 5.99222 21.3921 4.39429C24.0331 2.79637 26.9382 1.3316 30.1074 0L43.9726 3.59533C41.8598 5.45958 39.8791 7.0575 38.0304 8.38911C36.4458 9.72071 34.9932 10.9192 33.6727 11.9844C32.3522 13.0497 31.0317 14.115 29.7112 15.1803C27.8625 16.7782 26.2779 18.3761 24.9574 19.9741C23.6369 21.3057 22.4485 22.9036 21.3921 24.7678C20.3357 26.3658 19.9395 28.0968 20.2036 29.9611C22.3164 28.3632 24.4292 27.431 26.542 27.1647C28.9189 26.6321 31.0317 26.4989 32.8804 26.7652C34.9932 27.0316 37.106 27.5642 39.2188 28.3632Z"
-                            fill="url(#paint0_linear_5524_5583)" />
-                        <defs>
-                            <linearGradient
-                                id="paint0_linear_5524_5583"
-                                x1="134.547"
-                                y1="18.0106"
-                                x2="50.9596"
-                                y2="-47.7788"
-                                gradientUnits="userSpaceOnUse">
-                                <stop stop-color="#12D8CC" stop-opacity="0.03" />
-                                <stop offset="1" stop-color="#FF6100" stop-opacity="0.7" />
-                            </linearGradient>
-                        </defs>
-                    </svg>
-                </span>
-                <div class="pl-16 -mt-3">
-                    <p class="text-lg leading-[1.6] tracking-[0.36px] max-w-[500px] mb-5">
-                        "Rivor completely transformed our brand identity. Their creativity and
-                        attention to detail exceeded our expectations!"
-                    </p>
-                    <p
-                        class="text-xs text-black dark:text-backgroundBody left-[18px] font-semibold tracking-[0.9px] mb-4">
-                        - 03 Feb, 2024
-                    </p>
-                </div>
-                <div class="flex flex-col">
-                    <img
-                        src="/images/avatar/review-12.png"
-                        alt="Leslie Alexander"
-                        class="size-16 object-cover" />
-                    <div class="mt-2">
-                        <h4 class="text-2xl leading-[1.1]">Leslie Alexander</h4>
-                        <p class="text-sm leading-[1.6] tracking-wide mt-[1px]">
-                            Product Designer
-                        </p>
+        <!-- Buttons -->
+        <ul class="flex justify-center list-none mt-14">
+            <!-- Primary CTA Button -->
+            <li class="block md:inline-block w-full text-center md:w-auto">
+                <a
+                    href="/project-03.html"
+                    class="rv-button rv-button-primary block md:inline-block">
+                    <div class="rv-button-top">
+                        <span style="letter-spacing: 1px">{{ __('index.lets_start_project') ?? 'Let’s Start Your Project' }}</span>
                     </div>
-                </div>
-            </div>
+                    <div class="rv-button-bottom">
+                        <span class="text-" style="letter-spacing: 0px">{{ __('index.lets_start_project') ?? 'Let’s Start Your Project' }}</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
 
-            <!-- Testimonial Card 2 -->
-            <div class="w-[395px] md:w-[570px]">
-                <span>
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="107"
-                        height="70"
-                        viewBox="0 0 107 70"
-                        fill="none">
-                        <path
-                            d="M93.8875 26.3658C97.8489 27.6974 101.018 30.0943 103.395 33.5564C105.772 36.7523 106.96 40.3476 106.96 44.3424C107.224 48.3372 106.168 52.332 103.791 56.3268C101.678 60.0553 98.2451 63.2512 93.4913 65.9144C85.8324 69.9092 79.0979 70.9745 73.2877 69.1103C67.4775 66.9797 63.3839 63.7838 61.007 59.5227C59.6865 57.3921 58.6301 54.4626 57.8378 50.7341C57.3096 47.0056 57.0455 43.144 57.0455 39.1492C57.3096 34.888 57.8378 30.7601 58.6301 26.7652C59.4224 22.7704 60.6109 19.4414 62.1955 16.7782C63.516 14.914 65.1006 12.9166 66.9493 10.786C68.5339 8.92175 70.3826 7.0575 72.4954 5.19326C74.8723 3.32901 77.5133 1.59792 80.4184 0L94.2836 0.798962C92.4349 2.92953 90.7183 4.92694 89.1337 6.79118C87.8132 8.38911 86.6247 9.85387 85.5683 11.1855C84.5119 12.5171 83.4555 13.7155 82.3991 14.7808C80.5504 16.6451 79.0979 18.5093 78.0415 20.3735C76.9851 21.9715 76.0607 23.7026 75.2684 25.5668C74.7402 27.431 74.7402 29.2953 75.2684 31.1595C78.7017 27.431 82.6632 25.5668 87.1529 25.5668C89.2657 25.5668 91.5106 25.8331 93.8875 26.3658ZM39.2188 28.3632C42.9162 30.4937 45.5572 33.4233 47.1418 37.1518C48.9905 40.6139 49.6507 44.3424 49.1225 48.3372C48.5943 52.332 46.8777 56.0605 43.9726 59.5227C41.3316 62.9849 37.3701 65.6481 32.0881 67.5123C23.901 70.1755 17.1665 70.0424 11.8845 67.1128C6.60249 63.917 3.03715 60.0553 1.18845 55.5279C0.39615 53.131 0 50.0683 0 46.3398C0 42.6113 0.39615 38.7497 1.18845 34.7549C1.98075 30.7601 3.03715 26.8984 4.35765 23.1699C5.67814 19.4414 7.39479 16.3787 9.50759 13.9818C11.0922 12.1176 12.9409 10.3865 15.0537 8.78859C16.9024 7.45698 19.0152 5.99222 21.3921 4.39429C24.0331 2.79637 26.9382 1.3316 30.1074 0L43.9726 3.59533C41.8598 5.45958 39.8791 7.0575 38.0304 8.38911C36.4458 9.72071 34.9932 10.9192 33.6727 11.9844C32.3522 13.0497 31.0317 14.115 29.7112 15.1803C27.8625 16.7782 26.2779 18.3761 24.9574 19.9741C23.6369 21.3057 22.4485 22.9036 21.3921 24.7678C20.3357 26.3658 19.9395 28.0968 20.2036 29.9611C22.3164 28.3632 24.4292 27.431 26.542 27.1647C28.9189 26.6321 31.0317 26.4989 32.8804 26.7652C34.9932 27.0316 37.106 27.5642 39.2188 28.3632Z"
-                            fill="url(#paint0_linear_5524_5583)" />
-                        <defs>
-                            <linearGradient
-                                id="paint0_linear_5524_5583"
-                                x1="134.547"
-                                y1="18.0106"
-                                x2="50.9596"
-                                y2="-47.7788"
-                                gradientUnits="userSpaceOnUse">
-                                <stop stop-color="#12D8CC" stop-opacity="0.03" />
-                                <stop offset="1" stop-color="#FF6100" stop-opacity="0.7" />
-                            </linearGradient>
-                        </defs>
-                    </svg>
-                </span>
-                <div class="pl-16 -mt-3">
-                    <p class="text-lg leading-[1.6] tracking-[0.36px] max-w-[500px] mb-5">
-                        "An amazing experience working with Rivor. The team is professional,
-                        efficient, and creative!"
-                    </p>
-                    <p
-                        class="text-xs text-black dark:text-backgroundBody left-[18px] font-semibold tracking-[0.9px] mb-4">
-                        - 15 Mar, 2024
-                    </p>
-                </div>
-                <div class="flex flex-col">
-                    <img
-                        src="/images/avatar/review-12.png"
-                        alt="Jane Cooper"
-                        class="size-16 object-cover" />
-                    <div class="mt-2">
-                        <h4 class="text-2xl leading-[1.1]">Jane Cooper</h4>
-                        <p class="text-sm leading-[1.6] tracking-wide mt-[1px]">
-                            Marketing Specialist
-                        </p>
-                    </div>
-                </div>
-            </div>
 
-            <!-- Testimonial Card 3 -->
-            <div class="w-[395px] md:w-[570px]">
-                <span>
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="107"
-                        height="70"
-                        viewBox="0 0 107 70"
-                        fill="none">
-                        <path
-                            d="M93.8875 26.3658C97.8489 27.6974 101.018 30.0943 103.395 33.5564C105.772 36.7523 106.96 40.3476 106.96 44.3424C107.224 48.3372 106.168 52.332 103.791 56.3268C101.678 60.0553 98.2451 63.2512 93.4913 65.9144C85.8324 69.9092 79.0979 70.9745 73.2877 69.1103C67.4775 66.9797 63.3839 63.7838 61.007 59.5227C59.6865 57.3921 58.6301 54.4626 57.8378 50.7341C57.3096 47.0056 57.0455 43.144 57.0455 39.1492C57.3096 34.888 57.8378 30.7601 58.6301 26.7652C59.4224 22.7704 60.6109 19.4414 62.1955 16.7782C63.516 14.914 65.1006 12.9166 66.9493 10.786C68.5339 8.92175 70.3826 7.0575 72.4954 5.19326C74.8723 3.32901 77.5133 1.59792 80.4184 0L94.2836 0.798962C92.4349 2.92953 90.7183 4.92694 89.1337 6.79118C87.8132 8.38911 86.6247 9.85387 85.5683 11.1855C84.5119 12.5171 83.4555 13.7155 82.3991 14.7808C80.5504 16.6451 79.0979 18.5093 78.0415 20.3735C76.9851 21.9715 76.0607 23.7026 75.2684 25.5668C74.7402 27.431 74.7402 29.2953 75.2684 31.1595C78.7017 27.431 82.6632 25.5668 87.1529 25.5668C89.2657 25.5668 91.5106 25.8331 93.8875 26.3658ZM39.2188 28.3632C42.9162 30.4937 45.5572 33.4233 47.1418 37.1518C48.9905 40.6139 49.6507 44.3424 49.1225 48.3372C48.5943 52.332 46.8777 56.0605 43.9726 59.5227C41.3316 62.9849 37.3701 65.6481 32.0881 67.5123C23.901 70.1755 17.1665 70.0424 11.8845 67.1128C6.60249 63.917 3.03715 60.0553 1.18845 55.5279C0.39615 53.131 0 50.0683 0 46.3398C0 42.6113 0.39615 38.7497 1.18845 34.7549C1.98075 30.7601 3.03715 26.8984 4.35765 23.1699C5.67814 19.4414 7.39479 16.3787 9.50759 13.9818C11.0922 12.1176 12.9409 10.3865 15.0537 8.78859C16.9024 7.45698 19.0152 5.99222 21.3921 4.39429C24.0331 2.79637 26.9382 1.3316 30.1074 0L43.9726 3.59533C41.8598 5.45958 39.8791 7.0575 38.0304 8.38911C36.4458 9.72071 34.9932 10.9192 33.6727 11.9844C32.3522 13.0497 31.0317 14.115 29.7112 15.1803C27.8625 16.7782 26.2779 18.3761 24.9574 19.9741C23.6369 21.3057 22.4485 22.9036 21.3921 24.7678C20.3357 26.3658 19.9395 28.0968 20.2036 29.9611C22.3164 28.3632 24.4292 27.431 26.542 27.1647C28.9189 26.6321 31.0317 26.4989 32.8804 26.7652C34.9932 27.0316 37.106 27.5642 39.2188 28.3632Z"
-                            fill="url(#paint0_linear_5524_5583)" />
-                        <defs>
-                            <linearGradient
-                                id="paint0_linear_5524_5583"
-                                x1="134.547"
-                                y1="18.0106"
-                                x2="50.9596"
-                                y2="-47.7788"
-                                gradientUnits="userSpaceOnUse">
-                                <stop stop-color="#12D8CC" stop-opacity="0.03" />
-                                <stop offset="1" stop-color="#FF6100" stop-opacity="0.7" />
-                            </linearGradient>
-                        </defs>
-                    </svg>
-                </span>
-                <div class="pl-16 -mt-3">
-                    <p class="text-lg leading-[1.6] tracking-[0.36px] max-w-[500px] mb-5">
-                        "Rivor provided top-notch service. Their expertise helped us scale our
-                        business!"
-                    </p>
-                    <p
-                        class="text-xs text-black dark:text-backgroundBody left-[18px] font-semibold tracking-[0.9px] mb-4">
-                        - 28 Apr, 2024
-                    </p>
-                </div>
-                <div class="flex flex-col">
-                    <img
-                        src="/images/avatar/review-12.png"
-                        alt="Robert Fox"
-                        class="size-16 object-cover" />
-                    <div class="mt-2">
-                        <h4 class="text-2xl leading-[1.1]">Robert Fox</h4>
-                        <p class="text-sm leading-[1.6] tracking-wide mt-[1px]">
-                            Business Owner
-                        </p>
-                    </div>
-                </div>
-            </div>
 
-            <!-- Testimonial Card 4 -->
-            <div class="w-[395px] md:w-[570px]">
-                <span>
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="107"
-                        height="70"
-                        viewBox="0 0 107 70"
-                        fill="none">
-                        <path
-                            d="M93.8875 26.3658C97.8489 27.6974 101.018 30.0943 103.395 33.5564C105.772 36.7523 106.96 40.3476 106.96 44.3424C107.224 48.3372 106.168 52.332 103.791 56.3268C101.678 60.0553 98.2451 63.2512 93.4913 65.9144C85.8324 69.9092 79.0979 70.9745 73.2877 69.1103C67.4775 66.9797 63.3839 63.7838 61.007 59.5227C59.6865 57.3921 58.6301 54.4626 57.8378 50.7341C57.3096 47.0056 57.0455 43.144 57.0455 39.1492C57.3096 34.888 57.8378 30.7601 58.6301 26.7652C59.4224 22.7704 60.6109 19.4414 62.1955 16.7782C63.516 14.914 65.1006 12.9166 66.9493 10.786C68.5339 8.92175 70.3826 7.0575 72.4954 5.19326C74.8723 3.32901 77.5133 1.59792 80.4184 0L94.2836 0.798962C92.4349 2.92953 90.7183 4.92694 89.1337 6.79118C87.8132 8.38911 86.6247 9.85387 85.5683 11.1855C84.5119 12.5171 83.4555 13.7155 82.3991 14.7808C80.5504 16.6451 79.0979 18.5093 78.0415 20.3735C76.9851 21.9715 76.0607 23.7026 75.2684 25.5668C74.7402 27.431 74.7402 29.2953 75.2684 31.1595C78.7017 27.431 82.6632 25.5668 87.1529 25.5668C89.2657 25.5668 91.5106 25.8331 93.8875 26.3658ZM39.2188 28.3632C42.9162 30.4937 45.5572 33.4233 47.1418 37.1518C48.9905 40.6139 49.6507 44.3424 49.1225 48.3372C48.5943 52.332 46.8777 56.0605 43.9726 59.5227C41.3316 62.9849 37.3701 65.6481 32.0881 67.5123C23.901 70.1755 17.1665 70.0424 11.8845 67.1128C6.60249 63.917 3.03715 60.0553 1.18845 55.5279C0.39615 53.131 0 50.0683 0 46.3398C0 42.6113 0.39615 38.7497 1.18845 34.7549C1.98075 30.7601 3.03715 26.8984 4.35765 23.1699C5.67814 19.4414 7.39479 16.3787 9.50759 13.9818C11.0922 12.1176 12.9409 10.3865 15.0537 8.78859C16.9024 7.45698 19.0152 5.99222 21.3921 4.39429C24.0331 2.79637 26.9382 1.3316 30.1074 0L43.9726 3.59533C41.8598 5.45958 39.8791 7.0575 38.0304 8.38911C36.4458 9.72071 34.9932 10.9192 33.6727 11.9844C32.3522 13.0497 31.0317 14.115 29.7112 15.1803C27.8625 16.7782 26.2779 18.3761 24.9574 19.9741C23.6369 21.3057 22.4485 22.9036 21.3921 24.7678C20.3357 26.3658 19.9395 28.0968 20.2036 29.9611C22.3164 28.3632 24.4292 27.431 26.542 27.1647C28.9189 26.6321 31.0317 26.4989 32.8804 26.7652C34.9932 27.0316 37.106 27.5642 39.2188 28.3632Z"
-                            fill="url(#paint0_linear_5524_5583)" />
-                        <defs>
-                            <linearGradient
-                                id="paint0_linear_5524_5583"
-                                x1="134.547"
-                                y1="18.0106"
-                                x2="50.9596"
-                                y2="-47.7788"
-                                gradientUnits="userSpaceOnUse">
-                                <stop stop-color="#12D8CC" stop-opacity="0.03" />
-                                <stop offset="1" stop-color="#FF6100" stop-opacity="0.7" />
-                            </linearGradient>
-                        </defs>
-                    </svg>
-                </span>
-                <div class="pl-16 -mt-3">
-                    <p class="text-lg leading-[1.6] tracking-[0.36px] max-w-[500px] mb-5">
-                        "The design and development team at Rivor is phenomenal. I highly
-                        recommend them!"
-                    </p>
-                    <p
-                        class="text-xs text-blac dark:text-backgroundBodyk left-[18px] font-semibold tracking-[0.9px] mb-4">
-                        - 10 May, 2024
-                    </p>
-                </div>
-                <div class="flex flex-col">
-                    <img
-                        src="/images/avatar/review-12.png"
-                        alt="Emily Davis"
-                        class="size-16 object-cover" />
-                    <div class="mt-2">
-                        <h4 class="text-2xl leading-[1.1]">Emily Davis</h4>
-                        <p class="text-sm leading-[1.6] tracking-wide mt-[1px]">
-                            UX Designer
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Testimonial Card 5 -->
-            <div class="w-[395px] md:w-[570px]">
-                <span>
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="107"
-                        height="70"
-                        viewBox="0 0 107 70"
-                        fill="none">
-                        <path
-                            d="M93.8875 26.3658C97.8489 27.6974 101.018 30.0943 103.395 33.5564C105.772 36.7523 106.96 40.3476 106.96 44.3424C107.224 48.3372 106.168 52.332 103.791 56.3268C101.678 60.0553 98.2451 63.2512 93.4913 65.9144C85.8324 69.9092 79.0979 70.9745 73.2877 69.1103C67.4775 66.9797 63.3839 63.7838 61.007 59.5227C59.6865 57.3921 58.6301 54.4626 57.8378 50.7341C57.3096 47.0056 57.0455 43.144 57.0455 39.1492C57.3096 34.888 57.8378 30.7601 58.6301 26.7652C59.4224 22.7704 60.6109 19.4414 62.1955 16.7782C63.516 14.914 65.1006 12.9166 66.9493 10.786C68.5339 8.92175 70.3826 7.0575 72.4954 5.19326C74.8723 3.32901 77.5133 1.59792 80.4184 0L94.2836 0.798962C92.4349 2.92953 90.7183 4.92694 89.1337 6.79118C87.8132 8.38911 86.6247 9.85387 85.5683 11.1855C84.5119 12.5171 83.4555 13.7155 82.3991 14.7808C80.5504 16.6451 79.0979 18.5093 78.0415 20.3735C76.9851 21.9715 76.0607 23.7026 75.2684 25.5668C74.7402 27.431 74.7402 29.2953 75.2684 31.1595C78.7017 27.431 82.6632 25.5668 87.1529 25.5668C89.2657 25.5668 91.5106 25.8331 93.8875 26.3658ZM39.2188 28.3632C42.9162 30.4937 45.5572 33.4233 47.1418 37.1518C48.9905 40.6139 49.6507 44.3424 49.1225 48.3372C48.5943 52.332 46.8777 56.0605 43.9726 59.5227C41.3316 62.9849 37.3701 65.6481 32.0881 67.5123C23.901 70.1755 17.1665 70.0424 11.8845 67.1128C6.60249 63.917 3.03715 60.0553 1.18845 55.5279C0.39615 53.131 0 50.0683 0 46.3398C0 42.6113 0.39615 38.7497 1.18845 34.7549C1.98075 30.7601 3.03715 26.8984 4.35765 23.1699C5.67814 19.4414 7.39479 16.3787 9.50759 13.9818C11.0922 12.1176 12.9409 10.3865 15.0537 8.78859C16.9024 7.45698 19.0152 5.99222 21.3921 4.39429C24.0331 2.79637 26.9382 1.3316 30.1074 0L43.9726 3.59533C41.8598 5.45958 39.8791 7.0575 38.0304 8.38911C36.4458 9.72071 34.9932 10.9192 33.6727 11.9844C32.3522 13.0497 31.0317 14.115 29.7112 15.1803C27.8625 16.7782 26.2779 18.3761 24.9574 19.9741C23.6369 21.3057 22.4485 22.9036 21.3921 24.7678C20.3357 26.3658 19.9395 28.0968 20.2036 29.9611C22.3164 28.3632 24.4292 27.431 26.542 27.1647C28.9189 26.6321 31.0317 26.4989 32.8804 26.7652C34.9932 27.0316 37.106 27.5642 39.2188 28.3632Z"
-                            fill="url(#paint0_linear_5524_5583)" />
-                        <defs>
-                            <linearGradient
-                                id="paint0_linear_5524_5583"
-                                x1="134.547"
-                                y1="18.0106"
-                                x2="50.9596"
-                                y2="-47.7788"
-                                gradientUnits="userSpaceOnUse">
-                                <stop stop-color="#12D8CC" stop-opacity="0.03" />
-                                <stop offset="1" stop-color="#FF6100" stop-opacity="0.7" />
-                            </linearGradient>
-                        </defs>
-                    </svg>
-                </span>
-                <div class="pl-16 -mt-3">
-                    <p class="text-lg leading-[1.6] tracking-[0.36px] max-w-[500px] mb-5">
-                        "Rivor completely transformed our brand identity. Their creativity and
-                        attention to detail exceeded our expectations!"
-                    </p>
-                    <p
-                        class="text-xs text-blac dark:text-backgroundBodyk left-[18px] font-semibold tracking-[0.9px] mb-4">
-                        - 03 Feb, 2024
-                    </p>
-                </div>
-                <div class="flex flex-col">
-                    <img
-                        src="/images/avatar/review-12.png"
-                        alt="Leslie Alexander"
-                        class="size-16 object-cover" />
-                    <div class="mt-2">
-                        <h4 class="text-2xl leading-[1.1]">Leslie Alexander</h4>
-                        <p class="text-sm leading-[1.6] tracking-wide mt-[1px]">
-                            Product Designer
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Testimonial Card 6 -->
-            <div class="w-[395px] md:w-[570px]">
-                <span>
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="107"
-                        height="70"
-                        viewBox="0 0 107 70"
-                        fill="none">
-                        <path
-                            d="M93.8875 26.3658C97.8489 27.6974 101.018 30.0943 103.395 33.5564C105.772 36.7523 106.96 40.3476 106.96 44.3424C107.224 48.3372 106.168 52.332 103.791 56.3268C101.678 60.0553 98.2451 63.2512 93.4913 65.9144C85.8324 69.9092 79.0979 70.9745 73.2877 69.1103C67.4775 66.9797 63.3839 63.7838 61.007 59.5227C59.6865 57.3921 58.6301 54.4626 57.8378 50.7341C57.3096 47.0056 57.0455 43.144 57.0455 39.1492C57.3096 34.888 57.8378 30.7601 58.6301 26.7652C59.4224 22.7704 60.6109 19.4414 62.1955 16.7782C63.516 14.914 65.1006 12.9166 66.9493 10.786C68.5339 8.92175 70.3826 7.0575 72.4954 5.19326C74.8723 3.32901 77.5133 1.59792 80.4184 0L94.2836 0.798962C92.4349 2.92953 90.7183 4.92694 89.1337 6.79118C87.8132 8.38911 86.6247 9.85387 85.5683 11.1855C84.5119 12.5171 83.4555 13.7155 82.3991 14.7808C80.5504 16.6451 79.0979 18.5093 78.0415 20.3735C76.9851 21.9715 76.0607 23.7026 75.2684 25.5668C74.7402 27.431 74.7402 29.2953 75.2684 31.1595C78.7017 27.431 82.6632 25.5668 87.1529 25.5668C89.2657 25.5668 91.5106 25.8331 93.8875 26.3658ZM39.2188 28.3632C42.9162 30.4937 45.5572 33.4233 47.1418 37.1518C48.9905 40.6139 49.6507 44.3424 49.1225 48.3372C48.5943 52.332 46.8777 56.0605 43.9726 59.5227C41.3316 62.9849 37.3701 65.6481 32.0881 67.5123C23.901 70.1755 17.1665 70.0424 11.8845 67.1128C6.60249 63.917 3.03715 60.0553 1.18845 55.5279C0.39615 53.131 0 50.0683 0 46.3398C0 42.6113 0.39615 38.7497 1.18845 34.7549C1.98075 30.7601 3.03715 26.8984 4.35765 23.1699C5.67814 19.4414 7.39479 16.3787 9.50759 13.9818C11.0922 12.1176 12.9409 10.3865 15.0537 8.78859C16.9024 7.45698 19.0152 5.99222 21.3921 4.39429C24.0331 2.79637 26.9382 1.3316 30.1074 0L43.9726 3.59533C41.8598 5.45958 39.8791 7.0575 38.0304 8.38911C36.4458 9.72071 34.9932 10.9192 33.6727 11.9844C32.3522 13.0497 31.0317 14.115 29.7112 15.1803C27.8625 16.7782 26.2779 18.3761 24.9574 19.9741C23.6369 21.3057 22.4485 22.9036 21.3921 24.7678C20.3357 26.3658 19.9395 28.0968 20.2036 29.9611C22.3164 28.3632 24.4292 27.431 26.542 27.1647C28.9189 26.6321 31.0317 26.4989 32.8804 26.7652C34.9932 27.0316 37.106 27.5642 39.2188 28.3632Z"
-                            fill="url(#paint0_linear_5524_5583)" />
-                        <defs>
-                            <linearGradient
-                                id="paint0_linear_5524_5583"
-                                x1="134.547"
-                                y1="18.0106"
-                                x2="50.9596"
-                                y2="-47.7788"
-                                gradientUnits="userSpaceOnUse">
-                                <stop stop-color="#12D8CC" stop-opacity="0.03" />
-                                <stop offset="1" stop-color="#FF6100" stop-opacity="0.7" />
-                            </linearGradient>
-                        </defs>
-                    </svg>
-                </span>
-                <div class="pl-16 -mt-3">
-                    <p class="text-lg leading-[1.6] tracking-[0.36px] max-w-[500px] mb-5">
-                        "An amazing experience working with Rivor. The team is professional,
-                        efficient, and creative!"
-                    </p>
-                    <p
-                        class="text-xs text-blac dark:text-backgroundBodyk left-[18px] font-semibold tracking-[0.9px] mb-4">
-                        - 15 Mar, 2024
-                    </p>
-                </div>
-                <div class="flex flex-col">
-                    <img
-                        src="/images/avatar/review-12.png"
-                        alt="Jane Cooper"
-                        class="size-16 object-cover" />
-                    <div class="mt-2">
-                        <h4 class="text-2xl leading-[1.1]">Jane Cooper</h4>
-                        <p class="text-sm leading-[1.6] tracking-wide mt-[1px]">
-                            Marketing Specialist
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </article>
-    </section>
 
 
     <!--=====================================
@@ -1205,7 +961,7 @@ CTA Section
             <div class="reveal-me">
                 <h2
                     class="text-center xl:text-[96px] font-normal xl:leading-[1.1] xl:tracking-[-2.88px]">
-                    Let's
+                    Let's   Create
                     <div
                         class="cta-slider-container max-sm:block sm:inline-block max-sm:mb-7 translate-y-2 sm:translate-y-[20px]">
                         <div class="cta-inline-slider">
@@ -1220,9 +976,8 @@ CTA Section
                             </div>
                         </div>
                     </div>
-
-                    Create
-                    <span class="font-instrument sm:mt-10 italic block max-md:inline-block">Something Iconic</span>
+                  
+                    <span class="text-center xl:text-[96px] font-normal xl:leading-[1.1] xl:tracking-[-2.88px]">Something Iconic</span>
                 </h2>
             </div>
 
