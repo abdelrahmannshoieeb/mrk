@@ -19,7 +19,7 @@ class Lang extends Component
         $this->locale = $this->locale === 'en' ? 'ar' : 'en';
         session(['locale' => $this->locale]);
     
-        return redirect(request()->header('Referer')); // This refreshes the current page
+        return redirect(request()->header('Referer')); 
     }
     
 

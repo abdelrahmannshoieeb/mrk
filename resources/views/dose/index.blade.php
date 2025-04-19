@@ -20,8 +20,8 @@
             <div class="container">
                 <div class="reveal-me text-center">
                     <h1 class="font-semibold">
-                        <span class="font-instrument italic block font-normal">{{ __('messages.welcome') }}</span>
-                        Creative Design Agency
+                        <span class="font-instrument block font-normal">{{ __('index.welcome') }}</span>
+                        {{ __('index.slogan') }}
                     </h1>
 
                     <!-- Hero Buttons -->
@@ -32,10 +32,10 @@
                                 href="/contact.html"
                                 class="rv-button rv-button-sm rv-button-primary block md:inline-block">
                                 <div class="rv-button-top">
-                                    <span>Let’s Talk</span>
+                                    <span> {{ __('index.contact') }}</span>
                                 </div>
                                 <div class="rv-button-bottom">
-                                    <span class="text-nowrap">Let’s Talk</span>
+                                    <span class="text-nowrap"> {{ __('index.contact') }}</span>
                                 </div>
                             </a>
                         </li>
@@ -62,23 +62,18 @@ About Description Section Area
             <!-- Section Header -->
             <div class="text-center">
                 <div class="rv-badge reveal-me">
-                    <span class="rv-badge-text">Who We Are</span>
+                    <span class="rv-badge-text">{{ __('index.Who_We_Are') }}</span>
                 </div>
                 <h2 class="mt-3 mb-8 text-center text-appear">
-                    We Are the Architects of Creative <br class="hidden md:block" />
-                    Innovation
+                    {{ __('index.Who_We_Are_title') }}
                 </h2>
             </div>
 
             <h3
-                class="reveal-text-2 text-2xl text-secondary/90 dark:text-backgroundBody/70 text-center lg:text-3xl xl:text-4xl font-normal lg:leading-[1.2] lg:tracking-[0.72px]">
-                At Rivor, we believe design goes beyond aesthetics—it’s about crafting
-                meaningful connections that inspire, engage, and leave a lasting impact.
-                Our approach blends creativity with strategy, ensuring that every design
-                element serves a purpose. Whether it’s branding, user experience, or
-                digital interfaces, we focus on innovation that resonates with your
-                audience.
-            </h3>
+            class="reveal-text-2 text-2xl text-secondary/90 dark:text-backgroundBody/70 lg:text-3xl xl:text-4xl font-normal lg:leading-[1.8] lg:tracking-[0.2px] rtl:text-right ltr:text-center">
+            {{ __('index.Who_We_Are_content') }}
+        </h3>
+        
 
             <!-- about Buttons -->
             <ul class="flex justify-center mt-[56px] mx-auto list-none reveal-me">
@@ -88,10 +83,10 @@ About Description Section Area
                         href="/team.html"
                         class="rv-button rv-button-white block md:inline-block">
                         <div class="rv-button-top">
-                            <span>Meet the Team</span>
+                            <span>{{ __('index.meet_the_team') }}</span>
                         </div>
                         <div class="rv-button-bottom">
-                            <span>Meet the Team</span>
+                            <span>{{ __('index.meet_the_team') }}</span>
                         </div>
                     </a>
                 </li>
