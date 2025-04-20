@@ -43,13 +43,9 @@
         </div>
       </section>
 
-      <section
-        class="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] relative overflow-hidden pt-0 md:pt-0 lg:pt-0 xl:pt-6"
-      >
-        <div class="container">
-          <div
-            class="flex flex-col md:flex-row gap-y-3 gap-x-10 justify-center lg:justify-start items-start md:items-center mb-16 md:mb-20"
-          >
+      <section class="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] relative overflow-hidden pt-0 md:pt-0 lg:pt-0 xl:pt-6">
+        <div class="container ">
+          <div class="flex flex-wrap justify-center lg:justify-start items-start md:items-center gap-y-3 gap-x-10 mb-16 md:mb-20"  >
             <div class="flex-1">
               <div class="rv-badge reveal-me mb-3 md:mb-4">
                 <span class="rv-badge-text">Services</span>
@@ -92,13 +88,9 @@
           </div>
         </div>
 
-        <div
-          class="flex max-xl:flex-wrap max-xl:gap-5 justify-center [&>*:not(:last-child)]:border-l dark:[&>*:not(:last-child)]:border-l-dark [&>*:last-child]:border-l dark:[&>*:last-child]:border-l-dark [&>*:last-child]:border-r dark:[&>*:last-child]:border-r-dark [&>*]:border-y dark:[&>*]:border-y-dark max-xl:[&>*:first-child]:border-r dark:max-xl:[&>*:first-child]:border-dark max-xl:[&>*:nth-child(2)]:border-r dark:max-xl:[&>*:nth-child(2)]:border-dark max-2xl:[&>*:nth-child(3)]:border-r dark:max-2xl:[&>*:nth-child(3)]:border-dark xl:px-5"
-        >
+        <div  class="flex flex-wrap justify-center [&>*]:border dark:[&>*]:border-dark xl:px-5 gap-5" >
           <!-- Research Card -->
-          <div
-            class="relative group overflow-hidden w-[360px] h-[500px] reveal-me"
-          >
+          <div class="relative group overflow-hidden w-[360px] h-[500px] reveal-me mb-4" >
             <div
               class="w-full h-full flex justify-center items-center absolute translate-y-0 group-hover:-translate-y-full transition-all opacity-100 group-hover:opacity-0 duration-700"
             >
@@ -113,7 +105,7 @@
                   <h5
                     class="max-sm:text-3xl text-primary dark:text-backgroundBody opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[240ms]"
                   >
-                    Research
+                    Modave Ecommerce
                   </h5>
                   <span
                     class="transition-all duration-1000 translate-x-20 group-hover:translate-x-0"
@@ -143,8 +135,7 @@
                 <p
                   class="text-backgroundBody/70 dark:text-backgroundBody/70 opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[340ms]"
                 >
-                  What specific research are you interested in? Research can
-                  range across a variety of fields such as:
+                  
                 </p>
                 <ul
                   class="pl-4 mt-6 opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[440ms]"
@@ -152,13 +143,42 @@
                   <li
                     class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                   >
-                    Scientific research (e.g., medical, environmental,
-                    technological studies)
+                    {{ __("ecom.ec_desc") }}
                   </li>
                   <li
                     class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                   >
-                    Market research (consumer trends, competitor analysis)
+                    {{ __("ecom.ec_point_1") }}
+                  </li>
+                  <li
+                    class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                  >
+                    {{ __("ecom.ec_point_2") }}
+                  </li>
+                  <li
+                    class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                  >
+                    {{ __("ecom.ec_point_3") }}
+                  </li>
+                  <li
+                    class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                  >
+                    {{ __("ecom.ec_point_4") }}
+                  </li>
+                  <li
+                    class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                  >
+                    {{ __("ecom.ec_point_5") }}
+                  </li>
+                  <li
+                    class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                  >
+                    {{ __("ecom.ec_point_6") }}
+                  </li>
+                  <li
+                    class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                  >
+                    {{ __("ecom.ec_point_7") }}
                   </li>
                 </ul>
               </a>
@@ -166,13 +186,11 @@
           </div>
 
           <!-- Alchemy Studio Card -->
-          <div
-            class="relative group overflow-hidden w-[360px] h-[500px] reveal-me"
-          >
+          <div   class="relative group overflow-hidden w-[360px] h-[500px] reveal-me mb-4" >
             <div
               class="w-full h-full flex justify-center items-center absolute translate-y-0 group-hover:-translate-y-full transition-all opacity-100 group-hover:opacity-0 duration-700"
             >
-              <h5 class="max-sm:text-3xl">Alchemy Studio</h5>
+            <img src="images/ecomm2.png" alt="">
             </div>
 
             <div
@@ -183,7 +201,7 @@
                   <h5
                     class="max-sm:text-3xl text-primary dark:text-backgroundBody opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[240ms]"
                   >
-                    Alchemy Studio
+                   Shofy
                   </h5>
                   <span
                     class="transition-all duration-1000 translate-x-20 group-hover:translate-x-0"
@@ -213,36 +231,63 @@
                 <p
                   class="text-backgroundBody/70 dark:text-backgroundBody/70 opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[340ms]"
                 >
-                  What specific research are you interested in? Research can
-                  range across a variety of fields such as:
+                  
                 </p>
                 <ul
-                  class="pl-4 mt-6 opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[440ms]"
+                class="pl-4 mt-6 opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[440ms]"
+              >
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                 >
-                  <li
-                    class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
-                  >
-                    Scientific research (e.g., medical, environmental,
-                    technological studies)
-                  </li>
-                  <li
-                    class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
-                  >
-                    Market research (consumer trends, competitor analysis)
-                  </li>
-                </ul>
+                  {{ __("ecom.ec_desc") }}
+                </li>
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                >
+                  {{ __("ecom.ec_point_1") }}
+                </li>
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                >
+                  {{ __("ecom.ec_point_2") }}
+                </li>
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                >
+                  {{ __("ecom.ec_point_3") }}
+                </li>
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                >
+                  {{ __("ecom.ec_point_4") }}
+                </li>
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                >
+                  {{ __("ecom.ec_point_5") }}
+                </li>
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                >
+                  {{ __("ecom.ec_point_6") }}
+                </li>
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                >
+                  {{ __("ecom.ec_point_7") }}
+                </li>
+              </ul>
               </a>
             </div>
           </div>
 
           <!-- Rhythms Media Card -->
-          <div
-            class="relative group overflow-hidden w-[360px] h-[500px] reveal-me"
-          >
+          <div  class="relative group overflow-hidden w-[360px] h-[500px] reveal-me mb-4">
             <div
               class="w-full h-full flex justify-center items-center absolute translate-y-0 group-hover:-translate-y-full transition-all opacity-100 group-hover:opacity-0 duration-700"
             >
-              <h5 class="max-sm:text-3xl">Rhythms Media</h5>
+            <img src="images/ecomm3.png" alt="">
+
             </div>
 
             <div
@@ -253,7 +298,7 @@
                   <h5
                     class="max-sm:text-3xl text-primary dark:text-backgroundBody opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[240ms]"
                   >
-                    Rhythms Media
+                  Toner
                   </h5>
                   <span
                     class="transition-all duration-1000 translate-x-20 group-hover:translate-x-0"
@@ -283,37 +328,65 @@
                 <p
                   class="text-backgroundBody/70 dark:text-backgroundBody/70 opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[340ms]"
                 >
-                  What specific research are you interested in? Research can
-                  range across a variety of fields such as:
+                 
                 </p>
                 <ul
-                  class="pl-4 mt-6 opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[440ms]"
+                class="pl-4 mt-6 opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[440ms]"
+              >
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                 >
-                  <li
-                    class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
-                  >
-                    Scientific research (e.g., medical, environmental,
-                    technological studies)
-                  </li>
-                  <li
-                    class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
-                  >
-                    Market research (consumer trends, competitor analysis)
-                  </li>
-                </ul>
+                  {{ __("ecom.ec_desc") }}
+                </li>
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                >
+                  {{ __("ecom.ec_point_1") }}
+                </li>
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                >
+                  {{ __("ecom.ec_point_2") }}
+                </li>
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                >
+                  {{ __("ecom.ec_point_3") }}
+                </li>
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                >
+                  {{ __("ecom.ec_point_4") }}
+                </li>
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                >
+                  {{ __("ecom.ec_point_5") }}
+                </li>
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                >
+                  {{ __("ecom.ec_point_6") }}
+                </li>
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                >
+                  {{ __("ecom.ec_point_7") }}
+                </li>
+              </ul>
               </a>
             </div>
           </div>
 
+          
           <!-- Sound Studios  Card -->
 
-          <div
-            class="relative group overflow-hidden w-[360px] h-[500px] reveal-me"
-          >
+          <div class="relative group overflow-hidden w-[360px] h-[500px] reveal-me mb-4" >
             <div
               class="w-full h-full flex justify-center items-center absolute translate-y-0 group-hover:-translate-y-full transition-all opacity-100 group-hover:opacity-0 duration-700"
             >
-              <h5 class="max-sm:text-3xl">Sound Studios</h5>
+            <img src="images/ecomm4.png" alt="">
+
             </div>
 
             <div
@@ -324,7 +397,7 @@
                   <h5
                     class="max-sm:text-3xl text-primary dark:text-backgroundBody opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[240ms]"
                   >
-                    Sound Studios
+                    Molla
                   </h5>
                   <span
                     class="transition-all duration-1000 translate-x-20 group-hover:translate-x-0"
@@ -354,27 +427,151 @@
                 <p
                   class="text-backgroundBody/70 dark:text-backgroundBody/70 opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[340ms]"
                 >
-                  What specific research are you interested in? Research can
-                  range across a variety of fields such as:
+                 
                 </p>
                 <ul
-                  class="pl-4 mt-6 opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[440ms]"
+                class="pl-4 mt-6 opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[440ms]"
+              >
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                 >
-                  <li
-                    class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
-                  >
-                    Scientific research (e.g., medical, environmental,
-                    technological studies)
-                  </li>
-                  <li
-                    class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
-                  >
-                    Market research (consumer trends, competitor analysis)
-                  </li>
-                </ul>
+                  {{ __("ecom.ec_desc") }}
+                </li>
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                >
+                  {{ __("ecom.ec_point_1") }}
+                </li>
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                >
+                  {{ __("ecom.ec_point_2") }}
+                </li>
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                >
+                  {{ __("ecom.ec_point_3") }}
+                </li>
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                >
+                  {{ __("ecom.ec_point_4") }}
+                </li>
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                >
+                  {{ __("ecom.ec_point_5") }}
+                </li>
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                >
+                  {{ __("ecom.ec_point_6") }}
+                </li>
+                <li
+                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+                >
+                  {{ __("ecom.ec_point_7") }}
+                </li>
+              </ul>
               </a>
             </div>
           </div>
+
+
+
+          <div class="relative group overflow-hidden w-[360px] h-[500px] reveal-me " >
+          <div   class="w-full h-full flex justify-center items-center absolute translate-y-0 group-hover:-translate-y-full transition-all opacity-100 group-hover:opacity-0 duration-700" >
+          <img src="images/ecomm5.png" alt="">
+
+          </div>
+
+          <div
+            class="w-full h-full bg-secondary dark:bg-secondary p-8 absolute translate-y-full duration-700 transition-all group-hover:translate-y-0 group-hover:inset-0 z-10 border-t border-primary"
+          >
+            <a href="services-details.html">
+              <div class="mb-[55px] flex gap-1 items-center justify-between">
+                <h5
+                  class="max-sm:text-3xl text-primary dark:text-backgroundBody opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[240ms]"
+                >
+                  Pesco
+                </h5>
+                <span
+                  class="transition-all duration-1000 translate-x-20 group-hover:translate-x-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M5 16H27"
+                      class="stroke-primary dark:stroke-backgroundBody"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M18 7L27 16L18 25"
+                      class="stroke-primary dark:stroke-backgroundBody"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <p
+                class="text-backgroundBody/70 dark:text-backgroundBody/70 opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[340ms]"
+              >
+               
+              </p>
+              <ul
+              class="pl-4 mt-6 opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[440ms]"
+            >
+              <li
+                class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+              >
+                {{ __("ecom.ec_desc") }}
+              </li>
+              <li
+                class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+              >
+                {{ __("ecom.ec_point_1") }}
+              </li>
+              <li
+                class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+              >
+                {{ __("ecom.ec_point_2") }}
+              </li>
+              <li
+                class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+              >
+                {{ __("ecom.ec_point_3") }}
+              </li>
+              <li
+                class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+              >
+                {{ __("ecom.ec_point_4") }}
+              </li>
+              <li
+                class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+              >
+                {{ __("ecom.ec_point_5") }}
+              </li>
+              <li
+                class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+              >
+                {{ __("ecom.ec_point_6") }}
+              </li>
+              <li
+                class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
+              >
+                {{ __("ecom.ec_point_7") }}
+              </li>
+            </ul>
+            </a>
+          </div>
+        </div>
         </div>
       </section>
 
