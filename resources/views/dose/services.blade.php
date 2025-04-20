@@ -27,17 +27,15 @@
           <div class="text-center">
             <!-- Badge Component -->
             <div class="rv-badge mb-4 lg:mb-10">
-              <span class="rv-badge-text">Services</span>
+              <span class="rv-badge-text">{{ __('ecom.services') }}</span>
             </div>
 
             <!-- Hero Title -->
-            <h1 class="mb-5 lg:mb-8">Services</h1>
+            <h1 class="mb-5 lg:mb-8">{{ __('ecom.services') }}</h1>
 
             <!-- Hero Description -->
             <p class="max-md:max-w-[650px]">
-              Explore our innovative cutting-edge no-code websites designed to
-              captivate and engage your <br />
-              visitors effortlessly
+              {{ __('ecom.services_desc') }}
             </p>
           </div>
         </div>
@@ -48,21 +46,18 @@
           <div class="flex flex-wrap justify-center lg:justify-start items-start md:items-center gap-y-3 gap-x-10 mb-16 md:mb-20"  >
             <div class="flex-1">
               <div class="rv-badge reveal-me mb-3 md:mb-4">
-                <span class="rv-badge-text">Services</span>
+                <span class="rv-badge-text">{{ __('ecom.services') }}</span>
               </div>
 
               <h2 class="text-appear-2">
-                Elevating Your <br />
-                <span class="font-instrument italic">Digital</span> Presence
+              {{ __('ecom.services_title') }}
               </h2>
             </div>
             <div class="flex-1 max-md:w-full">
               <p
                 class="text-appear max-md:text-justify max-w-lg md:place-self-end md:text-right text-appear-2"
               >
-                We offer expert digital solutions to boost your brand and online
-                presence. Our services drive growth, engagement, and success in
-                the digital world.
+               {{ __('ecom.services_desc') }}
               </p>
 
               <ul
@@ -72,7 +67,7 @@
                   class="block md:inline-block w-full mx-auto md:w-auto text-center"
                 >
                   <a
-                    href="/contact.html"
+                    href="https://wa.me/201012620529" target="_blank"
                     class="rv-button rv-button-white block md:inline-block"
                   >
                     <div class="rv-button-top">
@@ -587,7 +582,7 @@
           <h3
             class="max-md:text-3xl md:text-6xl lg:text[56px] lg:leading-[1.2] lg:tracking-[-1.68px] text-center mb-14 md:mb-20 text-appear"
           >
-            How do we do it?
+            {{ __("ecom.how_we_do_it") }}
           </h3>
 
           <!-- Process Timeline Container -->
@@ -610,11 +605,10 @@
                 <h3
                   class="max-md:text-3xl md:text-[56PX] md:leading-[1.2] md:tracking-[-1.68px] mt-16 mb-5"
                 >
-                  Request
+                  {{ __("ecom.request") }}
                 </h3>
                 <p class="text-base leading-[1.4] tracking-[0.32px]">
-                  We mostly work on a fixed-bid basis for our projects, focusing
-                  on a select few clients at a time.
+                  {{ __("ecom.request_desc") }}.
                 </p>
               </div>
 
@@ -629,11 +623,10 @@
                 <h3
                   class="max-md:text-3xl md:text-[56PX] md:leading-[1.2] md:tracking-[-1.68px] mt-16 mb-5"
                 >
-                  Approve
+                  {{ __("ecom.approve") }}
                 </h3>
                 <p class="text-base leading-[1.4] tracking-[0.32px]">
-                  We mostly work on a fixed-bid basis for our projects, focusing
-                  on a select few clients at a time.
+                {{ __("ecom.approve_desc") }}.
                 </p>
               </div>
 
@@ -648,11 +641,10 @@
                 <h3
                   class="max-md:text-3xl md:text-[56PX] md:leading-[1.2] md:tracking-[-1.68px] mt-16 mb-5"
                 >
-                  Develop
+                {{ __("ecom.develop") }}
                 </h3>
                 <p class="text-base leading-[1.4] tracking-[0.32px]">
-                  We mostly work on a fixed-bid basis for our projects, focusing
-                  on a select few clients at a time.
+                  {{ __("ecom.develop_desc") }}.
                 </p>
               </div>
 
@@ -667,11 +659,10 @@
                 <h3
                   class="max-md:text-3xl md:text-[56PX] md:leading-[1.2] md:tracking-[-1.68px] mt-16 mb-5"
                 >
-                  Deliver
+                  {{ __("ecom.deliver") }}
                 </h3>
                 <p class="text-base leading-[1.4] tracking-[0.32px]">
-                  We mostly work on a fixed-bid basis for our projects, focusing
-                  on a select few clients at a time.
+                  {{ __("ecom.deliver_desc") }}.
                 </p>
               </div>
             </div>
@@ -721,7 +712,7 @@
               class="block md:inline-block w-full mx-auto md:w-auto text-center"
             >
               <a
-                href="/contact.html"
+                href="https://wa.me/201012620529" target="_blank"
                 class="rv-button rv-button-primary block md:inline-block"
               >
                 <div class="rv-button-top">
