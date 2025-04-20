@@ -54,94 +54,8 @@
                 <li
                     class="menu-list-item menu-list-item-anchor active">
                     <a
-                        href="#"
+                        href="{{ route('home') }}"
                         class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">Home</a>
-                    <ul
-                        class="menu-list-item-dropdown relative md:absolute top-0 w-full md:w-auto h-fit left-0 md:left-[48%]">
-                        <li>
-                            <a
-                                href="index.html"
-                                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Homepage 01 -
-                                <span class="font-instrument italic text-white">Design Agency</span></a>
-                        </li>
-                        <li>
-                            <a
-                                href="homepage-02.html"
-                                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Homepage 02 -
-                                <span class="font-instrument italic text-white">Digital Solutions Agency</span></a>
-                        </li>
-                        <li>
-                            <a
-                                href="homepage-03.html"
-                                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Homepage 03 -
-                                <span class="font-instrument italic text-white">Portfolio</span></a>
-                        </li>
-                        <li>
-                            <a
-                                href="homepage-04.html"
-                                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Homepage 04 -
-                                <span class="font-instrument italic text-white">Photography Studio</span></a>
-                        </li>
-
-                        <li>
-                            <a
-                                href="homepage-05.html"
-                                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Homepage 05 -
-                                <span class="font-instrument italic text-white">SEO Agency</span></a>
-                        </li>
-                        <li>
-                            <a
-                                href="homepage-06.html"
-                                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] active">Homepage 06 -
-                                <span class="font-instrument italic text-white">
-                                    Creative Agency</span></a>
-                        </li>
-                        <li>
-                            <a
-                                href="homepage-07.html"
-                                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Homepage 07 -
-                                <span class="font-instrument italic text-white">Design Studio</span></a>
-                        </li>
-                        <li>
-                            <a
-                                href="homepage-08.html"
-                                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Homepage 08 -
-                                <span class="font-instrument italic text-white">Business Solutions</span></a>
-                        </li>
-                        <li>
-                            <a
-                                href="homepage-09.html"
-                                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Homepage 09 -
-                                <span class="font-instrument italic text-white">Personal Branding
-                                </span></a>
-                        </li>
-                        <li>
-                            <a
-                                href="homepage-10.html"
-                                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Homepage 10 -
-                                <span class="font-instrument italic text-white">Full-Service Agency</span></a>
-                        </li>
-                    </ul>
-                </li>
-                <li
-                    class="menu-list-item menu-list-item-anchor ">
-                    <a
-                        href="#"
-                        class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">About</a>
-                    <ul
-                        class="menu-list-item-dropdown relative md:absolute top-0 w-full md:w-auto h-fit left-0 md:left-[48%]">
-                        <li>
-                            <a
-                                href="about.html"
-                                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">About
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="about-02.html"
-                                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">About 02</a>
-                        </li>
-                    </ul>
                 </li>
                 <li
                     class="menu-list-item menu-list-item-anchor w-full ">
@@ -152,80 +66,8 @@
                         class="menu-list-item-dropdown relative md:absolute top-0 w-full md:w-auto h-fit left-0 md:left-[48%]">
                         <li>
                             <a
-                                href="services.html"
+                                href="{{ route('services') }}"
                                 class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Services
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="services-details.html"
-                                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Services Details
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li
-                    class="menu-list-item menu-list-item-anchor w-full ">
-                    <a
-                        href="#"
-                        class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">Blog</a>
-                    <ul
-                        class="menu-list-item-dropdown relative md:absolute top-0 w-full md:w-auto h-fit left-0 md:left-[48%]">
-                        <li>
-                            <a
-                                href="blog.html"
-                                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Blog
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="blog-02.html"
-                                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Blog 02
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="blog-details.html"
-                                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Blog Details
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li
-                    class="menu-list-item menu-list-item-anchor w-full ">
-                    <a
-                        href="#"
-                        class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">Projects</a>
-                    <ul
-                        class="menu-list-item-dropdown relative md:absolute top-0 w-full md:w-auto h-fit left-0 md:left-[48%]">
-                        <li>
-                            <a
-                                href="project.html"
-                                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Project
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="project-02.html"
-                                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Project 02
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="project-03.html"
-                                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Project 03
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="project-details.html"
-                                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Project Details
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="project-details-02.html"
-                                class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Project Details 02
                             </a>
                         </li>
                     </ul>

@@ -84,4 +84,18 @@ return [
 
 
 
+
+
+//footer
+'reach_us' => 'Reach Us',
+'footer_title' => 'book a quick 15 min meeting where we discuss if our offer would work for your case.',
+'Schedule_a_Free_Meeting' => 'Schedule a Free Meeting',
+
+
+
+
+'send_us' => 'Send Us',
+
+
+
 ];

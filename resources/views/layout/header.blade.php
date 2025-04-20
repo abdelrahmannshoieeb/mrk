@@ -114,7 +114,7 @@
   </div>
   <nav class="z-[1000] w-full fixed px-5 sm:px-8 pt-1 sm:pt-5 nav-top">
     <div class="flex justify-between">
-      <a href="index.html">
+      <a href="{{ route('home') }}">
         <img
           class="max-h-[68px] w-auto inline-block dark:hidden"
           src="images/penta-d.png"

@@ -29,7 +29,7 @@
                         <!-- Primary CTA Button -->
                         <li class="block md:inline-block w-full text-center md:w-auto">
                             <a
-                                href="/contact.html"
+                                href="https://wa.me/201012620529"
                                 class="rv-button rv-button-sm rv-button-primary block md:inline-block">
                                 <div class="rv-button-top">
                                     <span> {{ __('index.contact') }}</span>
@@ -80,7 +80,7 @@ About Description Section Area
                 <!-- white  Button -->
                 <li class="block md:inline-block w-full mx-auto md:w-auto text-center">
                     <a
-                        href="/team.html"
+                        href="https://wa.me/201012620529"
                         class="rv-button rv-button-white block md:inline-block">
                         <div class="rv-button-top">
                             <span>{{ __('index.meet_the_team') }}</span>
@@ -273,7 +273,7 @@ About Description Section Area
                         <li
                             class="block md:inline-block w-full mx-auto md:w-auto text-center">
                             <a
-                                href="/blog-02.html"
+                                href="{{ route('services') }}"
                                 class="rv-button rv-button-white block md:inline-block">
                                 <div class="rv-button-top">
                                     <span>{{ __('index.see_all_services') }}</span>
@@ -290,7 +290,7 @@ About Description Section Area
             <div
                 class="grid grid-cols-1 md:grid-cols-2 justify-items-center items-center md:items-start gap-8 gap-y-12">
                 <div class="reveal-me underline-hover-effect group relative">
-                    <a href="blog-details.html">
+                    <a href="{{ route('services') }}">
                         <figure class="overflow-hidden">
                             <img
                                 src="images/blog-img/blog-img-13.png"
@@ -308,7 +308,7 @@ About Description Section Area
                             
                         </p>
                     </div>
-                    <a href="blog-details.html">
+                    <a href="{{ route('services') }}">
                         <div class="blog-title">
                             <h3
                                 class="text[25px] md:text-3xl lg:text-4xl lg:leading-[1.2] lg:tracking-[-0.72px]">
@@ -319,7 +319,7 @@ About Description Section Area
                     <div class="border-b dark:border-dark mt-6"></div>
 
                     <!-- Blog Hover Button -->
-                    <a href="blog-details.html">
+                    <a href="{{ route('services') }}">
                         <div
                             class="uppercase absolute top-1/2 left-1/2 -translate-x-[90%] translate-y-[35%] group-hover:translate-x-[-50%] group-hover:translate-y-[-50%] transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 flex justify-center items-center gap-1 bg-primary px-8 py-6 w-[136px] h-[74px] scale-95 group-hover:scale-100">
                             <span class="text-secondary">{{ __('index.view') }}</span>
@@ -331,7 +331,7 @@ About Description Section Area
                 </div>
 
                 <div class="reveal-me underline-hover-effect group relative">
-                    <a href="blog-details.html">
+                    <a href="{{ route('services') }}">
                         <figure class="overflow-hidden">
                             <img
                                 src="images/blog-img/blog-img-14.png"
@@ -349,7 +349,7 @@ About Description Section Area
                         
                         </p>
                     </div>
-                    <a href="blog-details.html">
+                    <a href="{{ route('services') }}">
                         <div class="blog-title">
                             <h3
                                 class="text[25px] md:text-3xl lg:text-4xl lg:leading-[1.2] lg:tracking-[-0.72px]">
@@ -359,7 +359,7 @@ About Description Section Area
                     </a>
                     <div class="border-b dark:border-dark mt-6"></div>
                     <!-- Blog Hover Button -->
-                    <a href="blog-details.html">
+                    <a href="{{ route('services') }}">
                         <div
                             class="uppercase absolute top-1/2 left-1/2 -translate-x-[90%] translate-y-[35%] group-hover:translate-x-[-50%] group-hover:translate-y-[-50%] transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 flex justify-center items-center gap-1 bg-primary px-8 py-6 w-[136px] h-[74px] scale-95 group-hover:scale-100">
                             <span class="text-secondary">{{ __('index.view') }}</span>
@@ -370,7 +370,7 @@ About Description Section Area
                     </a>
                 </div>
                 <div class="reveal-me underline-hover-effect group relative">
-                    <a href="blog-details.html">
+                    <a href="{{ route('services') }}">
                         <figure class="overflow-hidden">
                             <img
                                 src="images/blog-img/blog-img-15.png"
@@ -388,7 +388,7 @@ About Description Section Area
                             
                         </p>
                     </div>
-                    <a href="blog-details.html">
+                    <a href="{{ route('services') }}">
                         <div class="blog-title">
                             <h3
                                 class="text[25px] md:text-3xl lg:text-4xl lg:leading-[1.2] lg:tracking-[-0.72px]">
@@ -398,7 +398,7 @@ About Description Section Area
                     </a>
                     <div class="border-b dark:border-dark mt-6"></div>
                     <!-- Blog Hover Button -->
-                    <a href="blog-details.html">
+                    <a href="{{ route('services') }}">
                         <div
                             class="uppercase absolute top-1/2 left-1/2 -translate-x-[90%] translate-y-[35%] group-hover:translate-x-[-50%] group-hover:translate-y-[-50%] transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 flex justify-center items-center gap-1 bg-primary px-8 py-6 w-[136px] h-[74px] scale-95 group-hover:scale-100">
                             <span class="text-secondary">{{ __('index.view') }}</span>
@@ -409,7 +409,7 @@ About Description Section Area
                     </a>
                 </div>
                 <div class="reveal-me underline-hover-effect group relative">
-                    <a href="blog-details.html">
+                    <a href="{{ route ('services') }}">
                         <figure class="overflow-hidden">
                             <img
                                 src="images/blog-img/blog-img-16.png"
@@ -427,7 +427,7 @@ About Description Section Area
                             
                         </p>
                     </div>
-                    <a href="blog-details.html">
+                    <a href="{{ route ('services') }}">
                         <div class="blog-title">
                             <h3
                                 class="text[25px] md:text-3xl lg:text-4xl lg:leading-[1.2] lg:tracking-[-0.72px]">
@@ -437,7 +437,7 @@ About Description Section Area
                     </a>
                     <div class="border-b dark:border-dark mt-6"></div>
                     <!-- Blog Hover Button -->
-                    <a href="blog-details.html">
+                    <a href="{{ route ('services') }}">
                         <div
                             class="uppercase absolute top-1/2 left-1/2 -translate-x-[90%] translate-y-[35%] group-hover:translate-x-[-50%] group-hover:translate-y-[-50%] transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 flex justify-center items-center gap-1 bg-primary px-8 py-6 w-[136px] h-[74px] scale-95 group-hover:scale-100">
                             <span class="text-secondary">{{ __('index.view') }}</span>
@@ -494,7 +494,7 @@ About Description Section Area
         <div
             class="max-w-[1170px] px-5 sm:px-10 lg:px-12 xl:px-0 w-full mx-auto reveal-me">
             <!--  -->
-            <a href="services-details.html" class="block">
+            <a href="{{ route ('services') }}" class="block">
                 <div
                     class="bg-backgroundBody dark:bg-dark border-t border-x dark:border-dark group relative overflow-hidden">
                     <div
@@ -543,7 +543,7 @@ About Description Section Area
                     </div>
                 </div>
             </a>
-            <a href="services-details.html" class="block">
+            <a href="{{ route ('services') }}" class="block">
                 <div
                     class="bg-backgroundBody dark:bg-dark border-t border-x dark:border-dark group relative overflow-hidden">
                     <div
@@ -592,7 +592,7 @@ About Description Section Area
                     </div>
                 </div>
             </a>
-            <a href="services-details.html" class="block">
+            <a href="{{ route ('services') }}" class="block">
                 <div
                     class="bg-backgroundBody dark:bg-dark border-t border-x dark:border-dark group relative overflow-hidden">
                     <div
@@ -641,7 +641,7 @@ About Description Section Area
                     </div>
                 </div>
             </a>
-            <a href="services-details.html" class="block">
+            <a href="{{ route ('services') }}" class="block">
                 <div
                     class="bg-backgroundBody dark:bg-dark border-t border-x dark:border-dark group relative overflow-hidden">
                     <div
@@ -690,7 +690,7 @@ About Description Section Area
                     </div>
                 </div>
             </a>
-            <a href="services-details.html" class="block">
+            <a href="{{ route ('services') }}" class="block">
                 <div
                     class="bg-backgroundBody dark:bg-dark border-t border-x dark:border-dark group relative overflow-hidden">
                     <div
@@ -739,7 +739,7 @@ About Description Section Area
                     </div>
                 </div>
             </a>
-            <a href="services-details.html" class="block">
+            <a href="{{ route ('services') }}" class="block">
                 <div
                     class="bg-backgroundBody dark:bg-dark border-t border-x dark:border-dark group relative overflow-hidden">
                     <div
@@ -788,7 +788,7 @@ About Description Section Area
                     </div>
                 </div>
             </a>
-            <a href="services-details.html" class="block">
+            <a href="{{ route ('services') }}" class="block">
                 <div
                     class="bg-backgroundBody dark:bg-dark border-t border-x dark:border-dark group relative overflow-hidden">
                     <div
@@ -837,7 +837,7 @@ About Description Section Area
                     </div>
                 </div>
             </a>
-            <a href="services-details.html" class="block">
+            <a href="{{ route ('services') }}" class="block">
                 <div
                     class="bg-backgroundBody dark:bg-dark border-t border-x dark:border-dark group relative overflow-hidden">
                     <div
@@ -983,145 +983,22 @@ CTA Section
 
             <!-- Contact Form -->
             <form
+            style="display: "
                 class="grid grid-cols-1 md:grid-cols-2 gap-[30px] max-w-[800px] mt-20 mx-auto reveal-me">
                 <!-- Your Data Field -->
-                <div class="md:col-span-full">
-                    <label
-                        for="name"
-                        class="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
-                        Your Data
-                    </label>
-                    <input
-                        type="text"
-                        name="name"
-                        placeholder="Name*"
-                        class="py-4 pl-5 bg-backgroundBody dark:bg-dark focus:outline-none focus:border-primary border dark:border-dark w-full text-colorText text-xl leading-[1.4] tracking-[0.4px] mt-3" />
-                </div>
-
-                <div class="md:col-span-full">
-                    <label
-                        class="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
-                        You are interested in
-                    </label>
-
-                    <div class="flex flex-wrap gap-6 mt-3">
-                        <div class="checkbox-wrapper">
-                            <input
-                                type="checkbox"
-                                id="uiux"
-                                name="interest"
-                                value="UI/UX Design"
-                                class="hidden" />
-                            <label for="uiux" class="interest-btn">UI/UX Design</label>
-                        </div>
-                        <div class="checkbox-wrapper">
-                            <input
-                                type="checkbox"
-                                id="webdesign"
-                                name="interest"
-                                value="Web Design"
-                                class="hidden" />
-                            <label for="webdesign" class="interest-btn">Web Design</label>
-                        </div>
-                        <div class="checkbox-wrapper">
-                            <input
-                                type="checkbox"
-                                id="webdev"
-                                name="interest"
-                                value="Web Development"
-                                class="hidden" />
-                            <label for="webdev" class="interest-btn">Web Development</label>
-                        </div>
-                        <div class="checkbox-wrapper">
-                            <input
-                                type="checkbox"
-                                id="website"
-                                name="interest"
-                                value="Website Creation"
-                                class="hidden" />
-                            <label for="website" class="interest-btn">Website Creation</label>
-                        </div>
-                        <div class="checkbox-wrapper">
-                            <input
-                                type="checkbox"
-                                id="animation"
-                                name="interest"
-                                value="Animation"
-                                class="hidden" />
-                            <label for="animation" class="interest-btn">Animation</label>
-                        </div>
-                        <div class="checkbox-wrapper">
-                            <input
-                                type="checkbox"
-                                id="others"
-                                name="interest"
-                                value="Others"
-                                class="hidden" />
-                            <label for="others" class="interest-btn">Others</label>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="md:col-span-full">
-                    <label
-                        class="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
-                        Budget in USD:
-                    </label>
-
-                    <div class="flex flex-wrap gap-6 mt-3">
-                        <div class="radio-wrapper">
-                            <input
-                                type="radio"
-                                id="budget1"
-                                name="budget"
-                                value="$2k-4k"
-                                class="hidden" />
-                            <label for="budget1" class="interest-btn">$2k-4k</label>
-                        </div>
-                        <div class="radio-wrapper">
-                            <input
-                                type="radio"
-                                id="budget2"
-                                name="budget"
-                                value="$4k-6k"
-                                class="hidden" />
-                            <label for="budget2" class="interest-btn">$4k-6k</label>
-                        </div>
-                        <div class="radio-wrapper">
-                            <input
-                                type="radio"
-                                id="budget3"
-                                name="budget"
-                                value="$6k-8k"
-                                class="hidden" />
-                            <label for="budget3" class="interest-btn">$6k-8k</label>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="md:col-span-full">
-                    <label
-                        for="Message"
-                        class="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
-                        Project Details
-                    </label>
-                    <textarea
-                        name="Message"
-                        placeholder="Tell us about your project goals and timeline"
-                        class="py-4 pl-5 min-h-44 bg-backgroundBody dark:bg-dark focus:outline-none focus:border-primary border dark:border-dark w-full text-colorText text-xl leading-[1.4] tracking-[0.4px] mt-3"></textarea>
-                </div>
+               
 
                 <!-- Submit Button -->
 
                 <a
-                    href="#"
+                    href="https://wa.me/201012620529"
                     class="rv-button rv-button-secondary !w-full col-span-full"
                     type="submit">
                     <div class="rv-button-top !w-full !text-center">
-                        <span class="!font-normal"> Submit Message</span>
+                        <span class="!font-normal"> {{ __('index.send_us') }}</span>
                     </div>
                     <div class="rv-button-bottom !w-full !text-center">
-                        <span class="!font-normal"> Submit Message</span>
+                        <span class="!font-normal"> {{ __('index.send_us') }}</span>
                     </div>
                 </a>
             </form>

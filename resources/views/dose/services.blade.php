@@ -102,7 +102,7 @@
             <div
               class="w-full h-full flex justify-center items-center absolute translate-y-0 group-hover:-translate-y-full transition-all opacity-100 group-hover:opacity-0 duration-700"
             >
-              <h5 class="max-sm:text-3xl">Research</h5>
+              <img src="images/ecomm1.png" alt="">
             </div>
 
             <div
