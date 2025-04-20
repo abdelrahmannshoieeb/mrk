@@ -100,7 +100,7 @@
             <div
               class="w-full h-full bg-secondary dark:bg-secondary p-8 absolute translate-y-full duration-700 transition-all group-hover:translate-y-0 group-hover:inset-0 z-10 border-t border-primary"
             >
-              <a href="services-details.html">
+              <a href="https://modave.zsoftware.host/" target="_blank">
                 <div class="mb-[55px] flex gap-1 items-center justify-between">
                   <h5
                     class="max-sm:text-3xl text-primary dark:text-backgroundBody opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[240ms]"
@@ -196,7 +196,8 @@
             <div
               class="w-full h-full bg-secondary dark:bg-secondary p-8 absolute translate-y-full duration-700 transition-all group-hover:translate-y-0 group-hover:inset-0 z-10 border-t border-primary"
             >
-              <a href="services-details.html">
+            <a href="https://temp4elctro.zsoftware.host/" target="_blank">
+
                 <div class="mb-[55px] flex gap-1 items-center justify-between">
                   <h5
                     class="max-sm:text-3xl text-primary dark:text-backgroundBody opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[240ms]"
@@ -293,8 +294,8 @@
             <div
               class="w-full h-full bg-secondary dark:bg-secondary p-8 absolute translate-y-full duration-700 transition-all group-hover:translate-y-0 group-hover:inset-0 z-10 border-t border-primary"
             >
-              <a href="services-details.html">
-                <div class="mb-[55px] flex gap-1 items-center justify-between">
+            <a href="https://temp3.zsoftware.host/" target="_blank">
+              <div class="mb-[55px] flex gap-1 items-center justify-between">
                   <h5
                     class="max-sm:text-3xl text-primary dark:text-backgroundBody opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[240ms]"
                   >
@@ -392,8 +393,8 @@
             <div
               class="w-full h-full bg-secondary dark:bg-secondary p-8 absolute translate-y-full duration-700 transition-all group-hover:translate-y-0 group-hover:inset-0 z-10 border-t border-primary"
             >
-              <a href="services-details.html">
-                <div class="mb-[55px] flex gap-1 items-center justify-between">
+            <a href="https://temp2.zsoftware.host/" target="_blank">
+              <div class="mb-[55px] flex gap-1 items-center justify-between">
                   <h5
                     class="max-sm:text-3xl text-primary dark:text-backgroundBody opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[240ms]"
                   >
@@ -488,8 +489,8 @@
           <div
             class="w-full h-full bg-secondary dark:bg-secondary p-8 absolute translate-y-full duration-700 transition-all group-hover:translate-y-0 group-hover:inset-0 z-10 border-t border-primary"
           >
-            <a href="services-details.html">
-              <div class="mb-[55px] flex gap-1 items-center justify-between">
+          <a href="https://temp1.zsoftware.host/" target="_blank">
+            <div class="mb-[55px] flex gap-1 items-center justify-between">
                 <h5
                   class="max-sm:text-3xl text-primary dark:text-backgroundBody opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[240ms]"
                 >
