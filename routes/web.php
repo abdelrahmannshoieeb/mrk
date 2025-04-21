@@ -19,5 +19,4 @@ Route::view('/services', 'dose.services')->name('services');
 Route::view('/serviceDetails', 'dose.serviceDetails')->name('serviceDetails');
 Route::view('/project', 'dose.project')->name('project');
 Route::view('/projectDetails', 'dose.projectDetails')->name('projectDetails');
-Route::view('/gallery', 'dose.gallary')->name('gallery');
  
