@@ -1,7 +1,7 @@
 <?php
 return [
 
-    'welcome' => 'مرحبا',
+    'welcome' => 'ssssssss',
     'slogan' => 'تسجيل الدخول',
     'contact' => 'تواصل معنا',
     'Who_We_Are' => 'من نحن',
