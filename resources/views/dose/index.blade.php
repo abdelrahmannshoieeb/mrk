@@ -273,7 +273,7 @@ About Description Section Area
                         <li
                             class="block md:inline-block w-full mx-auto md:w-auto text-center">
                             <a
-                                href="{{ route('services') }}"
+                                href="{{ route('ecom') }}"
                                 class="rv-button rv-button-white block md:inline-block">
                                 <div class="rv-button-top">
                                     <span>{{ __('index.see_all_services') }}</span>
@@ -290,7 +290,7 @@ About Description Section Area
             <div
                 class="grid grid-cols-1 md:grid-cols-2 justify-items-center items-center md:items-start gap-8 gap-y-12">
                 <div class="reveal-me underline-hover-effect group relative">
-                    <a href="{{ route('services') }}">
+                    <a href="{{ route('ecom') }}">
                         <figure class="overflow-hidden">
                             <img
                                 src="images/blog-img/blog-img-13.png"
@@ -308,7 +308,7 @@ About Description Section Area
                             
                         </p>
                     </div>
-                    <a href="{{ route('services') }}">
+                    <a href="{{ route('ecom') }}">
                         <div class="blog-title">
                             <h3
                                 class="text[25px] md:text-3xl lg:text-4xl lg:leading-[1.2] lg:tracking-[-0.72px]">
@@ -319,7 +319,7 @@ About Description Section Area
                     <div class="border-b dark:border-dark mt-6"></div>
 
                     <!-- Blog Hover Button -->
-                    <a href="{{ route('services') }}">
+                    <a href="{{ route('ecom') }}">
                         <div
                             class="uppercase absolute top-1/2 left-1/2 -translate-x-[90%] translate-y-[35%] group-hover:translate-x-[-50%] group-hover:translate-y-[-50%] transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 flex justify-center items-center gap-1 bg-primary px-8 py-6 w-[136px] h-[74px] scale-95 group-hover:scale-100">
                             <span class="text-secondary">{{ __('index.view') }}</span>
@@ -331,7 +331,7 @@ About Description Section Area
                 </div>
 
                 <div class="reveal-me underline-hover-effect group relative">
-                    <a href="{{ route('services') }}">
+                    <a href="{{ route('ecom') }}">
                         <figure class="overflow-hidden">
                             <img
                                 src="images/blog-img/blog-img-14.png"
@@ -349,7 +349,7 @@ About Description Section Area
                         
                         </p>
                     </div>
-                    <a href="{{ route('services') }}">
+                    <a href="{{ route('ecom') }}">
                         <div class="blog-title">
                             <h3
                                 class="text[25px] md:text-3xl lg:text-4xl lg:leading-[1.2] lg:tracking-[-0.72px]">
@@ -359,7 +359,7 @@ About Description Section Area
                     </a>
                     <div class="border-b dark:border-dark mt-6"></div>
                     <!-- Blog Hover Button -->
-                    <a href="{{ route('services') }}">
+                    <a href="{{ route('ecom') }}">
                         <div
                             class="uppercase absolute top-1/2 left-1/2 -translate-x-[90%] translate-y-[35%] group-hover:translate-x-[-50%] group-hover:translate-y-[-50%] transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 flex justify-center items-center gap-1 bg-primary px-8 py-6 w-[136px] h-[74px] scale-95 group-hover:scale-100">
                             <span class="text-secondary">{{ __('index.view') }}</span>
@@ -370,7 +370,7 @@ About Description Section Area
                     </a>
                 </div>
                 <div class="reveal-me underline-hover-effect group relative">
-                    <a href="{{ route('services') }}">
+                    <a href="{{ route('ecom') }}">
                         <figure class="overflow-hidden">
                             <img
                                 src="images/blog-img/blog-img-15.png"
@@ -388,7 +388,7 @@ About Description Section Area
                             
                         </p>
                     </div>
-                    <a href="{{ route('services') }}">
+                    <a href="{{ route('ecom') }}">
                         <div class="blog-title">
                             <h3
                                 class="text[25px] md:text-3xl lg:text-4xl lg:leading-[1.2] lg:tracking-[-0.72px]">
@@ -398,7 +398,7 @@ About Description Section Area
                     </a>
                     <div class="border-b dark:border-dark mt-6"></div>
                     <!-- Blog Hover Button -->
-                    <a href="{{ route('services') }}">
+                    <a href="{{ route('ecom') }}">
                         <div
                             class="uppercase absolute top-1/2 left-1/2 -translate-x-[90%] translate-y-[35%] group-hover:translate-x-[-50%] group-hover:translate-y-[-50%] transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 flex justify-center items-center gap-1 bg-primary px-8 py-6 w-[136px] h-[74px] scale-95 group-hover:scale-100">
                             <span class="text-secondary">{{ __('index.view') }}</span>
@@ -409,7 +409,7 @@ About Description Section Area
                     </a>
                 </div>
                 <div class="reveal-me underline-hover-effect group relative">
-                    <a href="{{ route ('services') }}">
+                    <a href="{{ route ('ecom') }}">
                         <figure class="overflow-hidden">
                             <img
                                 src="images/blog-img/blog-img-16.png"
@@ -427,7 +427,7 @@ About Description Section Area
                             
                         </p>
                     </div>
-                    <a href="{{ route ('services') }}">
+                    <a href="{{ route ('ecom') }}">
                         <div class="blog-title">
                             <h3
                                 class="text[25px] md:text-3xl lg:text-4xl lg:leading-[1.2] lg:tracking-[-0.72px]">
@@ -437,7 +437,7 @@ About Description Section Area
                     </a>
                     <div class="border-b dark:border-dark mt-6"></div>
                     <!-- Blog Hover Button -->
-                    <a href="{{ route ('services') }}">
+                    <a href="{{ route ('ecom') }}">
                         <div
                             class="uppercase absolute top-1/2 left-1/2 -translate-x-[90%] translate-y-[35%] group-hover:translate-x-[-50%] group-hover:translate-y-[-50%] transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 flex justify-center items-center gap-1 bg-primary px-8 py-6 w-[136px] h-[74px] scale-95 group-hover:scale-100">
                             <span class="text-secondary">{{ __('index.view') }}</span>
@@ -494,7 +494,7 @@ About Description Section Area
         <div
             class="max-w-[1170px] px-5 sm:px-10 lg:px-12 xl:px-0 w-full mx-auto reveal-me">
             <!--  -->
-            <a href="{{ route ('services') }}" class="block">
+            <a href="{{ route ('ecom') }}" class="block">
                 <div
                     class="bg-backgroundBody dark:bg-dark border-t border-x dark:border-dark group relative overflow-hidden">
                     <div
@@ -543,7 +543,7 @@ About Description Section Area
                     </div>
                 </div>
             </a>
-            <a href="{{ route ('services') }}" class="block">
+            <a href="{{ route ('ecom') }}" class="block">
                 <div
                     class="bg-backgroundBody dark:bg-dark border-t border-x dark:border-dark group relative overflow-hidden">
                     <div
@@ -592,7 +592,7 @@ About Description Section Area
                     </div>
                 </div>
             </a>
-            <a href="{{ route ('services') }}" class="block">
+            <a href="{{ route ('ecom') }}" class="block">
                 <div
                     class="bg-backgroundBody dark:bg-dark border-t border-x dark:border-dark group relative overflow-hidden">
                     <div
@@ -641,7 +641,7 @@ About Description Section Area
                     </div>
                 </div>
             </a>
-            <a href="{{ route ('services') }}" class="block">
+            <a href="{{ route ('ecom') }}" class="block">
                 <div
                     class="bg-backgroundBody dark:bg-dark border-t border-x dark:border-dark group relative overflow-hidden">
                     <div
@@ -690,7 +690,7 @@ About Description Section Area
                     </div>
                 </div>
             </a>
-            <a href="{{ route ('services') }}" class="block">
+            <a href="{{ route ('ecom') }}" class="block">
                 <div
                     class="bg-backgroundBody dark:bg-dark border-t border-x dark:border-dark group relative overflow-hidden">
                     <div
@@ -739,7 +739,7 @@ About Description Section Area
                     </div>
                 </div>
             </a>
-            <a href="{{ route ('services') }}" class="block">
+            <a href="{{ route ('ecom') }}" class="block">
                 <div
                     class="bg-backgroundBody dark:bg-dark border-t border-x dark:border-dark group relative overflow-hidden">
                     <div
@@ -788,7 +788,7 @@ About Description Section Area
                     </div>
                 </div>
             </a>
-            <a href="{{ route ('services') }}" class="block">
+            <a href="{{ route ('ecom') }}" class="block">
                 <div
                     class="bg-backgroundBody dark:bg-dark border-t border-x dark:border-dark group relative overflow-hidden">
                     <div
@@ -837,7 +837,7 @@ About Description Section Area
                     </div>
                 </div>
             </a>
-            <a href="{{ route ('services') }}" class="block">
+            <a href="{{ route ('ecom') }}" class="block">
                 <div
                     class="bg-backgroundBody dark:bg-dark border-t border-x dark:border-dark group relative overflow-hidden">
                     <div

@@ -67,7 +67,7 @@
           </li>
           <li class="mb-4">
             <a
-              href="{{ route('services') }}"
+              href="{{ route('ecom') }}"
               class="block text-white transition-colors duration-300 font-semibold hover:text-primary"
               >Services</a
             >
