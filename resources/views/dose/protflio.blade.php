@@ -191,7 +191,7 @@
             <div
               class="w-full h-full bg-secondary dark:bg-secondary p-8 absolute translate-y-full duration-700 transition-all group-hover:translate-y-0 group-hover:inset-0 z-10 border-t border-primary"
             >
-            <a href="https://temp4elctro.zsoftware.host/" target="_blank">
+            <a href="http://pentaportiflio.zsoftware.host/" target="_blank">
 
                 <div class="mb-[55px] flex gap-1 items-center justify-between">
                   <h5
@@ -282,7 +282,7 @@
             <div
               class="w-full h-full flex justify-center items-center absolute translate-y-0 group-hover:-translate-y-full transition-all opacity-100 group-hover:opacity-0 duration-700"
             >
-            <img src="images/prom3.png" alt="">
+            <img src="images/portfolio3.png" alt="">
 
             </div>
 
@@ -294,7 +294,7 @@
                   <h5
                     class="max-sm:text-3xl text-primary dark:text-backgroundBody opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[240ms]"
                   >
-                  Toner
+                  Gerlod 10 themes
                   </h5>
                   <span
                     class="transition-all duration-1000 translate-x-20 group-hover:translate-x-0"
