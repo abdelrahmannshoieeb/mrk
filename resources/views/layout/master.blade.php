@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Rivor | Creative Agency Template</title>
+    <title>Marketing dose </title>
 
     <!--Meta For No Index-->
-    <meta name="robots" content="noindex, Nofollow, Noimageindex">
+    <meta name="robots" content="n">
 
     <html lang="{{ app()->getLocale() }}" dir="{{ app()->getLocale() == 'ar' ? 'rtl' : 'ltr' }}">
     <!-- mobile responsive meta -->
