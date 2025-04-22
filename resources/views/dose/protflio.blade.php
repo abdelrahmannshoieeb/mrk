@@ -27,15 +27,15 @@
           <div class="text-center">
             <!-- Badge Component -->
             <div class="rv-badge mb-4 lg:mb-10">
-              <span class="rv-badge-text">{{ __('ecom.services') }}</span>
+              <span class="rv-badge-text">{{ __('pro.portfolio') }}</span>
             </div>
 
             <!-- Hero Title -->
-            <h1 class="mb-5 lg:mb-8">{{ __('ecom.services') }}</h1>
+            <h1 class="mb-5 lg:mb-8">{{ __('pro.portfolio') }}</h1>
 
             <!-- Hero Description -->
             <p class="max-md:max-w-[650px]">
-              {{ __('ecom.services_desc') }}
+              {{ __('pro.portfolio_desc') }}
             </p>
           </div>
         </div>
@@ -46,18 +46,18 @@
           <div class="flex flex-wrap justify-center lg:justify-start items-start md:items-center gap-y-3 gap-x-10 mb-16 md:mb-20"  >
             <div class="flex-1">
               <div class="rv-badge reveal-me mb-3 md:mb-4">
-                <span class="rv-badge-text">{{ __('ecom.services') }}</span>
+                <span class="rv-badge-text">{{ __('pro.portfolio') }}</span>
               </div>
 
               <h2 class="text-appear-2">
-              {{ __('ecom.services_title') }}
+              {{ __('pro.portfolio_desc') }}
               </h2>
             </div>
             <div class="flex-1 max-md:w-full">
               <p
                 class="text-appear max-md:text-justify max-w-lg md:place-self-end md:text-right text-appear-2"
               >
-               {{ __('ecom.services_desc') }}
+               {{ __('pro.portfolio_desc') }}
               </p>
 
               <ul
@@ -89,18 +89,18 @@
             <div
               class="w-full h-full flex justify-center items-center absolute translate-y-0 group-hover:-translate-y-full transition-all opacity-100 group-hover:opacity-0 duration-700"
             >
-              <img src="images/ecomm1.png" alt="">
+              <img src="images/portfolio1.png" alt="">
             </div>
 
             <div
               class="w-full h-full bg-secondary dark:bg-secondary p-8 absolute translate-y-full duration-700 transition-all group-hover:translate-y-0 group-hover:inset-0 z-10 border-t border-primary"
             >
-              <a href="https://modave.zsoftware.host/" target="_blank">
+              <a href="https://portfoliotemp1.zsoftware.host/" target="_blank">
                 <div class="mb-[55px] flex gap-1 items-center justify-between">
                   <h5
                     class="max-sm:text-3xl text-primary dark:text-backgroundBody opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[240ms]"
                   >
-                    Modave Ecommerce
+                    Gridx premium
                   </h5>
                   <span
                     class="transition-all duration-1000 translate-x-20 group-hover:translate-x-0"
@@ -138,42 +138,42 @@
                   <li
                     class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                   >
-                    {{ __("ecom.ec_desc") }}
+                    {{ __("pro.pf_desc") }}
                   </li>
                   <li
                     class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                   >
-                    {{ __("ecom.ec_point_1") }}
+                    {{ __("pro.pf_point_1") }}
                   </li>
                   <li
                     class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                   >
-                    {{ __("ecom.ec_point_2") }}
+                    {{ __("pro.pf_point_2") }}
                   </li>
                   <li
                     class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                   >
-                    {{ __("ecom.ec_point_3") }}
+                    {{ __("pro.pf_point_3") }}
                   </li>
                   <li
                     class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                   >
-                    {{ __("ecom.ec_point_4") }}
+                    {{ __("pro.pf_point_4") }}
                   </li>
                   <li
                     class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                   >
-                    {{ __("ecom.ec_point_5") }}
+                    {{ __("pro.pf_point_5") }}
                   </li>
                   <li
                     class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                   >
-                    {{ __("ecom.ec_point_6") }}
+                    {{ __("pro.pf_point_6") }}
                   </li>
                   <li
                     class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                   >
-                    {{ __("ecom.ec_point_7") }}
+                    {{ __("pro.pf_point_7") }}
                   </li>
                 </ul>
               </a>
@@ -185,7 +185,7 @@
             <div
               class="w-full h-full flex justify-center items-center absolute translate-y-0 group-hover:-translate-y-full transition-all opacity-100 group-hover:opacity-0 duration-700"
             >
-            <img src="images/ecomm2.png" alt="">
+            <img src="images/portfolio2.png" alt="">
             </div>
 
             <div
@@ -197,7 +197,7 @@
                   <h5
                     class="max-sm:text-3xl text-primary dark:text-backgroundBody opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[240ms]"
                   >
-                   Shofy
+                   Penta portfolio +20 template
                   </h5>
                   <span
                     class="transition-all duration-1000 translate-x-20 group-hover:translate-x-0"
@@ -235,42 +235,42 @@
                 <li
                   class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                 >
-                  {{ __("ecom.ec_desc") }}
+                  {{ __("pro.pf_desc") }}
                 </li>
                 <li
                   class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                 >
-                  {{ __("ecom.ec_point_1") }}
+                  {{ __("pro.pf_point_1") }}
                 </li>
                 <li
                   class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                 >
-                  {{ __("ecom.ec_point_2") }}
+                  {{ __("pro.pf_point_2") }}
                 </li>
                 <li
                   class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                 >
-                  {{ __("ecom.ec_point_3") }}
+                  {{ __("pro.pf_point_3") }}
                 </li>
                 <li
                   class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                 >
-                  {{ __("ecom.ec_point_4") }}
+                  {{ __("pro.pf_point_4") }}
                 </li>
                 <li
                   class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                 >
-                  {{ __("ecom.ec_point_5") }}
+                  {{ __("pro.pf_point_5") }}
                 </li>
                 <li
                   class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                 >
-                  {{ __("ecom.ec_point_6") }}
+                  {{ __("pro.pf_point_6") }}
                 </li>
                 <li
                   class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                 >
-                  {{ __("ecom.ec_point_7") }}
+                  {{ __("pro.pf_point_7") }}
                 </li>
               </ul>
               </a>
@@ -282,7 +282,7 @@
             <div
               class="w-full h-full flex justify-center items-center absolute translate-y-0 group-hover:-translate-y-full transition-all opacity-100 group-hover:opacity-0 duration-700"
             >
-            <img src="images/ecomm3.png" alt="">
+            <img src="images/prom3.png" alt="">
 
             </div>
 
@@ -332,42 +332,42 @@
                 <li
                   class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                 >
-                  {{ __("ecom.ec_desc") }}
+                  {{ __("pro.pf_desc") }}
                 </li>
                 <li
                   class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                 >
-                  {{ __("ecom.ec_point_1") }}
+                  {{ __("pro.pf_point_1") }}
                 </li>
                 <li
                   class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                 >
-                  {{ __("ecom.ec_point_2") }}
+                  {{ __("pro.pf_point_2") }}
                 </li>
                 <li
                   class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                 >
-                  {{ __("ecom.ec_point_3") }}
+                  {{ __("pro.pf_point_3") }}
                 </li>
                 <li
                   class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                 >
-                  {{ __("ecom.ec_point_4") }}
+                  {{ __("pro.pf_point_4") }}
                 </li>
                 <li
                   class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                 >
-                  {{ __("ecom.ec_point_5") }}
+                  {{ __("pro.pf_point_5") }}
                 </li>
                 <li
                   class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                 >
-                  {{ __("ecom.ec_point_6") }}
+                  {{ __("pro.pf_point_6") }}
                 </li>
                 <li
                   class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
                 >
-                  {{ __("ecom.ec_point_7") }}
+                  {{ __("pro.pf_point_7") }}
                 </li>
               </ul>
               </a>
@@ -377,196 +377,7 @@
           
           <!-- Sound Studios  Card -->
 
-          <div class="relative group overflow-hidden w-[360px] h-[500px] reveal-me mb-4" >
-            <div
-              class="w-full h-full flex justify-center items-center absolute translate-y-0 group-hover:-translate-y-full transition-all opacity-100 group-hover:opacity-0 duration-700"
-            >
-            <img src="images/ecomm4.png" alt="">
-
-            </div>
-
-            <div
-              class="w-full h-full bg-secondary dark:bg-secondary p-8 absolute translate-y-full duration-700 transition-all group-hover:translate-y-0 group-hover:inset-0 z-10 border-t border-primary"
-            >
-            <a href="https://temp2.zsoftware.host/" target="_blank">
-              <div class="mb-[55px] flex gap-1 items-center justify-between">
-                  <h5
-                    class="max-sm:text-3xl text-primary dark:text-backgroundBody opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[240ms]"
-                  >
-                    Molla
-                  </h5>
-                  <span
-                    class="transition-all duration-1000 translate-x-20 group-hover:translate-x-0"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="32"
-                      height="32"
-                      viewBox="0 0 32 32"
-                      fill="none"
-                    >
-                      <path
-                        d="M5 16H27"
-                        class="stroke-primary dark:stroke-backgroundBody"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M18 7L27 16L18 25"
-                        class="stroke-primary dark:stroke-backgroundBody"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                </div>
-                <p
-                  class="text-backgroundBody/70 dark:text-backgroundBody/70 opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[340ms]"
-                >
-                 
-                </p>
-                <ul
-                class="pl-4 mt-6 opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[440ms]"
-              >
-                <li
-                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
-                >
-                  {{ __("ecom.ec_desc") }}
-                </li>
-                <li
-                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
-                >
-                  {{ __("ecom.ec_point_1") }}
-                </li>
-                <li
-                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
-                >
-                  {{ __("ecom.ec_point_2") }}
-                </li>
-                <li
-                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
-                >
-                  {{ __("ecom.ec_point_3") }}
-                </li>
-                <li
-                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
-                >
-                  {{ __("ecom.ec_point_4") }}
-                </li>
-                <li
-                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
-                >
-                  {{ __("ecom.ec_point_5") }}
-                </li>
-                <li
-                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
-                >
-                  {{ __("ecom.ec_point_6") }}
-                </li>
-                <li
-                  class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
-                >
-                  {{ __("ecom.ec_point_7") }}
-                </li>
-              </ul>
-              </a>
-            </div>
-          </div>
-
-
-
-          <div class="relative group overflow-hidden w-[360px] h-[500px] reveal-me " >
-          <div   class="w-full h-full flex justify-center items-center absolute translate-y-0 group-hover:-translate-y-full transition-all opacity-100 group-hover:opacity-0 duration-700" >
-          <img src="images/ecomm5.png" alt="">
-
-          </div>
-
-          <div
-            class="w-full h-full bg-secondary dark:bg-secondary p-8 absolute translate-y-full duration-700 transition-all group-hover:translate-y-0 group-hover:inset-0 z-10 border-t border-primary"
-          >
-          <a href="https://temp1.zsoftware.host/" target="_blank">
-            <div class="mb-[55px] flex gap-1 items-center justify-between">
-                <h5
-                  class="max-sm:text-3xl text-primary dark:text-backgroundBody opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[240ms]"
-                >
-                  Pesco
-                </h5>
-                <span
-                  class="transition-all duration-1000 translate-x-20 group-hover:translate-x-0"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    fill="none"
-                  >
-                    <path
-                      d="M5 16H27"
-                      class="stroke-primary dark:stroke-backgroundBody"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <path
-                      d="M18 7L27 16L18 25"
-                      class="stroke-primary dark:stroke-backgroundBody"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </span>
-              </div>
-              <p
-                class="text-backgroundBody/70 dark:text-backgroundBody/70 opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[340ms]"
-              >
-               
-              </p>
-              <ul
-              class="pl-4 mt-6 opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-[800ms] delay-[440ms]"
-            >
-              <li
-                class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
-              >
-                {{ __("ecom.ec_desc") }}
-              </li>
-              <li
-                class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
-              >
-                {{ __("ecom.ec_point_1") }}
-              </li>
-              <li
-                class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
-              >
-                {{ __("ecom.ec_point_2") }}
-              </li>
-              <li
-                class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
-              >
-                {{ __("ecom.ec_point_3") }}
-              </li>
-              <li
-                class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
-              >
-                {{ __("ecom.ec_point_4") }}
-              </li>
-              <li
-                class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
-              >
-                {{ __("ecom.ec_point_5") }}
-              </li>
-              <li
-                class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
-              >
-                {{ __("ecom.ec_point_6") }}
-              </li>
-              <li
-                class="text-backgroundBody/70 dark:text-backgroundBody/70 list-disc text-base leading-relexed"
-              >
-                {{ __("ecom.ec_point_7") }}
-              </li>
-            </ul>
-            </a>
-          </div>
+     
         </div>
         </div>
       </section>
@@ -582,7 +393,7 @@
           <h3
             class="max-md:text-3xl md:text-6xl lg:text[56px] lg:leading-[1.2] lg:tracking-[-1.68px] text-center mb-14 md:mb-20 text-appear"
           >
-            {{ __("ecom.how_we_do_it") }}
+            {{ __("pro.how_we_do_it") }}
           </h3>
 
           <!-- Process Timeline Container -->
@@ -605,10 +416,10 @@
                 <h3
                   class="max-md:text-3xl md:text-[56PX] md:leading-[1.2] md:tracking-[-1.68px] mt-16 mb-5"
                 >
-                  {{ __("ecom.request") }}
+                  {{ __("pro.request") }}
                 </h3>
                 <p class="text-base leading-[1.4] tracking-[0.32px]">
-                  {{ __("ecom.request_desc") }}.
+                  {{ __("pro.request_desc") }}.
                 </p>
               </div>
 
@@ -623,10 +434,10 @@
                 <h3
                   class="max-md:text-3xl md:text-[56PX] md:leading-[1.2] md:tracking-[-1.68px] mt-16 mb-5"
                 >
-                  {{ __("ecom.approve") }}
+                  {{ __("pro.approve") }}
                 </h3>
                 <p class="text-base leading-[1.4] tracking-[0.32px]">
-                {{ __("ecom.approve_desc") }}.
+                {{ __("pro.approve_desc") }}.
                 </p>
               </div>
 
@@ -641,10 +452,10 @@
                 <h3
                   class="max-md:text-3xl md:text-[56PX] md:leading-[1.2] md:tracking-[-1.68px] mt-16 mb-5"
                 >
-                {{ __("ecom.develop") }}
+                {{ __("pro.develop") }}
                 </h3>
                 <p class="text-base leading-[1.4] tracking-[0.32px]">
-                  {{ __("ecom.develop_desc") }}.
+                  {{ __("pro.develop_desc") }}.
                 </p>
               </div>
 
@@ -659,10 +470,10 @@
                 <h3
                   class="max-md:text-3xl md:text-[56PX] md:leading-[1.2] md:tracking-[-1.68px] mt-16 mb-5"
                 >
-                  {{ __("ecom.deliver") }}
+                  {{ __("pro.deliver") }}
                 </h3>
                 <p class="text-base leading-[1.4] tracking-[0.32px]">
-                  {{ __("ecom.deliver_desc") }}.
+                  {{ __("pro.deliver_desc") }}.
                 </p>
               </div>
             </div>
