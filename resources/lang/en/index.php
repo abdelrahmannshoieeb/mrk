@@ -1,7 +1,7 @@
 <?php
 return [
 
-    'welcome' => 'welcome to Penta Core',
+    'welcome' => 'welcome to Marketing dose',
     'slogan' => 'All your business needs in one place',
     'contact' => 'Let’s Talk',
     'Who_We_Are' => 'Who We Are',

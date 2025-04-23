@@ -165,19 +165,25 @@ class="menu fixed right-6 top-0 w-full min-h-screen overflow-y-auto z-[99999] be
             class="menu-list-item menu-list-item-anchor w-full ">
             <a
                 href="#"
-                class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">Services</a>
+                class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">Programning stack</a>
             <ul
                 class="menu-list-item-dropdown relative md:absolute top-0 w-full md:w-auto h-fit left-0 md:left-[48%]">
                 <li>
                     <a
-                        href="{{ route('ecom') }}"
+                        href="{{ route('ecom')}}"
                         class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">E-commerce
                     </a>
                 </li>
                 <li>
                     <a
-                        href="{{ route('protflio') }}"
+                        href="{{ route('protflio')}}"
                         class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Protiflio
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="{{ route('prog')}}"
+                        class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">On-demand Development
                     </a>
                 </li>
             </ul>
