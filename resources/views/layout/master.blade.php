@@ -15,6 +15,7 @@
 
     <!-- Stylesheets -->
     <link href="css/main.css" rel="stylesheet" />
+    <link href="css/contact.css" rel="stylesheet" />
     
     <!--Favicon-->
     <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96" />
