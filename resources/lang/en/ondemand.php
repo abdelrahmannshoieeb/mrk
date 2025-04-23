@@ -13,5 +13,5 @@ return [
     'service_overview' => 'Service Overview',
     'our_service_includes' => 'Our Service Includes',
     'why_choose_us' =>  'Why Choose Us',
-    'table_of_content' =>  'Table of Content',
+    'table_of_contents' =>  'Table of Content',
 ];
