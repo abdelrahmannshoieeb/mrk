@@ -24,8 +24,7 @@
                     </div>
                     <div class="info-content">
                         <h3>MAIL US</h3>
-                        <p>info@bluebase.com</p>
-                        <p>info@bluebase2.com</p>
+                        <p>marketingdoseofficial@gmail</p>
                     </div>
                 </div>
                 
@@ -35,25 +34,12 @@
                     </div>
                     <div class="info-content">
                         <h3>CONTACT US</h3>
-                        <p>+1 504-899-8221</p>
-                        <p>+1 504-749-5456</p>
+                        <p>+20 1012620529</p>
+                        <p>+20 114 321 7798</p>
                     </div>
                 </div>
                 
-                <div class="info-item">
-                    <div class="icon-box">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </div>
-                    <div class="info-content">
-                        <h3>LOCATION</h3>
-                        <p>22 Baker Street, Texas</p>
-                        <p>United States</p>
-                        <p>W1U 3BW</p>
-                    </div>
-                </div>
-                
-                <h2 class="social-heading">SOCIAL INFO</h2>
-                
+               
             </div>
             
             <div class="contact-form">
@@ -83,7 +69,7 @@
                     </div>
                     
                     <button type="submit" class="submit-btn">Send Message</button>
-                    <button type="submit" class="submit-btn2">Back to website</button>
+                    <button type="submit" class="submit-btn2" >Back to website</button>
                 </form>
             </div>
         </div>

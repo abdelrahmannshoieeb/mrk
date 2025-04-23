@@ -209,6 +209,12 @@ class="menu fixed right-6 top-0 w-full min-h-screen overflow-y-auto z-[99999] be
                 </li>
             </ul>
         </li>
+        <li
+            class="menu-list-item menu-list-item-anchor w-full ">
+            <a
+                href="{{ route('contact') }}"
+                class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">Contact</a>
+        </li>
     </ul>
 </div>
 <div
