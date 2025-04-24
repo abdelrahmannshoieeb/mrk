@@ -35,9 +35,8 @@
                                 <div class="rv-button-top" >
                                     <span> {{ __('index.contact') }}</span>
                                 </div>
-                                <div class="rv-button-bottom">
-                            style="background-color: #352AA7;"
-
+                                <div class="rv-button-bottom"                             style="background-color: #352AA7;"
+                                >
                                     <span class="text-nowrap"> {{ __('index.contact') }}</span>
                                 </div>
                             </a>
