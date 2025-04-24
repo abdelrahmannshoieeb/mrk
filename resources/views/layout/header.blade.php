@@ -121,7 +121,7 @@
           alt="logo"
         />
         <img
-          class="max-h-[68px] w-auto dark:inline-block hidden"
+          class="max-h-[58px] w-auto dark:inline-block hidden"
           src="images/mrk-d.png"
           alt="logo"
         />
