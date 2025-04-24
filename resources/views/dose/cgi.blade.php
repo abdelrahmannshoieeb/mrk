@@ -24,7 +24,7 @@
         </div>
         
         <!-- Additional content can go here -->
-        <div class="cgi-product-info">
+        <div class="cgi-product-info" style="position: relative; top: 70px; >
             <h2 class="cgi-product-title">CGI Product Title</h2>
             <p class="cgi-product-description">Detailed description of your CGI product and its features.</p>
             <div class="cgi-product-actions">
