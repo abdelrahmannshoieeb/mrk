@@ -19,7 +19,8 @@
             </div>
             <div class="container">
                 <div class="reveal-me text-center">
-                    <h1 class="font-semibold">
+                    <h1 class="font-semibold"   style="background-color: #352AA7;">
+                        
                         <span class="font-instrument block font-normal">{{ __('index.welcome') }}</span>
                         {{ __('index.slogan') }}
                     </h1>
@@ -29,13 +30,13 @@
                         <!-- Primary CTA Button -->
                         <li class="block md:inline-block w-full text-center md:w-auto">
                             <a
-                            style="background-color: #352AA7;"
+                            style="background-color: #ffffff;"
                                 href="https://wa.me/201012620529"
                                 class="rv-button rv-button-sm rv-button-primary block md:inline-block"  >
                                 <div class="rv-button-top" >
                                     <span> {{ __('index.contact') }}</span>
                                 </div>
-                                <div class="rv-button-bottom"                             style="background-color: #352AA7;"
+                                <div class="rv-button-bottom"                             style="background-color: #ffffff;"
                                 >
                                     <span class="text-nowrap"> {{ __('index.contact') }}</span>
                                 </div>
