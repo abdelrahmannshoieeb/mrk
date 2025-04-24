@@ -116,7 +116,7 @@
     <div class="flex justify-between">
       <a href="{{ route('home') }}">
         <img
-          class="max-h-[68px] w-auto inline-block dark:hidden"
+          class="max-h-[58px] w-auto inline-block dark:hidden"
           src="images/mrk-w.png"
           alt="logo"
         />
