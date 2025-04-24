@@ -14,7 +14,7 @@
     <div class="cgi-content">
         <!-- Main video (muted) -->
         <div class="cgi-video-wrapper">
-            <video class="cgi-main-video" style="display: none;" id="cgiMainVideo" autoplay muted loop playsinline>
+            <video class="cgi-main-video" style="position: relative; top: 70px;     max-height: 70vh;" id="cgiMainVideo" autoplay muted loop playsinline>
                 <source src="/images/cgi.mp4" type="video/mp4">
             </video>
             
