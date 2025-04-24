@@ -26,7 +26,7 @@
     </div>
 
     <!-- Content container -->
-    <div class="cgi-content">
+    <div class="cgi-content" style="min-height: 150vh;">
         <!-- Main video WITH controls -->
         <div class="cgi-video-wrapper">
             <video class="cgi-main-video" id="cgiMainVideo" 
