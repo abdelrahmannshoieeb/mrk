@@ -34,11 +34,13 @@
                                 href="https://wa.me/201012620529"
                                 class="rv-button rv-button-sm rv-button-primary block md:inline-block"  >
                                 <div class="rv-button-top"   style="background-color: #352AA7; color: #ffffff;" >
-                                    <span> {{ __('index.contact') }}</span>
+                                    <span style="color: #ffffff"> {{ __('index.contact') }}</span>
                                 </div>
+
                                 <div class="rv-button-bottom"                             style="background-color: #ffffff; color: #0c045d;"
                                 >
-                                    <span class="text-nowrap"> {{ __('index.contact') }}</span>
+                                    <span class="text-nowrap" style="color: #352AA7
+                                    "> {{ __('index.contact') }}</span>
                                 </div>
                             </a>
                         </li>
