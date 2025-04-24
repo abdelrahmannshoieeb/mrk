@@ -117,12 +117,12 @@
       <a href="{{ route('home') }}">
         <img
           class="max-h-[68px] w-auto inline-block dark:hidden"
-          src="images/penta-d.png"
+          src="images/mrk-w.png"
           alt="logo"
         />
         <img
           class="max-h-[68px] w-auto dark:inline-block hidden"
-          src="images/penta-w.png"
+          src="images/mrk-d.png"
           alt="logo"
         />
       </a>
