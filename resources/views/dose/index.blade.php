@@ -29,12 +29,15 @@
                         <!-- Primary CTA Button -->
                         <li class="block md:inline-block w-full text-center md:w-auto">
                             <a
+                            style="background-color: #352AA7;"
                                 href="https://wa.me/201012620529"
-                                class="rv-button rv-button-sm rv-button-primary block md:inline-block">
-                                <div class="rv-button-top">
+                                class="rv-button rv-button-sm rv-button-primary block md:inline-block"  >
+                                <div class="rv-button-top" >
                                     <span> {{ __('index.contact') }}</span>
                                 </div>
                                 <div class="rv-button-bottom">
+                            style="background-color: #352AA7;"
+
                                     <span class="text-nowrap"> {{ __('index.contact') }}</span>
                                 </div>
                             </a>
@@ -960,6 +963,7 @@ CTA Section
             <!-- CTA Heading -->
             <div class="reveal-me">
                 <h2
+                style=""
                     class="text-center xl:text-[96px] font-normal xl:leading-[1.1] xl:tracking-[-2.88px]">
                     Let's   Create
                     <div
