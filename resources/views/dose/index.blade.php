@@ -329,10 +329,7 @@ About Description Section Area
                         style="background-color: #352AA7" 
                             class="uppercase absolute top-1/2 left-1/2 -translate-x-[90%] translate-y-[35%] group-hover:translate-x-[-50%] group-hover:translate-y-[-50%] transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 flex justify-center items-center gap-1 bg-primary px-8 py-6 w-[136px] h-[74px] scale-95 group-hover:scale-100">
                             <span class="text-secondary" style="color: #ffffff">{{ __('index.view') }}</span>
-                            <img
-                            style="color: #ffffff"
-                                src="/images/home-5/ArrowUpRight-dark.svg"
-                                alt="ArrowUpRight-dark" />
+                          
                         </div>
                     </a>
                 </div>
@@ -371,10 +368,7 @@ About Description Section Area
                         style="background-color: #352AA7" 
                             class="uppercase absolute top-1/2 left-1/2 -translate-x-[90%] translate-y-[35%] group-hover:translate-x-[-50%] group-hover:translate-y-[-50%] transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 flex justify-center items-center gap-1 bg-primary px-8 py-6 w-[136px] h-[74px] scale-95 group-hover:scale-100">
                             <span class="text-secondary" style="color: #ffffff">{{ __('index.view') }}</span>
-                            <img
-                            style="color: #ffffff"
-                                src="/images/home-5/ArrowUpRight-dark.svg"
-                                alt="ArrowUpRight-dark" />
+                           
                         </div>
                     </a>
                 </div>
@@ -412,10 +406,7 @@ About Description Section Area
                         style="background-color: #352AA7" 
                             class="uppercase absolute top-1/2 left-1/2 -translate-x-[90%] translate-y-[35%] group-hover:translate-x-[-50%] group-hover:translate-y-[-50%] transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 flex justify-center items-center gap-1 bg-primary px-8 py-6 w-[136px] h-[74px] scale-95 group-hover:scale-100">
                             <span class="text-secondary" style="color: #ffffff">{{ __('index.view') }}</span>
-                            <img
-                            style="color: #ffffff"
-                                src="/images/home-5/ArrowUpRight-dark.svg"
-                                alt="ArrowUpRight-dark" />
+                           
                         </div>
                     </a>
                 </div>
@@ -453,10 +444,7 @@ About Description Section Area
                         style="background-color: #352AA7" 
                             class="uppercase absolute top-1/2 left-1/2 -translate-x-[90%] translate-y-[35%] group-hover:translate-x-[-50%] group-hover:translate-y-[-50%] transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 flex justify-center items-center gap-1 bg-primary px-8 py-6 w-[136px] h-[74px] scale-95 group-hover:scale-100">
                             <span class="text-secondary" style="color: #ffffff">{{ __('index.view') }}</span>
-                            <img
-                            style="color: #ffffff"
-                                src="/images/home-5/ArrowUpRight-dark.svg"
-                                alt="ArrowUpRight-light" />
+                           
                         </div>
                     </a>
                 </div>
