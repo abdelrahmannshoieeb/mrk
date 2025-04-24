@@ -1,7 +1,22 @@
 @extends('layout.master')
 
-
 @section('content')
+<!-- Reset all video control hiding -->
+<style>
+    video::-webkit-media-controls-enclosure,
+    video::-webkit-media-controls,
+    video::-webkit-media-controls-panel,
+    video::-webkit-media-controls-play-button,
+    video::-webkit-media-controls-timeline,
+    video::-webkit-media-controls-current-time-display,
+    video::-webkit-media-controls-time-remaining-display,
+    video::-webkit-media-controls-mute-button,
+    video::-webkit-media-controls-volume-slider,
+    video::-webkit-media-controls-fullscreen-button {
+        display: flex !important;
+    }
+</style>
+
 <div class="cgi-video-container" id="cgiVideoContainer">
     <!-- Blurred background video -->
     <div class="cgi-video-background">
@@ -9,19 +24,20 @@
             <source src="/images/cgi.mp4" type="video/mp4">
         </video>
     </div>
-    
+
     <!-- Content container -->
     <div class="cgi-content">
         <!-- Main video WITH controls -->
         <div class="cgi-video-wrapper">
-            <!-- Added controls attribute -->
-            <video class="cgi-main-video" id="cgiMainVideo" controls muted autoplay loop  style="position: relative; top: 70px;     max-height: 70vh;" >
+            <video class="cgi-main-video" id="cgiMainVideo" 
+                controls muted autoplay loop 
+                style="position: relative; top: 70px; max-height: 70vh;">
                 <source src="/images/cgi.mp4" type="video/mp4">
             </video>
         </div>
-        
-        <!-- Additional content can go here -->
-        <div class="cgi-product-info">
+
+        <!-- Product content -->
+        <div class="cgi-product-info" style="position: relative; top: 70px; max-height: 70vh;">
             <h2 class="cgi-product-title">CGI Product Title</h2>
             <p class="cgi-product-description">Detailed description of your CGI product and its features.</p>
             <div class="cgi-product-actions">
