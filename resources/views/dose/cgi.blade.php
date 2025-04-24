@@ -15,7 +15,7 @@
         <!-- Main video WITH controls -->
         <div class="cgi-video-wrapper">
             <!-- Added controls attribute -->
-            <video class="cgi-main-video" id="cgiMainVideo" controls muted autoplay loop>
+            <video class="cgi-main-video" id="cgiMainVideo" controls muted autoplay loop  style="position: relative; top: 70px;     max-height: 70vh;" >
                 <source src="/images/cgi.mp4" type="video/mp4">
             </video>
         </div>
