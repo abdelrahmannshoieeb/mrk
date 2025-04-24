@@ -19,7 +19,7 @@
             </div>
             <div class="container">
                 <div class="reveal-me text-center">
-                    <h1 class="font-semibold"   style="background-color: #352AA7;">
+                    <h1 class="font-semibold">
                         
                         <span class="font-instrument block font-normal">{{ __('index.welcome') }}</span>
                         {{ __('index.slogan') }}
@@ -33,7 +33,7 @@
                             style="background-color: #ffffff;"
                                 href="https://wa.me/201012620529"
                                 class="rv-button rv-button-sm rv-button-primary block md:inline-block"  >
-                                <div class="rv-button-top" >
+                                <div class="rv-button-top"   style="background-color: #352AA7;" >
                                     <span> {{ __('index.contact') }}</span>
                                 </div>
                                 <div class="rv-button-bottom"                             style="background-color: #ffffff;"
