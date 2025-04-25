@@ -170,6 +170,8 @@ class="menu fixed right-6 top-0 w-full min-h-screen overflow-y-auto z-[99999] be
             class="menu-list-item menu-list-item-anchor w-full ">
             <a
                 href="#"
+                style="color: #4237bf"
+
                 class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">{{ __('header.programing_stack') }}</a>
             <ul
                 class="menu-list-item-dropdown relative md:absolute top-0 w-full md:w-auto h-fit left-0 md:left-[48%]">
