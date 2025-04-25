@@ -5,7 +5,7 @@
         <section class="pt-28 sm:pb-28 max-md:pb-16 md:py-[155px] lg:py-[177px] relative z-50 overflow-hidden">
             <div id="hero-gradient-wrapper"
                 class="absolute w-full h-full top-0 left-0 -z-10 blur-[35px] md:blur-[60px] scale-75">
-                <img src="images/hero-gradient-background.png" alt="hero-gradient-background" id="hero-gradient"
+                <img   src="images/gradient.png" alt="hero-gradient-background" id="hero-gradient"
                     class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2" />
             </div>
 

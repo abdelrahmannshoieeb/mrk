@@ -16,7 +16,7 @@
           class="absolute w-full h-full top-0 left-0 -z-10 blur-[35px] md:blur-[60px] sm:scale-[0.1] bg-blend-multiply md:scale-75"
         >
           <img
-            src="images/hero-gradient-background.png"
+             src="images/gradient.png"
             alt="hero-gradient-background"
             id="hero-gradient"
             class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-[45%]"
