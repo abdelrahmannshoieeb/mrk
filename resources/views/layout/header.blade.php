@@ -161,8 +161,6 @@ class="menu fixed right-6 top-0 w-full min-h-screen overflow-y-auto z-[99999] be
         <li
             class="menu-list-item menu-list-item-anchor active">
             <a
-            style="color: #4237bf"
-
                 href="{{ route('home') }}"
                 class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">{{ __('header.home') }}</a>
         </li>
@@ -170,31 +168,23 @@ class="menu fixed right-6 top-0 w-full min-h-screen overflow-y-auto z-[99999] be
             class="menu-list-item menu-list-item-anchor w-full ">
             <a
                 href="#"
-                style="color: #4237bf"
-
                 class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">{{ __('header.programing_stack') }}</a>
             <ul
                 class="menu-list-item-dropdown relative md:absolute top-0 w-full md:w-auto h-fit left-0 md:left-[48%]">
                 <li>
                     <a
-                    style="color: #4237bf"
-
                         href="{{ route('ecom')}}"
                         class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">{{ __('header.mrk_stack') }}
                     </a>
                 </li>
                 <li>
                     <a
-                    style="color: #4237bf"
-
                         href="{{ route('protflio')}}"
                         class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">{{ __('header.portfolio') }}
                     </a>
                 </li>
                 <li>
                     <a
-                    style="color: #4237bf"
-
                         href="{{ route('prog')}}"
                         class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">{{ __('header.on_demand_programing') }}
                     </a>
@@ -205,22 +195,17 @@ class="menu fixed right-6 top-0 w-full min-h-screen overflow-y-auto z-[99999] be
             class="menu-list-item menu-list-item-anchor w-full ">
             <a
                 href="#"
-                style="color: #4237bf"
-
                 class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">{{ __('header.mrk_stack') }}</a>
             <ul
                 class="menu-list-item-dropdown relative md:absolute top-0 w-full md:w-auto h-fit left-0 md:left-[48%]">
                 <li>
                     <a
-                    style="color: #4237bf"
                         href="{{ route('packages') }}"
                         class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">{{ __('header.packages') }}
                     </a>
                 </li>
                 <li>
                     <a
-                    style="color: #4237bf"
-
                         href="{{ route('mrk') }}"
                         class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">{{ __('header.graphic_factory') }}
                     </a>
@@ -230,16 +215,12 @@ class="menu fixed right-6 top-0 w-full min-h-screen overflow-y-auto z-[99999] be
         <li
             class="menu-list-item menu-list-item-anchor w-full ">
             <a
-            style="color: #4237bf"
-
                 href="{{ route('cgi') }}"
                 class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">{{ __('header.CGI_product_animation') }}</a>
         </li>
         <li
             class="menu-list-item menu-list-item-anchor w-full ">
             <a
-            style="color: #4237bf"
-
                 href="{{ route('contact') }}"
                 class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">{{ __('header.contact') }}</a>
         </li>
