@@ -200,6 +200,7 @@ class="menu fixed right-6 top-0 w-full min-h-screen overflow-y-auto z-[99999] be
                 class="menu-list-item-dropdown relative md:absolute top-0 w-full md:w-auto h-fit left-0 md:left-[48%]">
                 <li>
                     <a
+                    style="color: #352aa7"
                         href="{{ route('packages') }}"
                         class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">{{ __('header.packages') }}
                     </a>
