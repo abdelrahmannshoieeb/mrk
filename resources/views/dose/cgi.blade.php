@@ -38,10 +38,10 @@
 
         <!-- Product content -->
         <div class="cgi-product-info" style="position: relative; top: 70px; max-height: 70vh;">
-            <h2 class="cgi-product-title">CGI Product Title</h2>
-            <p class="cgi-product-description">Detailed description of your CGI product and its features.</p>
+            <h2 class="cgi-product-title">CGI Production</h2>
+            <p class="cgi-product-description">We not just create a video, we create a story.</p>
             <div class="cgi-product-actions">
-                <button class="cgi-btn cgi-btn-primary">Learn More</button>
+                <button class="cgi-btn cgi-btn-primary" >Learn More </button>
                 <button class="cgi-btn cgi-btn-secondary">View Gallery</button>
             </div>
         </div>

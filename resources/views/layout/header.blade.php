@@ -162,31 +162,31 @@ class="menu fixed right-6 top-0 w-full min-h-screen overflow-y-auto z-[99999] be
             class="menu-list-item menu-list-item-anchor active">
             <a
                 href="{{ route('home') }}"
-                class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">Home</a>
+                class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">{{ __('header.home') }}</a>
         </li>
         <li
             class="menu-list-item menu-list-item-anchor w-full ">
             <a
                 href="#"
-                class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">Programning stack</a>
+                class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">{{ __('header.programing_stack') }}</a>
             <ul
                 class="menu-list-item-dropdown relative md:absolute top-0 w-full md:w-auto h-fit left-0 md:left-[48%]">
                 <li>
                     <a
                         href="{{ route('ecom')}}"
-                        class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">E-commerce
+                        class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">{{ __('header.mrk_stack') }}
                     </a>
                 </li>
                 <li>
                     <a
                         href="{{ route('protflio')}}"
-                        class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Protiflio
+                        class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">{{ __('header.portfolio') }}
                     </a>
                 </li>
                 <li>
                     <a
                         href="{{ route('prog')}}"
-                        class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">On-demand Development
+                        class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">{{ __('header.on_demand_programing') }}
                     </a>
                 </li>
             </ul>
@@ -195,19 +195,19 @@ class="menu fixed right-6 top-0 w-full min-h-screen overflow-y-auto z-[99999] be
             class="menu-list-item menu-list-item-anchor w-full ">
             <a
                 href="#"
-                class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">Marketing stack</a>
+                class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">{{ __('header.mrk_stack') }}</a>
             <ul
                 class="menu-list-item-dropdown relative md:absolute top-0 w-full md:w-auto h-fit left-0 md:left-[48%]">
                 <li>
                     <a
-                        href="{{ route('mrk') }}"
-                        class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">packages
+                        href="{{ route('packages') }}"
+                        class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">{{ __('header.packages') }}
                     </a>
                 </li>
                 <li>
                     <a
                         href="{{ route('mrk') }}"
-                        class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">Graphics factory
+                        class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">{{ __('header.graphic_factory') }}
                     </a>
                 </li>
             </ul>
@@ -216,13 +216,13 @@ class="menu fixed right-6 top-0 w-full min-h-screen overflow-y-auto z-[99999] be
             class="menu-list-item menu-list-item-anchor w-full ">
             <a
                 href="{{ route('cgi') }}"
-                class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">CGI product animation</a>
+                class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">{{ __('header.CGI_product_animation') }}</a>
         </li>
         <li
             class="menu-list-item menu-list-item-anchor w-full ">
             <a
                 href="{{ route('contact') }}"
-                class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">Contact</a>
+                class="text-white text-[28px] md:text-[42px] xl:text-[56px] leading-[70px] xl:leading-[90px] menu-list-item-text">{{ __('header.contact') }}</a>
         </li>
     </ul>
 </div>
@@ -230,12 +230,9 @@ class="menu fixed right-6 top-0 w-full min-h-screen overflow-y-auto z-[99999] be
     class="menu-footer max-lg:hidden lg:block fixed bottom-0 w-full border-t border-white border-opacity-10">
     <div
         class="menu-footer-content max-w-[300px] sm:max-w-[400px] md:max-w-[600px] lg:max-w-[900px] xl:max-w-[1130px] flex justify-between mx-auto py-8 flex-col md:flex-row">
-        <p class="text-sm w-full md:w-auto mb-4 md:mb-0">
-            2261 Market Street #5039 San Francisco, CA 94114
-        </p>
         <div class="flex gap-6">
             <span>
-                <a href="https://www.facebook.com/staticmania">
+                <a href=" https://www.facebook.com/marketingdoseofficial" target="_blank">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="23"
@@ -258,7 +255,7 @@ class="menu fixed right-6 top-0 w-full min-h-screen overflow-y-auto z-[99999] be
                     </svg>
                 </a>
             </span>
-            <span>
+            <span style="display: none">
                 <a href="https://www.youtube.com/channel/UCAaNCn1kzI1fXD4-fPD157Q">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -279,7 +276,7 @@ class="menu fixed right-6 top-0 w-full min-h-screen overflow-y-auto z-[99999] be
                 </a>
             </span>
             <span>
-                <a href="https://www.instagram.com/staticmania">
+                <a href="https://www.instagram.com/marketingdoseofficial?igsh=MTc1ejJhMjZyNWFo">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="stroke-[#565656] hover:stroke-white duration-200"
@@ -300,7 +297,7 @@ class="menu fixed right-6 top-0 w-full min-h-screen overflow-y-auto z-[99999] be
                     </svg>
                 </a>
             </span>
-            <span>
+            <span style="display: none">>
                 <a href="https://dribbble.com/staticmania/">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -328,7 +325,7 @@ class="menu fixed right-6 top-0 w-full min-h-screen overflow-y-auto z-[99999] be
                     </svg>
                 </a>
             </span>
-            <span>
+            <span style="display: none">>
                 <a href="https://www.figma.com/@staticmania">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -360,7 +357,7 @@ class="menu fixed right-6 top-0 w-full min-h-screen overflow-y-auto z-[99999] be
                     </svg>
                 </a>
             </span>
-            <span>
+            <span style="display: none">>
                 <a href="https://discord.gg/fSxDJyvJmr">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -417,7 +414,7 @@ class="menu fixed right-6 top-0 w-full min-h-screen overflow-y-auto z-[99999] be
                 </a>
             </span>
             <span>
-                <a href="https://www.linkedin.com/company/staticmania/">
+                <a href="https://www.linkedin.com/company/staticmania/" target="_blank">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="stroke-[#565656] hover:stroke-white duration-200"
