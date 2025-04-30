@@ -4,8 +4,7 @@
   >
     <div
       class="absolute inset-0 pointer-events-none"
-      style="backdrop-filter: blur(0px); -webkit-backdrop-filter: blur(0px)"
-    ></div>
+      style="backdrop-filter: blur(0px); -webkit-backdrop-filter: blur(0px)"></div>
     <div
       class="absolute inset-0 pointer-events-none rounded-[inherit]"
       style="
@@ -26,7 +25,7 @@
         backdrop-filter: blur(-7px);
         -webkit-backdrop-filter: blur(-7px);
       "
-    ></div>
+    > </div>
     <div
       class="absolute inset-0 pointer-events-none rounded-[inherit]"
       style="
@@ -112,6 +111,8 @@
       "
     ></div>
   </div>
+
+
   <nav class="z-[1000] w-full fixed px-5 sm:px-8 pt-1 sm:pt-5 nav-top">
     <div class="flex justify-between">
       <a href="{{ route('home') }}">
@@ -129,6 +130,10 @@
           alt="logo"
         />
       </a>
+      <div style="">
+          <a style="font-size: 20px; margin-top: 20px;" href="{{ route('ecom') }}">{{ __('header.ecomm') }}</a>
+          <a style="font-size: 20px; margin-top: 20px;" href="{{ route('packages') }}">{{ __('header.packages') }}</a>
+      </div>
       <div class="flex items-center">
         <div
           class="menu-open cursor-pointer relative h-[68px] w-[68px] before:content-[''] before:absolute before:top-[28px] before:left-1/2 before:w-9 before:h-0.5 before:bg-black dark:before:bg-backgroundBody before:-translate-x-1/2 before:transition-all before:duration-300 after:content-[''] after:absolute after:bottom-[28px] after:left-1/2 after:w-9 after:h-0.5 after:bg-black dark:after:bg-backgroundBody after:-translate-x-1/2 after:transition-all after:duration-300 hover:before:top-[25px] hover:after:bottom-[25px]"
@@ -136,11 +141,10 @@
       </div>
     </div>
   </nav>
+
 </header>
 
-<nav
-data-lenis-prevent="true"
-class="menu fixed right-6 top-0 w-full min-h-screen overflow-y-auto z-[99999] before:content-none md:before:content-[''] before:absolute before:w-[1px] before:h-[calc(100vh-94px)] before:left-[45%] before:top-0 before:bg-backgroundBody before:bg-opacity-10 opacity-0">
+<nav data-lenis-prevent="true" class="menu fixed right-6 top-0 w-full min-h-screen overflow-y-auto z-[99999] before:content-none md:before:content-[''] before:absolute before:w-[1px] before:h-[calc(100vh-94px)] before:left-[45%] before:top-0 before:bg-backgroundBody before:bg-opacity-10 opacity-0">
 <div
     class="menu-close cursor-pointer sticky top-8 left-[89%] sm:left-[90%] md:left-[93%] lg:left-[94.7%] xl:left-[96.5%] 2xl:left-[96%] h-[40px] w-[40px] text-white">
     <svg
@@ -174,7 +178,7 @@ class="menu fixed right-6 top-0 w-full min-h-screen overflow-y-auto z-[99999] be
                 <li>
                     <a
                         href="{{ route('ecom')}}"
-                        class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">{{ __('header.mrk_stack') }}
+                        class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">{{ __('header.ecomm') }}
                     </a>
                 </li>
                 <li>
@@ -206,7 +210,7 @@ class="menu fixed right-6 top-0 w-full min-h-screen overflow-y-auto z-[99999] be
                 </li>
                 <li>
                     <a
-                        href="{{ route('mrk') }}"
+                        href="{{ route('graphic') }}"
                         class="text-white inline-block pb-1 pl-3 menu-list-item-dropdown-list text-base md:text-lg leading-8 md:leading-[50px] ">{{ __('header.graphic_factory') }}
                     </a>
                 </li>

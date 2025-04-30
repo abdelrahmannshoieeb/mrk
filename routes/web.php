@@ -18,7 +18,7 @@ Route::view('/about', 'dose.about')->name('about');
 Route::view('/ecom', 'dose.ecom')->name('ecom');
 Route::view('/protflio', 'dose.protflio')->name('protflio');
 Route::view('/prog', 'dose.prog')->name('prog');
-Route::view('/mrk', 'dose.mrk')->name('mrk');
+Route::view('/graphic', 'dose.graphic')->name('graphic');
 Route::view('/cgi', 'dose.cgi')->name('cgi');
 Route::view('/packages', 'dose.packages')->name('packages');
 Route::view('/form', 'dose.contact')->name('contact');

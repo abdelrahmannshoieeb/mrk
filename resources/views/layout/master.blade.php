@@ -162,6 +162,9 @@
     <script src="js/lib/headroom.min.js"></script>
     <script src="js/lib/vanila-marquee.min.js"></script>
     <script src="js/script.js"></script>
+    
+
+    
     @livewireScripts
 
 </body>

@@ -17,13 +17,26 @@ return [
     'Our_Services_Desc' => 'نقدم لك مجموعة كبيرة من الخدمات لمساعدتك في تحقيق أهدافك.',
     'see_all_services' => 'اظهار كل الخدمات',
     'view' => 'عرض',
+    'photographer_vdeographer_services' => 'خدمات الصور والفيديو',
+
     
     //service 1
     'programming_services' => 'خدمات البرمجة',
     'e-commerce' => 'متجر الكتروني',
+    'e-commerce_desc' => 'انشئ وأدِر متجرك الإلكتروني بحلول آمنة وسهلة الاستخدام',
+
     'marketing_services' => ' خدمات التسويق',
+    'marketing_services_desc' => 'نمّ عملك باستخدام استراتيجيات التسويق الرقمي الفعالة',
+
     'design_services' => '  خدمات التصميم',
+    'design_services_desc' => 'تصميمات جرافيكية وتجارب مستخدم مبتكرة تعكس هوية علامتك',
+
     'branding_services' => ' خدمات التوعية بالعلامة التجارية ',
+    'branding_services_desc' => ' أنشئ هوية علامة تجارية قوية ولا تُنسى لعملك',
+
+
+    'photographer_vdeographer_services_desc' => 'تصوير فوتوغرافي وفيديو احترافي لإبراز منتجاتك وهويتك.',
+
     'section_title' => 'تقديم الخبرات التي تدفعك نحو النجاح',
     'section_desc' => 'نقدم لك مجموعة كبيرة من الخدمات لمساعدتك في تحقيق أهدافك.',
 

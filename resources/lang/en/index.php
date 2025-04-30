@@ -26,9 +26,15 @@ return [
      //service 1
      'programming_services' => 'Programming Services',
      'e-commerce' => 'E-commerce',
+     'e-commerce_desc' => 'Build and manage your online store with secure and user-friendly solutions.',
      'marketing_services' => ' Marketing Services',
+     'marketing_services_desc' => 'Boost your business with digital marketing strategies that deliver results.',
     'design_services' => '  Design Services',
+    'design_services_desc' => '  Creative graphic and UI/UX designs that capture your brand.',
     'branding_services' => 'Branding Services',
+    'branding_services_desc' => 'Build a strong, memorable brand identity for your business.',
+    'photographer_vdeographer_services' => 'Photographer & Videographer Services',
+    'photographer_vdeographer_services_desc' => 'Professional photography and videography to showcase your products and brand.',
     
 
 
