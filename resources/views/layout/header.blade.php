@@ -106,7 +106,7 @@
 
 
     <nav class="z-[1000] w-full fixed px-5 sm:px-8 pt-1 sm:pt-5 nav-top">
-        <div class="flex justify-between">
+        <div class="flex justify-between items-center">
             <a href="{{ route('home') }}">
                 <img style="height: 58px" class="max-h-[68px] w-auto inline-block dark:hidden" src="images/mrk-w.png"
                     alt="logo" />
