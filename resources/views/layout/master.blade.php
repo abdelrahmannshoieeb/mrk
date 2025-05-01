@@ -31,7 +31,7 @@
     <style>
         .middle_header {
       display: none;
-      width: 500px;
+      width: 450px;
     
     }
     
