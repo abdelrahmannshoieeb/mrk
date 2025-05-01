@@ -48,25 +48,14 @@
         </section>
 
         <section
-         dir="{{ app()->getLocale() == 'ar' ? 'ltr' : 'rtl' }}"
             class="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px] service-section relative overflow-hidden">
             <div class="container">
                 <h2>{{ __('index.Our_Services') }}</h2>
             </div>
             <article
+            dir=" {{ app()->getLocale() == 'ar' ? 'rtl' : 'ltr' }}"
                 class="mt-16 flex flex-col md:flex-row md:flex-nowrap md:w-fit gap-6 md:pl-[20%] max-md:px-5 md:pr-10 service-wrapper overflow-x-hidden reveal-me">
                 <div class="w-[332px] grid content-between max-h-[404px]">
-                    <p class="text-secondary dark:text-backgroundBody text-sm leading-[1.1] tracking-[3px] uppercase">
-                        {{ __('index.Our_Services') }}
-                    </p>
-                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="97" height="96" viewBox="0 0 97 96"
-                            fill="none">
-                            <path d="M60.5 48L78.5 66M78.5 66L60.5 84M78.5 66H24.5V12"
-                                class="stroke-secondary dark:stroke-backgroundBody" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                        </svg>
-                    </div>
                 </div>
                 <!-- Card-01 -->
                 <div class="border dark:border-dark group p-5 md:p-[30px] md:w-[740px] lg:w-[890px]">
@@ -352,179 +341,6 @@
 
 
 
-
-        <section class="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px]">
-            <div class="container">
-                <div
-                    class="flex flex-col md:flex-row gap-y-5 gap-x-10 justify-center lg:justify-start items-start md:items-center mb-10 md:mb-20">
-                    <div class="flex-1">
-                        <h2 class="text-appear">
-                            <span class="font-instrument italic">{{ __('index.Our_Services') }}</span>
-                        </h2>
-                    </div>
-                    <div class="flex-1 max-w-md">
-                        <p class="text-appear max-md:text-justify md:text-right">
-                            {{ __('index.Our_Services_Desc') }}
-                        </p>
-                        <ul class="justify-self-end max-md:w-full mt-5 md:mt-10 reveal-me">
-                            <li class="block md:inline-block w-full mx-auto md:w-auto text-center">
-                                <a href="{{ route('ecom') }}" class="rv-button rv-button-white block md:inline-block">
-                                    <div class="rv-button-top">
-                                        <span>{{ __('index.see_all_services') }}</span>
-                                    </div>
-                                    <div class="rv-button-bottom">
-                                        <span>{{ __('index.see_all_services') }}</span>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div
-                    class="grid grid-cols-1 md:grid-cols-2 justify-items-center items-center md:items-start gap-8 gap-y-12">
-                    <div class="reveal-me underline-hover-effect group relative">
-                        <a href="{{ route('ecom') }}">
-                            <figure class="overflow-hidden">
-                                <img src="images/blog-img/blog-img-13.png"
-                                    class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
-                                    alt="Blog Images" />
-                            </figure>
-                        </a>
-                        <div class="mt-[24px] mb-2 md:mb-3.5 flex items-center justify-between">
-                            <p
-                                class="text-[13px] leading-6  uppercase font-normal  text-secondary dark:text-backgroundBody">
-                                {{ __('index.programming_services') }}
-                            </p>
-                            <p
-                                class="text-base md:text-xl leading-8 tracking-[0.48px] text-secondary dark:text-backgroundBody">
-
-                            </p>
-                        </div>
-                        <a href="{{ route('ecom') }}">
-                            <div class="blog-title">
-                                <h3 class="text[25px] md:text-3xl lg:text-4xl lg:leading-[1.2] lg:tracking-[-0.72px]">
-                                    {{ __('index.e-commerce') }}
-                                </h3>
-                            </div>
-                        </a>
-                        <div class="border-b dark:border-dark mt-6"></div>
-
-                        <!-- Blog Hover Button -->
-                        <a href="{{ route('ecom') }}" style="background-color: #352AA7">
-                            <div style="background-color: #352AA7"
-                                class="uppercase absolute top-1/2 left-1/2 -translate-x-[90%] translate-y-[35%] group-hover:translate-x-[-50%] group-hover:translate-y-[-50%] transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 flex justify-center items-center gap-1 bg-primary px-8 py-6 w-[136px] h-[74px] scale-95 group-hover:scale-100">
-                                <span class="text-secondary" style="color: #ffffff">{{ __('index.view') }}</span>
-
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="reveal-me underline-hover-effect group relative">
-                        <a href="{{ route('ecom') }}">
-                            <figure class="overflow-hidden">
-                                <img src="images/blog-img/blog-img-14.png"
-                                    class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
-                                    alt="Blog Images" />
-                            </figure>
-                        </a>
-                        <div class="mt-[24px] mb-2 md:mb-3.5 flex items-center justify-between">
-                            <p class="text-[13px] leading-6 uppercase font-normal text-secondary dark:text-backgroundBody">
-                                {{ __('index.marketing_services') }}
-                            </p>
-                            <p
-                                class="text-base md:text-xl leading-8 tracking-[0.48px] text-secondary dark:text-backgroundBody">
-
-                            </p>
-                        </div>
-                        <a href="{{ route('ecom') }}">
-                            <div class="blog-title">
-                                <h3 class="text[25px] md:text-3xl lg:text-4xl lg:leading-[1.2] lg:tracking-[-0.72px]">
-                                    {{ __('index.marketing_services') }}
-                                </h3>
-                            </div>
-                        </a>
-                        <div class="border-b dark:border-dark mt-6"></div>
-                        <!-- Blog Hover Button -->
-                        <a href="{{ route('ecom') }}">
-                            <div style="background-color: #352AA7"
-                                class="uppercase absolute top-1/2 left-1/2 -translate-x-[90%] translate-y-[35%] group-hover:translate-x-[-50%] group-hover:translate-y-[-50%] transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 flex justify-center items-center gap-1 bg-primary px-8 py-6 w-[136px] h-[74px] scale-95 group-hover:scale-100">
-                                <span class="text-secondary" style="color: #ffffff">{{ __('index.view') }}</span>
-
-                            </div>
-                        </a>
-                    </div>
-                    <div class="reveal-me underline-hover-effect group relative">
-                        <a href="{{ route('ecom') }}">
-                            <figure class="overflow-hidden">
-                                <img src="images/blog-img/blog-img-15.png"
-                                    class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
-                                    alt="Blog Images" />
-                            </figure>
-                        </a>
-                        <div class="mt-[24px] mb-2 md:mb-3.5 flex items-center justify-between">
-                            <p class="text-[13px] leading-6 uppercase font-normal text-secondary dark:text-backgroundBody">
-                                {{ __('index.design_services') }}
-                            </p>
-                            <p class="text-base md:text-xl leading-8  text-secondary dark:text-backgroundBody">
-
-                            </p>
-                        </div>
-                        <a href="{{ route('ecom') }}">
-                            <div class="blog-title">
-                                <h3 class="text[25px] md:text-3xl lg:text-4xl lg:leading-[1.2] lg:tracking-[-0.72px]">
-                                    {{ __('index.design_services') }}
-                                </h3>
-                            </div>
-                        </a>
-                        <div class="border-b dark:border-dark mt-6"></div>
-                        <!-- Blog Hover Button -->
-                        <a href="{{ route('ecom') }}">
-                            <div style="background-color: #352AA7"
-                                class="uppercase absolute top-1/2 left-1/2 -translate-x-[90%] translate-y-[35%] group-hover:translate-x-[-50%] group-hover:translate-y-[-50%] transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 flex justify-center items-center gap-1 bg-primary px-8 py-6 w-[136px] h-[74px] scale-95 group-hover:scale-100">
-                                <span class="text-secondary" style="color: #ffffff">{{ __('index.view') }}</span>
-
-                            </div>
-                        </a>
-                    </div>
-                    <div class="reveal-me underline-hover-effect group relative">
-                        <a href="{{ route('ecom') }}">
-                            <figure class="overflow-hidden">
-                                <img src="images/blog-img/blog-img-16.png"
-                                    class="w-full h-full transition-all duration-500 group-hover:scale-125 group-hover:rotate-3"
-                                    alt="Blog Images" />
-                            </figure>
-                        </a>
-                        <div class="mt-[24px] mb-2 md:mb-3.5 flex items-center justify-between">
-                            <p
-                                class="text-[13px] leading-6  uppercase font-normal text-secondary dark:text-backgroundBody">
-                                {{ __('index.branding_services') }}
-                            </p>
-                            <p
-                                class="text-base md:text-xl leading-8 tracking-[0.48px] text-secondary dark:text-backgroundBody">
-
-                            </p>
-                        </div>
-                        <a href="{{ route('ecom') }}">
-                            <div class="blog-title">
-                                <h3 class="text[25px] md:text-3xl lg:text-4xl lg:leading-[1.2] lg:tracking-[-0.72px]">
-                                    {{ __('index.branding_services') }}
-                                </h3>
-                            </div>
-                        </a>
-                        <div class="border-b dark:border-dark mt-6"></div>
-                        <!-- Blog Hover Button -->
-                        <a href="{{ route('ecom') }}">
-                            <div style="background-color: #352AA7"
-                                class="uppercase absolute top-1/2 left-1/2 -translate-x-[90%] translate-y-[35%] group-hover:translate-x-[-50%] group-hover:translate-y-[-50%] transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 flex justify-center items-center gap-1 bg-primary px-8 py-6 w-[136px] h-[74px] scale-95 group-hover:scale-100">
-                                <span class="text-secondary" style="color: #ffffff">{{ __('index.view') }}</span>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
 
 
         <section

@@ -6256,3 +6256,33 @@ span{
   border-bottom-color: #edf0f51a;
 }
 /*# sourceMappingURL=maps/main.css.map */
+
+
+
+
+
+.middle_header {
+  display: none;
+  width: 450px;
+
+}
+
+@media (min-width: 768px) {
+  .middle_header {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      font-weight: bold;
+      
+  }
+}
+
+
+.middle_header a {
+  text-align: center;
+}
+ /* make hover  */
+
+.middle_header a:hover {
+  color: #554acb;
+}

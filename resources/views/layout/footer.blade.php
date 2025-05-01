@@ -1,4 +1,5 @@
 <footer
+dir="ltr"
   class="relative lg:fixed lg:-z-10 bg-black bottom-0 w-full pt-20 sm:pt-24 md:pt-36 pb-24 lg:pb-48 overflow-hidden"
 >
   <div class="container">
@@ -60,19 +61,113 @@
         <ul>
           <li class="mb-4">
             <a
-              href="{{ route('home') }}"
+              href="{{ route('ecom') }}"
               class="block text-white transition-colors duration-300 font-semibold hover:text-primary"
-              >Home</a
+              >E-commerce</a
             >
           </li>
           <li class="mb-4">
             <a
-              href="{{ route('ecom') }}"
+              href="{{ route('protflio') }}"
               class="block text-white transition-colors duration-300 font-semibold hover:text-primary"
-              >Services</a
+              >protflio</a
             >
           </li>
+          <li class="mb-4">
+            <a
+              href="{{ route('graphic') }}"
+              class="block text-white transition-colors duration-300 font-semibold hover:text-primary"
+              >graphic</a
+            >
+          </li>
+          <li class="mb-4">
+            <a
+              href="{{ route('packages') }}"
+              class="block text-white transition-colors duration-300 font-semibold hover:text-primary"
+              >packages</a
+            >
+          </li>
+          <li class="mb-4">
+            <a
+              href="{{ route('packages') }}"
+              class="block text-white transition-colors duration-300 font-semibold hover:text-primary"
+              >packages</a
+            >
+          </li>
+          <li class="mb-4">
+            <a
+              href="{{ route('cgi') }}"
+              class="block text-white transition-colors duration-300 font-semibold hover:text-primary"
+              >CGI</a
+            >
+          </li>
+          
         </ul>
+       
+      </div>
+      <div>
+        <h5
+        class="uppercase text-sm font-satoshi text-white tracking-[3px] sm:mb-8 font-bold"
+      >
+        Follow us
+      </h5>
+      <ul >
+        <li class="mb-4" style="display: flex; align-items: center;  ">
+          <li class="fa-brands fa-instagram"></li>
+          <a
+            href="https://www.instagram.com/marketingdoseofficial?igsh=MTc1ejJhMjZyNWFo"
+            class=" text-white transition-colors duration-300 font-semibold"
+            style=""
+            >
+            Instagram</a
+          >
+        </li>
+        <li class="mb-4" style="display: flex; align-items: center; ">
+          <li class="fa-brands fa-facebook-f"></li>
+          <a
+            href="https://www.instagram.com/marketingdoseofficial?igsh=MTc1ejJhMjZyNWFo"
+            class=" text-white transition-colors duration-300 font-semibold"
+            style=""
+            >
+            Facebook</a
+          >
+        </li>
+      </ul>
+      </div>
+
+
+
+
+
+
+      <div>
+        <h5
+        class="uppercase text-sm font-satoshi text-white tracking-[3px] mb-4 sm:mb-8 font-bold"
+      >
+        Get In Touch
+      </h5>
+      <ul >
+        <li class="mb-4" style="display: flex; align-items: center;  ">
+          <i class="fa-solid fa-envelope" style="margin-right: 10px;"></i>
+          <a
+           href="mailto:marketingdoseofficial@gmail.com"
+            class=" text-white transition-colors duration-300 font-semibold"
+            style=""
+            >
+            marketingdoseofficial@gmail.com</a
+          >
+        </li>
+        <li class="mb-4" style="display: flex; align-items: center; ">
+       <i class="fa-solid fa-phone"  style="margin-right: 10px;"></i>
+          <a
+            href="tel:+201012620529"
+            class=" text-white transition-colors duration-300 font-semibold"
+           
+            >
+            +20-1012620529</a
+          >
+        </li>
+      </ul>
       </div>
     </div>
   </div>
