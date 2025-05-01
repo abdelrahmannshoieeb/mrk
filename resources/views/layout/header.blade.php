@@ -16,17 +16,17 @@
       
   }
 }
-@endsection
 
 .middle_header a {
   text-align: center;
 }
  /* make hover  */
 
-.middle_header a:hover {
+ .middle_header a:hover {
   color: #554acb;
 }
 </style>
+@endsection
 
 <header id="header" class="w-full fixed z-[9999]">
     <div class="w-full fixed h-[155px] top-0 z-[21] pointer-events-none gradient-shadow">
