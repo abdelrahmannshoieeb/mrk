@@ -28,7 +28,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="css/gallery.css" rel="stylesheet" />
 
-    @yield('styles')
+    <style>
+        .middle_header {
+      display: none;
+      width: 500px;
+    
+    }
+    
+    @media (min-width: 768px) {
+      .middle_header {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          font-weight: bold;
+          
+      }
+    }
+    
+    .middle_header a {
+      text-align: center;
+    }
+     /* make hover  */
+    
+     .middle_header a:hover {
+      color: #554acb;
+    }
+    </style>
     @livewireStyles
 </head>
 

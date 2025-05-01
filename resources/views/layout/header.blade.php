@@ -1,32 +1,4 @@
 
-@section('style')
-<style>
-    .middle_header {
-  display: none;
-  width: 500px;
-
-}
-
-@media (min-width: 768px) {
-  .middle_header {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      font-weight: bold;
-      
-  }
-}
-
-.middle_header a {
-  text-align: center;
-}
- /* make hover  */
-
- .middle_header a:hover {
-  color: #554acb;
-}
-</style>
-@endsection
 
 <header id="header" class="w-full fixed z-[9999]">
     <div class="w-full fixed h-[155px] top-0 z-[21] pointer-events-none gradient-shadow">
