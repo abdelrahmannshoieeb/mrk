@@ -117,10 +117,10 @@
 
 
             <div class="middle_header" >
-                <a style="font-size: 14px; font-weight: bold; margin-top: 14px;" href="{{ route('ecom') }}">{{ __('header.ecomm') }}</a>
-                <a style="font-size: 14px; font-weight: bold; margin-top: 14px;" href="{{ route('packages') }}">{{ __('header.packages') }}</a>
-                <a style="font-size: 14px; font-weight: bold; margin-top: 14px;" href="{{ route('prog') }}">{{ __('header.services') }}</a>
-                <a style="font-size: 14px; font-weight: bold; margin-top: 14px;" href="{{ route('cgi') }}">CGI</a>
+                <a style="font-size: 14px; font-weight: bold; margin-top: 10px;" href="{{ route('ecom') }}">{{ __('header.ecomm') }}</a>
+                <a style="font-size: 14px; font-weight: bold; margin-top: 10px;" href="{{ route('packages') }}">{{ __('header.packages') }}</a>
+                <a style="font-size: 14px; font-weight: bold; margin-top: 10px;" href="{{ route('prog') }}">{{ __('index.Our_Services') }}</a>
+                <a style="font-size: 14px; font-weight: bold; margin-top: 10px;" href="{{ route('cgi') }}">CGI</a>
             </div>
 
 
