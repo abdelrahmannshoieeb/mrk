@@ -112,7 +112,7 @@ dir="ltr"
         Follow us
       </h5>
       <ul >
-        <li class="mb-4" style="display: flex; align-items: center;  ">
+        <li class="mb-4" style="display: flex; align-items: center;" style="padding: 0 0 0 0;">
           <li class="fa-brands fa-instagram"></li>
           <a
             href="https://www.instagram.com/marketingdoseofficial?igsh=MTc1ejJhMjZyNWFo"
