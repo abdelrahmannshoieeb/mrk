@@ -190,6 +190,35 @@
     <script src="js/script.js"></script>
     
 
+    <script> 
+        Animations.initHorizontalScroll = function () {
+    const e = document.querySelector(".service-wrapper");
+    if (e) {
+        const isRTL = document.documentElement.getAttribute("dir") === "rtl";
+
+        const scrollDistance = () => {
+            const distance = e.scrollWidth - window.innerWidth;
+            return isRTL ? distance : -distance;
+        };
+
+        const t = gsap.to(e, {
+            x: scrollDistance,
+            duration: 3,
+            ease: "none"
+        });
+
+        ScrollTrigger.create({
+            trigger: ".service-section",
+            start: "top 0%",
+            pin: true,
+            animation: t,
+            scrub: 1,
+            invalidateOnRefresh: true
+        });
+    }
+};
+
+    </script>
     
     @livewireScripts
 

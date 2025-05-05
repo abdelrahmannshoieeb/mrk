@@ -63,7 +63,7 @@
                         <div class="flex flex-col md:flex-row gap-y-7 md:gap-x-12 items-start">
                             <!-- Image -->
                             <figure class="max-md:w-full">
-                                <img src="/images/home-5/seo-service-1.png" alt="Keyword Research" class="w-full h-auto" />
+                                <img src="/images/e_coomerce.jpg" alt="Keyword Research" class="w-full h-auto" />
                             </figure>
 
                             <!-- Icon and Description -->
@@ -107,7 +107,7 @@
                         <div class="flex flex-col md:flex-row gap-y-7 md:gap-x-12 items-start">
                             <!-- Image -->
                             <figure class="max-md:w-full">
-                                <img src="/images/home-5/seo-service-2.png" alt="Keyword Research" class="w-full h-auto" />
+                                <img src="/images/mrk.webp" alt="Keyword Research" class="w-full h-auto" />
                             </figure>
 
                             <!-- Icon and Description -->
@@ -152,7 +152,7 @@
                         <div class="flex flex-col md:flex-row gap-y-7 md:gap-x-12 items-start">
                             <!-- Image -->
                             <figure class="max-md:w-full">
-                                <img src="/images/home-5/seo-service-3.png" alt="Keyword Research" class="w-full h-auto" />
+                                <img src="/images/graphics.jpg" alt="Keyword Research" class="w-full h-auto" />
                             </figure>
 
                             <!-- Icon and Description -->
@@ -196,7 +196,7 @@
                         <div class="flex flex-col md:flex-row gap-y-7 md:gap-x-12 items-start">
                             <!-- Image -->
                             <figure class="max-md:w-full">
-                                <img src="/images/home-5/seo-service-4.png" alt="Keyword Research"
+                                <img src="/images/branding.jpeg" alt="Keyword Research"
                                     class="w-full h-auto" />
                             </figure>
 
