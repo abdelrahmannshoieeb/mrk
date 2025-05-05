@@ -11,23 +11,21 @@
                     <!-- Agency Label -->
                     <p
                         class="flex gap-5 items-center max-md:justify-center font-poppins text-sm font-normal leading-6 tracking-[3px] uppercase">
-                        SEO Agency
+                        {{ __('index.mrk_dose') }}
                     </p>
 
                     <!-- Responsive Headings -->
                     <h1 class="mt-2 sm:mt-6 md:hidden block">
-                        We are the brilliants in terms of digital marketing
+                        {{ __('index.slogan') }}
                     </h1>
                     <h1 class="mt-6 text-5xl font-semibold lg:text-6xl xl:text-7xl hidden md:block">
-                        We are the <br />
-                        brilliants in terms <br />
-                        of digital marketing
+                        {{ __('index.slogan') }}
                     </h1>
                     <!-- Hero Buttons -->
                     <ul class="flex justify-start list-none mt-14">
                         <!-- Primary CTA Button -->
                         <li class="block md:inline-block w-full text-center md:w-auto">
-                            <a href="https://wa.me/201012620529" target="_blank"
+                            <a href="https://www.behance.net/marketingdose" target="_blank"
                                 class="rv-button rv-button-primary block md:inline-block">
                                 <div class="rv-button-top">
                                     <span>GET MY FREE PROPOSAL</span>
@@ -42,7 +40,7 @@
 
                 <!-- Hero Image -->
                 <figure>
-                    <img src="images/home-5/hero-img.png" alt="Hero Img" />
+                    <img src="images/landing.jpg" alt="Hero Img" />
                 </figure>
             </div>
         </section>
@@ -351,7 +349,7 @@
                     class="flex flex-col md:flex-row gap-x-10 gap-y-4 justify-center lg:justify-between items-start mb-16 lg:mb-24">
                     <!-- Title Area -->
                     <div class="flex-1 md:self-start">
-                        <h2 class="text-appear">
+                        <h2 class="text-appear" style="font-size: 40px ; text-align: center">
                             {{ __('index.section_title') }}
                             <span class="font-instrument italic font-medium"></span>
                         </h2>
@@ -359,7 +357,7 @@
 
                     <!-- Description -->
                     <div class="max-md:w-full flex-1 lg:w-[470px] md:self-end">
-                        <p class="text-appear max-w-lg md:text-right md:place-self-end">
+                        <p class="text-appear max-w-lg md:text-right md:place-self-end" style="text-align: center">
                             {{ __('index.section_desc') }}
                         </p>
                         <ul class="justify-self-end max-md:w-full mt-5 md:mt-10 reveal-me">
@@ -726,7 +724,7 @@
                 <div class="reveal-me">
                     <h2 style=""
                         class="text-center xl:text-[96px] font-normal xl:leading-[1.1] xl:tracking-[-2.88px]">
-                        Let's Create
+                        {{  __('index.Are_you_ready_to_sprint_forward?') }}
                         <div
                             class="cta-slider-container max-sm:block sm:inline-block max-sm:mb-7 translate-y-2 sm:translate-y-[20px]">
                             <div class="cta-inline-slider">
@@ -743,6 +741,7 @@
                         </div>
 
                         <span
+                        style="display: none;"
                             class="text-center xl:text-[96px] font-normal xl:leading-[1.1] xl:tracking-[-2.88px]">Something
                             Iconic</span>
                     </h2>

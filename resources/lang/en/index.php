@@ -1,8 +1,9 @@
 <?php
 return [
 
+    'mrk_dose' => 'Marketing Dose Agency',
     'welcome' => 'welcome to Marketing dose',
-    'slogan' => 'All your business needs in one place',
+    'slogan' => 'A marketing dose that leads you to global success — crafted by Egyptian hands and minds.',
     'contact' => 'Let’s Talk',
     'Who_We_Are' => 'Who We Are',
     'Who_We_Are_title' => 'Marketing & Programming Solutions that Drive Success',
@@ -93,8 +94,9 @@ return [
 
 
 //footer
+'Are_you_ready_to_sprint_forward?' => 'Are you ready to sprint forward?',
 'reach_us' => 'Reach Us',
-'footer_title' => 'book a quick 15 min meeting where we discuss if our offer would work for your case.',
+'footer_title' => 'conact us now and get free consultation.',
 'Schedule_a_Free_Meeting' => 'Schedule a Free Meeting',
 
 

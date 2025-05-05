@@ -53,6 +53,41 @@
      .middle_header a:hover {
       color: #554acb;
     }
+
+
+    @media (min-width: 1280px){.container{
+    max-width: 1130px;
+    padding: 100px;
+  }
+  }
+
+  .whatsapp-btn {
+        color: #fff;
+        background-color: #25d366;
+        border-radius: 50px;
+        position: fixed;
+        bottom: 40px;
+        left: 30px;
+        z-index: 99999;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform 0.3s ease;
+    }
+
+    .whatsapp-btn i {
+        font-size: 20px;
+        transition: transform 0.3s ease;
+    }
+
+    .whatsapp-btn:hover i {
+        transform: rotate(30deg) scale(1.2);
+    }
+    .whatsapp-btn:hover  {
+        transform: rotate(30deg) scale(1.2);
+    }
     </style>
     @livewireStyles
 </head>
@@ -113,8 +148,9 @@
 
 
    <div class="toggle-button fixed z-[1000]">
-    <a class="btn" href="https://wa.me/201012620529" style=" color: #fff; background-color: #25d366; border-radius: 50px; position: fixed; bottom: 40px; left: 30px; z-index: 99999; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center;">
-        <i class="fa-brands fa-whatsapp " style="transform: rotate(0deg); font-size: 20px; " ></i></a>
+    <a class="btn whatsapp-btn" href="https://wa.me/201012620529">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
 </div>
 
 
